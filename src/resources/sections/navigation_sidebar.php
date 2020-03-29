@@ -20,25 +20,25 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li>
-                            <a href="#">Introduction</a>
+                            <a href="#" class="py-1">Introduction</a>
                         </li>
                         <li>
-                            <a href="#">API Wrappers</a>
+                            <a href="#" class="py-1">API Wrappers</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="has-arrow">Lydia</a>
+                            <a href="javascript:void(0)" class="has-arrow py-1">Lydia</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="#">Basics</a>
+                                    <a href="#" class="py-1">Basics</a>
                                 </li>
                                 <li>
-                                    <a href="#">Create Session</a>
+                                    <a href="#" class="py-1">Create Session</a>
                                 </li>
                                 <li>
-                                    <a href="#">Get Session</a>
+                                    <a href="#" class="py-1">Get Session</a>
                                 </li>
                                 <li>
-                                    <a href="#">Think Thought</a>
+                                    <a href="#" class="py-1">Think Thought</a>
                                 </li>
                             </ul>
                         </li>
