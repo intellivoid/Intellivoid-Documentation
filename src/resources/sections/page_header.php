@@ -3,8 +3,8 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
                 <b>
-                    <img src="/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
-                    <img src="/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                    <img src="/assets/images/logo.svg" alt="homepage" class="dark-logo" />
+                    <img src="/assets/images/logo.svg" alt="homepage" class="light-logo" />
                 </b>
                 <span>
                     <img src="/assets/images/logo-text.png" alt="homepage" class="dark-logo" />
