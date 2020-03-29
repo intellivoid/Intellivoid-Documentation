@@ -5415,7 +5415,7 @@ sidebar navigation
         border-radius: 4px;
         white-space: nowrap; }
         .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
-          color: #26c6da; }
+          color: #6352ce; }
         .sidebar-nav ul li a.active {
           font-weight: 500;
           color: #263238; }
@@ -5446,9 +5446,9 @@ sidebar navigation
       -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
       .sidebar-nav > ul > li.active > a i {
-        color: #26c6da; }
+        color: #6352ce; }
   .sidebar-nav > ul > li > a.active i, .sidebar-nav > ul > li > a:hover i {
-    color: #26c6da; }
+    color: #6352ce; }
   .sidebar-nav > ul > li > a i {
     width: 27px;
     height: 27px;
@@ -5462,7 +5462,7 @@ sidebar navigation
   .sidebar-nav > ul > li > a.active {
     font-weight: 400;
     background: #ffffff;
-    color: #26c6da; }
+    color: #6352ce; }
 
 .sidebar-nav .has-arrow {
   position: relative; }
@@ -5553,9 +5553,9 @@ When click on sidebar toggler and also for tablet
     width: 50px; }
   .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
     width: 260px;
-    background: #26c6da;
+    background: #7460ee;
     color: #ffffff;
-    border-color: #009efb; }
+    border-color: #6352ce; }
     .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a i {
       color: #ffffff; }
     .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a .hide-menu {
@@ -5563,7 +5563,7 @@ When click on sidebar toggler and also for tablet
   .mini-sidebar .sidebar-nav #sidebarnav > li.active > a {
     border-color: transparent; }
     .mini-sidebar .sidebar-nav #sidebarnav > li.active > a.active {
-      border-color: #009efb; } }
+      border-color: #6352ce; } }
 
 @media (max-width: 767px) {
   .mini-sidebar .left-sidebar {

@@ -1,5 +1,17 @@
 <?php
     use DynamicalWeb\HTML;
+
+    $SelectedTheme = "default";
+    $SelectedStyle = "style";
+    $SelectedThemeColor = "#455a64";
+    $SelectedCodeTheme = "prism";
+    if(DARK_MODE_ENABLED)
+    {
+        $SelectedTheme = "default-dark";
+        $SelectedStyle = "style-dark";
+        $SelectedThemeColor = "#6352CE";
+        $SelectedCodeTheme = "prism-dark";
+    }
 ?>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +21,7 @@
 <meta name="msapplication-TileColor" content="#455a64">
 <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png?v=A0mKwrPzwj">
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?v=A0mKwrPzwj">
-<meta name="theme-color" content="#455a64">
+<meta name="theme-color" content="<?PHP HTML::print($SelectedStyle); ?>">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=A0mKwrPzwj">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=A0mKwrPzwj">
 <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png?v=A0mKwrPzwj">
@@ -20,15 +32,7 @@
 <link rel="shortcut icon" href="/assets/favicon/favicon.ico?v=A0mKwrPzwj">
 <link rel="stylesheet" href="/assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css">
 <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
-<?php
-    $SelectedTheme = "default";
-    $SelectedStyle = "style";
-    if(DARK_MODE_ENABLED)
-    {
-        $SelectedTheme = "default-dark";
-        $SelectedStyle = "style-dark";
-    }
-?>
+<link rel="stylesheet" href="/assets/plugins/prism/<?PHP HTML::print($SelectedCodeTheme); ?>.css">
 <link rel="stylesheet" href="/assets/css/<?PHP HTML::print($SelectedStyle); ?>.css">
 <link rel="stylesheet" href="/assets/css/colors/<?PHP HTML::print($SelectedTheme); ?>.css" id="theme">
 <!--[if lt IE 9]>

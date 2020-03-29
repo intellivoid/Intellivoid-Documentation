@@ -2,7 +2,9 @@
     "primary_language": "en",
     "debugging_mode": true,
     "router": [
-        {"path": "/", "page": "index"}
+        {"path": "/", "page": "index"},
+        {"path": "/intellivoid/api", "page": "intellivoid_api"},
+        {"path": "/coffeehouse/v1/introduction", "page": "v1_coffeehouse_introduction"}
     ],
     "libraries": {},
     "runtime_scripts": {

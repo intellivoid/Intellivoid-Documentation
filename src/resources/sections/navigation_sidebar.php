@@ -7,7 +7,7 @@
             <ul id="sidebarnav">
                 <li class="nav-small-cap">Intellivoid Docs</li>
                 <li>
-                    <a href="<?PHP DynamicalWeb::getRoute('index'); ?>" aria-expanded="false">
+                    <a href="<?PHP DynamicalWeb::getRoute("index", [], true); ?>" aria-expanded="false">
                         <i class="fa fa-circle"></i>
                         <span class="hide-menu">Home</span>
                     </a>
@@ -20,7 +20,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li>
-                            <a href="#" class="py-1">Introduction</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
                             <a href="#" class="py-1">API Wrappers</a>

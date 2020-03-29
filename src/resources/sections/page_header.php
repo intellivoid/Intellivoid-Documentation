@@ -1,7 +1,5 @@
 <?php
-
-use DynamicalWeb\DynamicalWeb;
-use DynamicalWeb\HTML;
+    use DynamicalWeb\DynamicalWeb;
 ?>
 <header class="topbar">
     <nav class="navbar top-navbar navbar-expand-md navbar-light">
@@ -31,9 +29,6 @@ use DynamicalWeb\HTML;
                 </li>
             </ul>
             <ul class="navbar-nav my-lg-0">
-                <!-- ============================================================== -->
-                <!-- Comment -->
-                <!-- ============================================================== -->
                 <li class="nav-item">
                     <?PHP
                         if(DARK_MODE_ENABLED)
@@ -55,9 +50,7 @@ use DynamicalWeb\HTML;
                             <?PHP
                         }
                     ?>
-
                 </li>
-
             </ul>
         </div>
     </nav>
