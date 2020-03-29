@@ -1,51 +1,46 @@
-<?PHP
-    use DynamicalWeb\DynamicalWeb;
+<?php
     use DynamicalWeb\HTML;
-use DynamicalWeb\Javascript;
-use DynamicalWeb\Runtime;
-    use Example\ExampleLibrary;
-
-    Runtime::import('Example');
-
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
+
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title><?PHP HTML::print(TEXT_PAGE_TITLE); ?></title>
+        <title>Documentation</title>
     </head>
 
-    <body>
+    <body class="fix-header card-no-border">
+        <div id="main-wrapper">
+            <?PHP HTML::importSection('page_header'); ?>
+            <?PHP HTML::importSection('navigation_sidebar'); ?>
+            <div class="page-wrapper">
+                <div class="container-fluid">
 
-        <header>
-            <?PHP HTML::importSection('navigation'); ?>
-        </header>
+                    <div class="row page-titles">
+                        <div class="col-md-5 col-8 align-self-center">
+                            <h3 class="text-themecolor m-b-0 m-t-0">Dashboard</h3>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                                <li class="breadcrumb-item active">Dashboard</li>
+                            </ol>
+                        </div>
+                    </div>
 
-        <main role="main" class="container">
-            <h1 class="mt-5"><?PHP HTML::print(TEXT_HEADER); ?></h1>
-            <p class="lead"><?PHP HTML::print(TEXT_CONTENT); ?></p>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    This is some text within a card block.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <hr/>
-            <?PHP HTML::importMarkdown('example'); ?>
-            <?PHP
-                $ExampleLibrary = DynamicalWeb::setMemoryObject('example_library', new ExampleLibrary());
-                $ExampleLibrary->getPrintFunctions()->SayName('John Smith');
-                $ExampleLibrary->getPrintFunctions()->sayAge(12);
-            ?>
-            <?PHP HTML::print(CLIENT_REMOTE_HOST); ?><br/>
-            <?PHP HTML::print(CLIENT_PLATFORM); ?><br/>
-            <?PHP HTML::print(CLIENT_BROWSER); ?><br/>
-            <?PHP HTML::print(CLIENT_VERSION); ?><br/>
-            <br/>
-<pre>
-<?PHP HTML::print(json_encode(DynamicalWeb::getDefinedVariables(), JSON_PRETTY_PRINT)); ?>
-</pre><br/><br/>
-        </main>
-
-        <?PHP HTML::importSection('footer'); ?>
-
-        <?PHP HTML::importSection('js_scripts'); ?>
-        <?PHP Javascript::importScript('simple', array("foo" => "bar"), false); ?>
-
+                </div>
+                <?PHP HTML::importSection('page_footer'); ?>
+            </div>
+        </div>
+        <?PHP HTML::importSection('javascript'); ?>
     </body>
+
 </html>
