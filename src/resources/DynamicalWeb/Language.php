@@ -38,7 +38,7 @@
 
             if(isset($_COOKIE['language']) == false)
             {
-                setcookie('language', APP_PRIMARY_LANGUAGE);
+                setcookie('language', APP_PRIMARY_LANGUAGE, time() + (86400 * 64), "/");
                 define('APP_SELECTED_LANGUAGE', APP_PRIMARY_LANGUAGE, false);
                 define('APP_SELECTED_LANGUAGE_FILE', $LanguageDirectory . DIRECTORY_SEPARATOR . APP_PRIMARY_LANGUAGE . '.json', false);
             }
@@ -76,7 +76,7 @@
                 return;
             }
 
-            setCookie('language', $FormattedCode);
+            setCookie('language', $FormattedCode, time() + (86400 * 64), "/");
         }
 
         /**

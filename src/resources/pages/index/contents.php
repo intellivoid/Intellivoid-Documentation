@@ -6,7 +6,7 @@
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Documentation</title>
+        <title>Intellivoid Docs</title>
     </head>
 
     <body class="fix-header card-no-border">

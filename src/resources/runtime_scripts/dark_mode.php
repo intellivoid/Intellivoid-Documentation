@@ -1,25 +1,28 @@
 <?php
 
-use DynamicalWeb\HTML;
+    use DynamicalWeb\Actions;
+    use DynamicalWeb\DynamicalWeb;
+    use DynamicalWeb\HTML;
 
-if(isset($_GET['action']))
+    if(isset($_GET['action']))
     {
         if($_GET['action'] == 'enable_dark_mode')
         {
-            setCookie('dark_mode', "true");
-            $_COOKIE['dark_mode'] = "true";
+            setCookie('dark_mode', "true", time() + (86400 * 64), "/");
+            Actions::redirect(DynamicalWeb::getRoute('index'));
         }
 
         if($_GET['action'] == 'disable_dark_mode')
         {
-            setCookie('dark_mode', "false");
-            $_COOKIE['dark_mode'] = "false";
+            setCookie('dark_mode', "false", time() + (86400 * 64), "/");
+            Actions::redirect(DynamicalWeb::getRoute('index'));
         }
     }
 
+
     if(isset($_COOKIE['dark_mode']) == false)
     {
-        setcookie('dark_mode', "false");
+        setCookie('dark_mode', "true", time() + (86400 * 64), "/");
         define('DARK_MODE_ENABLED', false, false);
     }
     else

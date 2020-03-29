@@ -23,7 +23,7 @@
                             <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
-                            <a href="#" class="py-1">API Wrappers</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_wrappers", [], true); ?>" class="py-1">API Wrappers</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Lydia</a>

@@ -6,7 +6,7 @@
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Documentation</title>
+        <title>CoffeeHouse Introduction</title>
     </head>
 
     <body class="fix-header card-no-border">
@@ -15,10 +15,9 @@
             <?PHP HTML::importSection('navigation_sidebar'); ?>
             <div class="page-wrapper">
                 <div class="container-fluid">
-
                     <div class="row page-titles">
                         <div class="col-md-5 col-8 align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">CoffeeHouse</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">CoffeeHouse Introduction</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">CoffeeHouse</a>
@@ -81,7 +80,7 @@
                                             <label for="request_example" class="mt-3">Example GET request</label>
                                             <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="request_example" value="https://api.intellivoid.net/<service name>/<version>/<method>" readonly>
                                             Any unauthorized requests will result in a 401 Unauthorized response such as this
-                                            <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . '401_unauthorized_response.json'), false); ?></code></pre>
+                                            <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . '401_unauthorized_response.json'), true); ?></code></pre>
                                         </div>
                                         <div class="mt-2">
                                             Additionally <code>WWW-Authenticate: Basic realm="API Authentication"</code> will
@@ -100,7 +99,7 @@
                                 <div class="card-body">
                                     <div class="ribbon ribbon-danger">Obtaining a API Key</div>
                                     <div class="d-flex justify-content-center">
-                                        <img class="img-responsive" style="height: 162px; width: 162px;" src="/assets/images/<?PHP theme_VectorImage(); ?>/gen_api.svg" alt="First slide">
+                                        <img class="img-responsive" style="height: 162px; width: 162px;" src="/assets/images/<?PHP theme_VectorImage(); ?>/gen_api.svg" alt="Obtain API Key">
                                     </div>
                                     You can obtain a free API key from CoffeeHouse using the free subscription plan, if
                                     you need more resources then the prices for a more resources are also reasonable for
@@ -110,6 +109,17 @@
                                     how much resources you can use.
                                     <br/>
                                     <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="window.open('https://coffeehouse.intellivoid.net/');">Visit CoffeeHouse</button>
+                                </div>
+                            </div>
+                            <div class="ribbon-wrapper card">
+                                <div class="card-body">
+                                    <div class="ribbon ribbon-danger">Have a suggestion?</div>
+                                    <div class="d-flex justify-content-center">
+                                        <img class="img-responsive" style="height: 162px; width: 162px;" src="/assets/images/<?PHP theme_VectorImage(); ?>/gen_feedback.svg" alt="Feedback">
+                                    </div>
+                                    Let's hear it! Reach us out at our Telegram Discussions Group
+                                    <br/>
+                                    <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="window.open('https://t.me/IntellivoidDev/');">Join @IntellivoidDev</button>
                                 </div>
                             </div>
                         </div>
