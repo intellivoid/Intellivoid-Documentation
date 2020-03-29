@@ -1,3 +1,8 @@
+<?php
+
+use DynamicalWeb\DynamicalWeb;
+use DynamicalWeb\HTML;
+?>
 <header class="topbar">
     <nav class="navbar top-navbar navbar-expand-md navbar-light">
         <div class="navbar-header">
@@ -24,6 +29,35 @@
                         <i class="ti-menu"></i>
                     </a>
                 </li>
+            </ul>
+            <ul class="navbar-nav my-lg-0">
+                <!-- ============================================================== -->
+                <!-- Comment -->
+                <!-- ============================================================== -->
+                <li class="nav-item">
+                    <?PHP
+                        if(DARK_MODE_ENABLED)
+                        {
+                            $_GET['action'] = "disable_dark_mode";
+                            ?>
+                            <a class="nav-link text-muted text-muted waves-effect waves-dark" href="<?PHP DynamicalWeb::getRoute(APP_CURRENT_PAGE, $_GET, true); ?>">
+                                <i class="mdi mdi-weather-sunny"></i>
+                            </a>
+                            <?PHP
+                        }
+                        else
+                        {
+                            $_GET['action'] = "enable_dark_mode";
+                            ?>
+                            <a class="nav-link text-muted text-muted waves-effect waves-dark" href="<?PHP DynamicalWeb::getRoute(APP_CURRENT_PAGE, $_GET, true); ?>">
+                                <i class="mdi mdi-weather-night"></i>
+                            </a>
+                            <?PHP
+                        }
+                    ?>
+
+                </li>
+
             </ul>
         </div>
     </nav>

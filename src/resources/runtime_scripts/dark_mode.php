@@ -1,6 +1,8 @@
 <?php
 
-    if(isset($_GET['action']))
+use DynamicalWeb\HTML;
+
+if(isset($_GET['action']))
     {
         if($_GET['action'] == 'enable_dark_mode')
         {
@@ -31,4 +33,37 @@
         {
             define('DARK_MODE_ENABLED', false, false);
         }
+    }
+
+    function theme_ButtonInfo()
+    {
+        if(DARK_MODE_ENABLED)
+        {
+            HTML::print("btn-primary");
+            return;
+        }
+
+        HTML::print("btn-info");
+    }
+
+    function theme_VectorImage()
+    {
+        if(DARK_MODE_ENABLED)
+        {
+            HTML::print("dark_mode");
+            return;
+        }
+
+        HTML::print("light_mode");
+    }
+
+    function theme_TextColor()
+    {
+        if(DARK_MODE_ENABLED)
+        {
+            HTML::print("text-light");
+            return;
+        }
+
+        HTML::print("text-dark");
     }

@@ -37,12 +37,12 @@
                                             engine written from the ground up, implement ML & AI Tools into your Application
                                             without needing to do all the processing yourself
                                             <br/>
-                                            <button class="btn btn-info waves-effect waves-light mt-3">View Documentation</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">
                                             <div class="d-flex justify-content-center">
-                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/coffeehouse_prm.svg">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/coffeehouse_prm.svg">
                                             </div>
                                         </div>
                                     </div>
@@ -55,12 +55,12 @@
                                             which users can connect to using OpenVPN. you can use the API to retrieve
                                             these servers and connect to them
                                             <br/>
-                                            <button class="btn btn-info waves-effect waves-light mt-3">View Documentation</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">
                                             <div class="d-flex justify-content-center">
-                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/openblu_prm.svg">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/openblu_prm.svg">
                                             </div>
                                         </div>
                                     </div>
@@ -74,12 +74,12 @@
                                             the freedom to choose what permissions to allow without any obligation
                                             whatsoever.
                                             <br/>
-                                            <button class="btn btn-info waves-effect waves-light mt-3">Documentation Coming Soon</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Documentation Coming Soon</button>
                                         </div>
 
                                         <div class="col-lg-6">
                                             <div class="d-flex justify-content-center">
-                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/iva_prm.svg">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/iva_prm.svg">
                                             </div>
                                         </div>
                                     </div>
@@ -92,12 +92,12 @@
                                             volunteers to help translate Intellivoid's different services into other
                                             languages. Your work will forever be credited!
                                             <br/>
-                                            <button class="btn btn-info waves-effect waves-light mt-3">Learn More</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Learn More</button>
                                         </div>
 
                                         <div class="col-lg-6">
                                             <div class="d-flex justify-content-center">
-                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/translate.svg">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/translate_prm.svg">
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +111,7 @@
                                 <div class="card-body">
                                     <div class="d-flex">
                                         <div class="m-r-20 align-self-center">
-                                            <h1 class="text-dark">
+                                            <h1 class="<?PHP theme_TextColor(); ?>">
                                                 <i class="fa fa-life-bouy"></i>
                                             </h1>
                                         </div>
@@ -122,7 +122,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-4 align-self-center">
-                                            <button class="btn btn-info waves-effect waves-light mt-3">Contact Us</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Contact Us</button>
                                         </div>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@
                                 <div class="card-body">
                                     <div class="d-flex">
                                         <div class="m-r-20 align-self-center">
-                                            <h1 class="text-dark">
+                                            <h1 class="<?PHP theme_TextColor(); ?>">
                                                 <i class="fa fa-paper-plane"></i>
                                             </h1>
                                         </div>
@@ -143,7 +143,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-4 align-self-center">
-                                            <button class="btn btn-info waves-effect waves-light mt-3">Join @IntellivoidDev</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Join @IntellivoidDev</button>
                                         </div>
                                     </div>
                                 </div>

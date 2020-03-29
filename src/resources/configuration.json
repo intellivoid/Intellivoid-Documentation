@@ -10,7 +10,7 @@
         "on_page_load": [],
         "page_loaded": [],
         "after_request": [],
-        "on_request": [],
+        "on_request": ["dark_mode.php"],
         "on_import": []
     }
 }

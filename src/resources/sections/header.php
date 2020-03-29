@@ -1,3 +1,6 @@
+<?php
+    use DynamicalWeb\HTML;
+?>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +18,19 @@
 <link rel="manifest" href="/assets/favicon/site.webmanifest?v=A0mKwrPzwj">
 <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?v=A0mKwrPzwj" color="#455a64">
 <link rel="shortcut icon" href="/assets/favicon/favicon.ico?v=A0mKwrPzwj">
-<link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="/assets/css/style.css" rel="stylesheet">
-<link href="/assets/css/colors/default.css" id="theme" rel="stylesheet">
+<link rel="stylesheet" href="/assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+<?php
+    $SelectedTheme = "default";
+    $SelectedStyle = "style";
+    if(DARK_MODE_ENABLED)
+    {
+        $SelectedTheme = "default-dark";
+        $SelectedStyle = "style-dark";
+    }
+?>
+<link rel="stylesheet" href="/assets/css/<?PHP HTML::print($SelectedStyle); ?>.css">
+<link rel="stylesheet" href="/assets/css/colors/<?PHP HTML::print($SelectedTheme); ?>.css" id="theme">
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
