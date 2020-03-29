@@ -1,3 +1,8 @@
+<?php
+    use DynamicalWeb\HTML;
+?>
 <footer class="footer">
-    © 2017 Material Pro Admin by wrappixel.com
+    Copyright &copy; Intellivoid Technologies 2017-<?PHP HTML::print(date('Y')); ?>
+    <br/>
+    Graphics made with <i class="fa fa-heart text-danger"></i> by Katerina Limpitsouni
 </footer>
