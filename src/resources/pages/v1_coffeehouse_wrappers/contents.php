@@ -65,6 +65,8 @@
                                     </h3>
                                     <div class="p-20">
                                         <pre><code class="language-python"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'lydia_example.py'), true); ?></code></pre>
+                                        <h4 class="mt-4">Install it via pip!</h4>
+                                        <pre><code class="language-text">pip install coffeehouse</code></pre>
                                     </div>
                                 </div>
                                 <div class="card-footer text-muted">
