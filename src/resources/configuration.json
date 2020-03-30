@@ -5,7 +5,8 @@
         {"path": "/", "page": "index"},
         {"path": "/intellivoid/api", "page": "intellivoid_api"},
         {"path": "/coffeehouse/v1/introduction", "page": "v1_coffeehouse_introduction"},
-        {"path": "/coffeehouse/v1/api_wrappers", "page": "v1_coffeehouse_wrappers"}
+        {"path": "/coffeehouse/v1/api_wrappers", "page": "v1_coffeehouse_wrappers"},
+        {"path": "/coffeehouse/v1/lydia", "page": "v1_coffeehouse_lydia_basics"}
     ],
     "libraries": {},
     "runtime_scripts": {

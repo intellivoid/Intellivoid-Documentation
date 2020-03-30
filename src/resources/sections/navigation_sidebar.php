@@ -29,7 +29,7 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">Lydia</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="#" class="py-1">Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_basics", [], true); ?>" class="py-1">Basics</a>
                                 </li>
                                 <li>
                                     <a href="#" class="py-1">Create Session</a>
