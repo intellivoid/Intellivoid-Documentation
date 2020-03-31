@@ -1,12 +1,14 @@
 <?php
-    use DynamicalWeb\HTML;
+
+use DynamicalWeb\DynamicalWeb;
+use DynamicalWeb\HTML;
 ?>
 <!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>CoffeeHouse Lydia Basics</title>
+        <title>Lydia Basics</title>
     </head>
 
     <body class="fix-header card-no-border">
@@ -37,7 +39,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">How Lydia works</h3>
                                     Lydia is a active learning chat bot that learns from conversations and can speak in
-                                    many languages <i>"natively"</i>. This section will breifly explain how Lydia works
+                                    many languages <i>"natively"</i>. This section will briefly explain how Lydia works
                                     and how it's intended to be used in environments.
                                     <hr/>
                                     <div>
@@ -107,6 +109,17 @@
 
                             <div class="card">
                                 <div class="card-body">
+                                    <h3>API Methods</h3>
+
+                                    <?PHP
+                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . 'api_methods.json';
+                                        generate_methods_table(json_decode(file_get_contents($api_methods_path), true));
+                                    ?>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
                                     <h3 class="card-title">API Authentication</h3>
                                     <div class="mb-3">
                                         CoffeeHouse's API is powered by Intellivoid API. This uses the standard "API Key"
@@ -140,7 +153,7 @@
                                     <div>
                                         <h4>Security Notice</h4>
                                         All official APIs by Intellivoid are done through <code>api.intellivoid.net</code>,
-                                        followed by the service name and version of API Handler. For example
+                                        followed by the service name and version of the API Handler. For example
                                         <br/>
                                         <div class="mb-3">
                                             <label for="request_example" class="mt-3">Example GET request</label>
@@ -159,7 +172,7 @@
                             </div>
 
                             <div class="row">
-                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right">
+                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
                                     <i class="fa fa-arrow-right text-white"></i>
                                 </button>
                             </div>

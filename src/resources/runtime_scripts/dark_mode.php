@@ -9,13 +9,13 @@
         if($_GET['action'] == 'enable_dark_mode')
         {
             setCookie('dark_mode', "true", time() + (86400 * 64), "/");
-            Actions::redirect(DynamicalWeb::getRoute('index'));
+            Actions::redirect(DynamicalWeb::getRoute(APP_CURRENT_PAGE));
         }
 
         if($_GET['action'] == 'disable_dark_mode')
         {
             setCookie('dark_mode', "false", time() + (86400 * 64), "/");
-            Actions::redirect(DynamicalWeb::getRoute('index'));
+            Actions::redirect(DynamicalWeb::getRoute(APP_CURRENT_PAGE));
         }
     }
 

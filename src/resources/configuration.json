@@ -6,15 +6,16 @@
         {"path": "/intellivoid/api", "page": "intellivoid_api"},
         {"path": "/coffeehouse/v1/introduction", "page": "v1_coffeehouse_introduction"},
         {"path": "/coffeehouse/v1/api_wrappers", "page": "v1_coffeehouse_wrappers"},
-        {"path": "/coffeehouse/v1/lydia", "page": "v1_coffeehouse_lydia_basics"}
+        {"path": "/coffeehouse/v1/lydia", "page": "v1_coffeehouse_lydia_basics"},
+        {"path": "/coffeehouse/v1/lydia/create_session", "page": "v1_coffeehouse_lydia_create_session"}
     ],
     "libraries": {},
     "runtime_scripts": {
-        "initialize": [],
-        "on_page_load": [],
+        "initialize": ["data_generator.php"],
+        "on_page_load": ["dark_mode.php"],
         "page_loaded": [],
         "after_request": [],
-        "on_request": ["dark_mode.php"],
+        "on_request": [],
         "on_import": []
     }
 }
