@@ -1,0 +1,12 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/coffeehouse/v1/lydia/session/create",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "target_language",
+      "DEFAULT_VALUE": "en",
+      "REQUIRED": false,
+      "DESCRIPTION": "The default language that the AI will try to base the conversation in"
+    }
+  ]
+}

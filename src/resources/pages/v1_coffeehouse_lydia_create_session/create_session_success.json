@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "response_code": 200,
+  "payload": {
+    "session_id": "46db504f80a9eadd0fbec43ff4f75690962242b5c57fb23f6e4f2a23423bcab8",
+    "language": "en",
+    "available": true,
+    "expires": 1581899765
+  }
+}
