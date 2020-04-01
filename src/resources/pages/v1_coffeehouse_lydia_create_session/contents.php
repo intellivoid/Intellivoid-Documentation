@@ -1,5 +1,7 @@
 <?php
-    use DynamicalWeb\HTML;
+
+use DynamicalWeb\DynamicalWeb;
+use DynamicalWeb\HTML;
 ?>
 <!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
@@ -45,7 +47,7 @@
                                     the last few messages of the conversation with the user or group
                                     <br/>
                                     <br/>
-                                    This method will return a Session Object upon request
+                                    This method will return a Session Object upon a successful request
                                     <hr/>
                                     <div id="parameters">
                                         <div class="alert alert-danger">
@@ -97,7 +99,7 @@
                             </div>
 
                             <div class="row">
-                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right">
+                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_get_session", [], true); ?>';">
                                     <i class="fa fa-arrow-right text-white"></i>
                                 </button>
                             </div>

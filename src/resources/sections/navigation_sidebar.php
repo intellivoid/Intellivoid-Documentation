@@ -35,7 +35,7 @@
                                     <a href="<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>" class="py-1">Create Session</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="py-1">Get Session</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_get_session", [], true); ?>" class="py-1">Get Session</a>
                                 </li>
                                 <li>
                                     <a href="#" class="py-1">Think Thought</a>
