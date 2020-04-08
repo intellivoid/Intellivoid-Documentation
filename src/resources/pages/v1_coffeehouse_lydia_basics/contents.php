@@ -1,14 +1,18 @@
 <?php
-
-use DynamicalWeb\DynamicalWeb;
-use DynamicalWeb\HTML;
+    use DynamicalWeb\DynamicalWeb;
+    use DynamicalWeb\HTML;
 ?>
 <!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Lydia Basics</title>
+        <?PHP
+            renderMetaTags(
+                "Lydia Basics",
+                "Lydia is a active learning chat bot that learns from conversations and can speak in many languages"
+            );
+        ?>
     </head>
 
     <body class="fix-header card-no-border">
@@ -110,7 +114,6 @@ use DynamicalWeb\HTML;
                             <div class="card">
                                 <div class="card-body">
                                     <h3>API Methods</h3>
-
                                     <?PHP
                                         $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . 'api_methods.json';
                                         generate_methods_table(json_decode(file_get_contents($api_methods_path), true));

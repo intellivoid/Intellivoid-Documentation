@@ -6,7 +6,12 @@
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Think Thought</title>
+        <?PHP
+            renderMetaTags(
+                "Think Thought",
+                "This method invokes \"Think Thought\" using a session ID, this will return Lydia's response to a given input and session ID."
+            );
+        ?>
     </head>
 
     <body class="fix-header card-no-border">
@@ -42,21 +47,21 @@
                                         $get_session_parameters = json_decode(file_get_contents($get_session_parameters_path), true);
                                     ?>
                                     <hr/>
-                                    <label for="auth_example" class="mt-2">Endpoint</label>
-                                    <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="auth_example" value="<?PHP HTML::print($get_session_parameters['ENDPOINT']); ?>" readonly>
+                                    <label for="api_endpoint" class="mt-2">Endpoint</label>
+                                    <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="api_endpoint" value="<?PHP HTML::print($get_session_parameters['ENDPOINT']); ?>" readonly>
                                     <label>Parameters</label>
                                     <?PHP
                                     generate_parameters_table($get_session_parameters);
                                     ?>
                                     <hr/>
 
-                                    <div id="response">
+                                    <div id="example_success_response">
                                         <h4>Example Success Response</h4>
                                         This response is given when the invoke action was a success
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'success_response.json'), true); ?></code></pre>
                                     </div>
                                     <br/>
-                                    <div class="session_structure">
+                                    <div class="response_structure">
                                         <h4>Response Structure</h4>
                                         <?PHP
                                             $response_structure_path = __DIR__ . DIRECTORY_SEPARATOR . 'response_structure.json';
@@ -64,13 +69,13 @@
                                         ?>
                                     </div>
                                     <hr/>
-                                    <div id="response">
+                                    <div id="service_unavailable_response">
                                         <h4>Service No Longer Unavailable Error</h4>
                                         This error is returned when the session fails due to an error or has expired
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'service_unavailable.json'), true); ?></code></pre>
                                     </div>
                                     <hr/>
-                                    <div id="response">
+                                    <div id="session_not_found_response">
                                         <h4>Session not found response</h4>
                                         This response is given when the given session id was not found
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'session_not_found.json'), true); ?></code></pre>

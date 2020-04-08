@@ -13,7 +13,7 @@
     ],
     "libraries": {},
     "runtime_scripts": {
-        "initialize": ["data_generator.php"],
+        "initialize": ["data_generator.php", "render_meta.php"],
         "on_page_load": ["dark_mode.php"],
         "page_loaded": [],
         "after_request": [],

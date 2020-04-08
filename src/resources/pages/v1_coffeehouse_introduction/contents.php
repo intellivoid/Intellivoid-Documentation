@@ -1,14 +1,18 @@
 <?php
-
-use DynamicalWeb\DynamicalWeb;
-use DynamicalWeb\HTML;
+    use DynamicalWeb\DynamicalWeb;
+    use DynamicalWeb\HTML;
 ?>
 <!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>CoffeeHouse Introduction</title>
+        <?PHP
+            renderMetaTags(
+                "CoffeeHouse Introduction",
+                "CoffeeHouse allows you to implement Machine Learning and Artificial Intelligence features into your software using the HTTP API."
+            );
+        ?>
     </head>
 
     <body class="fix-header card-no-border">

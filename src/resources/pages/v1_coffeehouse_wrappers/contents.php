@@ -6,7 +6,12 @@
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>CoffeeHouse API Wrappers</title>
+        <?PHP
+            renderMetaTags(
+                "CoffeeHouse API Wrappers",
+                "CoffeeHouse API Wrappers are designed to communicate with the CoffeeHouse API service while you focus on programming."
+            );
+        ?>
     </head>
 
     <body class="fix-header card-no-border">

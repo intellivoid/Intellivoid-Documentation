@@ -22,6 +22,7 @@
 <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png?v=A0mKwrPzwj">
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?v=A0mKwrPzwj">
 <meta name="theme-color" content="<?PHP HTML::print($SelectedStyle); ?>">
+<!-- Rendered by DynamicalWeb, Reference ID:: <?php HTML::print(hash('sha256', time() . "iv")); ?> -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=A0mKwrPzwj">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=A0mKwrPzwj">
 <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png?v=A0mKwrPzwj">

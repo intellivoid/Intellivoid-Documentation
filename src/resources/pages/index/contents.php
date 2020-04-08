@@ -8,7 +8,12 @@ use DynamicalWeb\HTML;
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Intellivoid Docs</title>
+        <?PHP
+            renderMetaTags(
+                "Intellivoid Docs",
+                "Official resource for exploring documentation for Intellivoid's services."
+            );
+        ?>
     </head>
 
     <body class="fix-header card-no-border">
@@ -24,6 +29,8 @@ use DynamicalWeb\HTML;
                         </div>
                     </div>
 
+
+
                     <div class="row">
                         <div class="col-lg-8 col-md-12">
                             <div class="card">
@@ -31,6 +38,78 @@ use DynamicalWeb\HTML;
                                     <h4 class="card-title">Intellivoid Docs</h4>
                                     This is the official website for getting up to date documentation for any Intellivoid
                                     service or API
+                                    <hr/>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-6">
+                                            <h4 class="mt-2">CoffeeHouse</h4>
+                                            CoffeeHouse is a cloud-based Machine Learning and Artificial Intelligence
+                                            engine written from the ground up, implement ML & AI Tools into your Application
+                                            without needing to do all the processing yourself
+                                            <br/>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse_introduction", [], true); ?>';">View Documentation</button>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="d-flex justify-content-center">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/coffeehouse_prm.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr/>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-6">
+                                            <h4 class="mt-2">OpenBlu</h4>
+                                            OpenBlu is a decentralized VPN solution offering a bunch of servers
+                                            which users can connect to using OpenVPN. you can use the API to retrieve
+                                            these servers and connect to them
+                                            <br/>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">View Documentation</button>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="d-flex justify-content-center">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/openblu_prm.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr/>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-6">
+                                            <h4 class="mt-2">Intellivoid Accounts</h4>
+                                            Intellivoid Accounts is a second generation authentication service allowing
+                                            users to login to various services & websites using one account, users have
+                                            the freedom to choose what permissions to allow without any obligation
+                                            whatsoever.
+                                            <br/>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Documentation Coming Soon</button>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="d-flex justify-content-center">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/iva_prm.svg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr/>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-6">
+                                            <h4 class="mt-2">Translate Intellivoid</h4>
+                                            Intellivoid can be available in more languages, we are always opened to
+                                            volunteers to help translate Intellivoid's different services into other
+                                            languages. Your work will forever be credited!
+                                            <br/>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Learn More</button>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="d-flex justify-content-center">
+                                                <img class="img-fluid card-icon" style="width: 242px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/translate_prm.svg">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
