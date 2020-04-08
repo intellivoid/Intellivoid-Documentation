@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 410,
+  "error": {
+    "error_code": 0,
+    "type": "CLIENT",
+    "message": "The session is no longer available"
+  }
+}

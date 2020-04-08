@@ -1,0 +1,10 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "output",
+      "TYPE": "string",
+      "DESCRIPTION": "The output of Lydia"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "response_code": 200,
+  "payload": {
+    "output": "Hey how are you?"
+  }
+}

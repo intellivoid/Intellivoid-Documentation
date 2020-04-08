@@ -1,14 +1,12 @@
 <?php
-
-use DynamicalWeb\DynamicalWeb;
-use DynamicalWeb\HTML;
+    use DynamicalWeb\HTML;
 ?>
 <!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Get Session</title>
+        <title>Think Thought</title>
     </head>
 
     <body class="fix-header card-no-border">
@@ -19,7 +17,7 @@ use DynamicalWeb\HTML;
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Get Session</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Think Thought</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">CoffeeHouse</a>
@@ -27,7 +25,7 @@ use DynamicalWeb\HTML;
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">Lydia</a>
                                 </li>
-                                <li class="breadcrumb-item active">Get Session</li>
+                                <li class="breadcrumb-item active">Think Thought</li>
                             </ol>
                         </div>
                     </div>
@@ -36,10 +34,11 @@ use DynamicalWeb\HTML;
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3 class="card-title">Getting an existing session</h3>
-                                    This method simply allows you to get the session information given if you provide the correct session id
+                                    <h3 class="card-title">Think Thought</h3>
+                                    This method invokes "Think Thought" using a session ID, this will return Lydia's
+                                    response to a given input and session ID.
                                     <?PHP
-                                        $get_session_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . 'get_session_parameters.json';
+                                        $get_session_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . 'think_thought_parameters.json';
                                         $get_session_parameters = json_decode(file_get_contents($get_session_parameters_path), true);
                                     ?>
                                     <hr/>
@@ -47,36 +46,38 @@ use DynamicalWeb\HTML;
                                     <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="auth_example" value="<?PHP HTML::print($get_session_parameters['ENDPOINT']); ?>" readonly>
                                     <label>Parameters</label>
                                     <?PHP
-                                        generate_parameters_table($get_session_parameters);
+                                    generate_parameters_table($get_session_parameters);
                                     ?>
                                     <hr/>
+
                                     <div id="response">
                                         <h4>Example Success Response</h4>
-                                        This response is given when a session was successfully found
-                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'get_session_success.json'), true); ?></code></pre>
+                                        This response is given when the invoke action was a success
+                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'success_response.json'), true); ?></code></pre>
                                     </div>
                                     <br/>
                                     <div class="session_structure">
-                                        <h4>Session Object Structure</h4>
+                                        <h4>Response Structure</h4>
                                         <?PHP
-                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . 'session_object_structure.json';
-                                        generate_object_structure(json_decode(file_get_contents($api_methods_path), true));
+                                            $response_structure_path = __DIR__ . DIRECTORY_SEPARATOR . 'response_structure.json';
+                                            generate_object_structure(json_decode(file_get_contents($response_structure_path), true));
                                         ?>
                                     </div>
                                     <hr/>
                                     <div id="response">
-                                        <h4>Example Session Not Found Response</h4>
+                                        <h4>Service No Longer Unavailable Error</h4>
+                                        This error is returned when the session fails due to an error or has expired
+                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'service_unavailable.json'), true); ?></code></pre>
+                                    </div>
+                                    <hr/>
+                                    <div id="response">
+                                        <h4>Session not found response</h4>
                                         This response is given when the given session id was not found
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'session_not_found.json'), true); ?></code></pre>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_think_thought", [], true); ?>';">
-                                    <i class="fa fa-arrow-right text-white"></i>
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
