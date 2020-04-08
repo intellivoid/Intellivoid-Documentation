@@ -35,6 +35,38 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h3 class="card-title">Getting an existing session</h3>
+                                    This method simply allows you to get the session information given if you provide the correct session id
+                                    <?PHP
+                                        $get_session_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . 'get_session_parameters.json';
+                                        $get_session_parameters = json_decode(file_get_contents($get_session_parameters_path), true);
+                                    ?>
+                                    <hr/>
+                                    <label for="auth_example" class="mt-2">Endpoint</label>
+                                    <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="auth_example" value="<?PHP HTML::print($get_session_parameters['ENDPOINT']); ?>" readonly>
+                                    <label>Parameters</label>
+                                    <?PHP
+                                        generate_parameters_table($get_session_parameters);
+                                    ?>
+                                    <hr/>
+                                    <div id="response">
+                                        <h4>Example Success Response</h4>
+                                        This response is given when a session was successfully found
+                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'get_session_success.json'), true); ?></code></pre>
+                                    </div>
+                                    <br/>
+                                    <div class="session_structure">
+                                        <h4>Session Object Structure</h4>
+                                        <?PHP
+                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . 'session_object_structure.json';
+                                        generate_object_structure(json_decode(file_get_contents($api_methods_path), true));
+                                        ?>
+                                    </div>
+                                    <hr/>
+                                    <div id="response">
+                                        <h4>Example Session Not Found Response</h4>
+                                        This response is given when the given session id was not found
+                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'session_not_found.json'), true); ?></code></pre>
+                                    </div>
                                 </div>
                             </div>
 

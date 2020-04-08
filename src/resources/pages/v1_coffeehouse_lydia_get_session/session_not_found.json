@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 404,
+  "error": {
+    "error_code": 0,
+    "type": "CLIENT",
+    "message": "The session was not found"
+  }
+}
