@@ -91,6 +91,31 @@
 
                     </div>
 
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        Lydia Client Go
+                                    </h3>
+                                    <div class="p-20">
+                                        <pre><code class="language-go"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'lydia_client_go_example.go'), true); ?></code></pre>
+                                        <h4 class="mt-4">Install it from GitHub</h4>
+                                        <pre><code class="language-text">go get -u github.com/jaskaranSM/lydia-client-go</code></pre>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <button class="btn btn-dark waves-effect waves-light" onclick="window.open('https://github.com/jaskaranSM/lydia-client-go/');" type="button">
+                                        <span class="btn-label">
+                                            <i class="fa fa-github"></i>
+                                        </span>GitHub
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
                 <?PHP HTML::importSection('page_footer'); ?>
             </div>
