@@ -36,7 +36,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">Introduction to Translations</h3>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-8">
                                             Intellivoid allows everyone to help translate Intellivoid to make it available to
                                             other users. Translations are simple and well documented. This will briefly explain
                                             how translations work.
@@ -44,20 +44,19 @@
                                             <br/>
                                             If you want to translate a web application then you can check out our public
                                             translations repo on GitHub and make a pull request with your translation files.
-                                            <br/>
-                                            <br/>
-                                            <button class="btn btn-dark waves-effect waves-light" onclick="window.open('https://github.com/Intellivoid/Translations/');" type="button">
-                                                <span class="btn-label">
-                                                    <i class="fa fa-github"></i>
-                                                </span>View on GitHub
-                                            </button>
+
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-4">
                                             <div class="d-flex justify-content-center">
                                                 <img class="img-responsive" style="height: 162px; width: 162px;" src="/assets/images/<?PHP theme_VectorImage(); ?>/gen_translate.svg" alt="Feedback">
                                             </div>
                                         </div>
                                     </div>
+                                    <button class="btn btn-dark waves-effect waves-light mt-3" onclick="window.open('https://github.com/Intellivoid/Translations/');" type="button">
+                                        <span class="btn-label">
+                                            <i class="fa fa-github"></i>
+                                        </span>View on GitHub
+                                    </button>
                                     <hr/>
                                     <h3>Translating JSON files</h3>
                                     Most translations are done with a JSON file all following the same standard.
