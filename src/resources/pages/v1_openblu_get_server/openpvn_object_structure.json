@@ -1,0 +1,45 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "parameters",
+      "TYPE": "array(key:string)/(key:null)",
+      "DESCRIPTION": "The parameters for a OpenVPN Client to use, null values means that the parameter does not require a value"
+    },
+    {
+      "NAME": "certificate_authority",
+      "TYPE": "string",
+      "DESCRIPTION": "The certificate authority of for the VPN Server"
+    },
+    {
+      "NAME": "certificate_authority_b64",
+      "TYPE": "string",
+      "DESCRIPTION": "The same as certificate_authority but with the contents base64 encoded"
+    },
+    {
+      "NAME": "certificate",
+      "TYPE": "string",
+      "DESCRIPTION": "The certificate of the VPN Server"
+    },
+    {
+      "NAME": "certificate_b64",
+      "TYPE": "string",
+      "DESCRIPTION": "The same as certificate but with the contents base64 encoded"
+    },
+    {
+      "NAME": "key",
+      "TYPE": "string",
+      "DESCRIPTION": "Private RSA Key for the VPN Server"
+    },
+    {
+      "NAME": "key_b64",
+      "TYPE": "string",
+      "DESCRIPTION": "The same as key but with the contents base64 encoded"
+    },
+    {
+      "NAME": "ovpn_configuration",
+      "TYPE": "string",
+      "DESCRIPTION": "The full contents of the .ovpn file including all the certificates and parameters to connect"
+    }
+  ]
+}

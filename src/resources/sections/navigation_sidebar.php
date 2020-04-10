@@ -63,7 +63,7 @@
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_list_servers", [], true); ?>" class="py-1">List Servers</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="py-1">Get Server</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_get_server", [], true); ?>" class="py-1">Get Server</a>
                                 </li>
                             </ul>
                         </li>

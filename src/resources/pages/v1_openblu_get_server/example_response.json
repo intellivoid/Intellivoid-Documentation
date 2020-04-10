@@ -1,0 +1,39 @@
+{
+  "success":true,
+  "response_code":200,
+  "server":{
+    "id":"ffd07d9e2adf70ef",
+    "host_name":"vpn853872483",
+    "country":"Japan",
+    "country_short":"JP",
+    "score":398502,
+    "ping":1,
+    "sessions":47,
+    "total_sessions":417240,
+    "ip_address":"103.201.129.18",
+    "openvpn":{
+      "parameters":{
+        "dev":"tun",
+        "proto":"tcp",
+        "remote":"103.201.129.18 443",
+        "cipher":"AES-128-CBC",
+        "auth":"SHA1",
+        "resolv-retry":"infinite",
+        "nobind":null,
+        "persist-key":null,
+        "persist-tun":null,
+        "client":null,
+        "verb":"3"
+      },
+      "certificate_authority":"<CERTIFICATE DATA>",
+      "certificate_authority_b64":"<BASE64 ENCODED CERTIFICATE DATA>",
+      "certificate":"<CERTIFICATE DATA>",
+      "certificate_b64":"<BASE64 ENCODED CERTIFICATE DATA>",
+      "key":"<PRIVATE KEY DATA>",
+      "key_b64":"<BASE64 ENCODED PRIVATE KEY DATA>",
+      "ovpn_configuration":"<.OVPN FILE CONTENTS>"
+    },
+    "last_updated":1580340394,
+    "created":1580070319
+  }
+}

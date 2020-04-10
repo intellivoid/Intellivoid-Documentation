@@ -1,0 +1,12 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/openblu/v1/servers/get",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the VPN Server"
+    }
+  ]
+}

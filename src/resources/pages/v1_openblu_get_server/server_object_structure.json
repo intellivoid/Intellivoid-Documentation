@@ -1,0 +1,65 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "id",
+      "TYPE": "string",
+      "DESCRIPTION": "The ID of the server"
+    },
+    {
+      "NAME": "host_name",
+      "TYPE": "string",
+      "DESCRIPTION": "The name of the host of the server"
+    },
+    {
+      "NAME": "country",
+      "TYPE": "string",
+      "DESCRIPTION": "The full name of the country that this server is based in\n"
+    },
+    {
+      "NAME": "country_short",
+      "TYPE": "string",
+      "DESCRIPTION": "The short version of the country that this server is based in"
+    },
+    {
+      "NAME": "score",
+      "TYPE": "int",
+      "DESCRIPTION": "The score of the server"
+    },
+    {
+      "NAME": "ping",
+      "TYPE": "int",
+      "DESCRIPTION": "The ping of the server"
+    },
+    {
+      "NAME": "sessions",
+      "TYPE": "int",
+      "DESCRIPTION": "The amount of sessions that are currently established to this server"
+    },
+    {
+      "NAME": "total_sessions",
+      "TYPE": "int",
+      "DESCRIPTION": "The total amount of sessions that has been established"
+    },
+    {
+      "NAME": "ip_address",
+      "TYPE": "string",
+      "DESCRIPTION": "IPV4/IPV6 Address of the server"
+    },
+    {
+      "NAME": "openvpn",
+      "TYPE": "openvpn",
+      "DESCRIPTION": "The OpenVPN details for connecting to this server"
+    },
+    {
+      "NAME": "last_updated",
+      "TYPE": "int",
+      "DESCRIPTION": "The Unix Timestamp of when this server was last updated"
+    },
+    {
+      "NAME": "created",
+      "TYPE": "int",
+      "DESCRIPTION": "The Unix Timestamp of when this server was created"
+    }
+  ]
+}
