@@ -30,9 +30,8 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3 class="card-title">CoffeeHouse API Wrappers</h3>
-
-
+                                    <h3 class="card-title">Something is missing here!</h3>
+                                    Documentation not available yet
                                 </div>
                             </div>
                         </div>

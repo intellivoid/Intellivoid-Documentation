@@ -69,6 +69,12 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="<?PHP DynamicalWeb::getRoute("coming_soon", [], true); ?>" aria-expanded="false">
+                        <i class="fa fa-shield"></i>
+                        <span class="hide-menu">Intellivoid Accounts</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
