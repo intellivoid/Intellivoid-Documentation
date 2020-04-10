@@ -53,6 +53,20 @@
                         <li>
                             <a href="<?PHP DynamicalWeb::getRoute("public_openblu_introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">API</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>" class="py-1">Basics</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-1">Server Listings</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="py-1">Get Server</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>

@@ -4,7 +4,6 @@
     "router": [
         {"path": "/", "page": "index"},
         {"path": "/intellivoid/api", "page": "intellivoid_api"},
-
         {"path": "/coffeehouse/v1/introduction", "page": "v1_coffeehouse_introduction"},
         {"path": "/coffeehouse/v1/api_wrappers", "page": "v1_coffeehouse_wrappers"},
         {"path": "/coffeehouse/v1/lydia", "page": "v1_coffeehouse_lydia_basics"},
@@ -12,7 +11,8 @@
         {"path": "/coffeehouse/v1/lydia/get_session", "page": "v1_coffeehouse_lydia_get_session"},
         {"path": "/coffeehouse/v1/lydia/think_thought", "page": "v1_coffeehouse_lydia_think_thought"},
 
-        {"path": "/openblu/introduction", "page": "public_openblu_introduction"}
+        {"path": "/openblu/introduction", "page": "public_openblu_introduction"},
+        {"path": "/openblu/v1/basics", "page": "v1_openblu_basics"}
     ],
     "libraries": {},
     "runtime_scripts": {
