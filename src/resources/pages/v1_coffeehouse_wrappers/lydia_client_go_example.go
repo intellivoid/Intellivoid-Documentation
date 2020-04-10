@@ -6,7 +6,7 @@ import (
 )
 
 func main(){
-    var API_KEY = "<your_api_key>"
+    var API_KEY string = "<your_api_key>"
     var input string
     client := lydia.NewClient(API_KEY)
     res,err := client.CreateSession()
