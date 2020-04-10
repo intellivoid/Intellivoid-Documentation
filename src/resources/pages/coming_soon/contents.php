@@ -6,7 +6,12 @@
 
     <head>
         <?PHP HTML::importSection('header'); ?>
-        <title>Documentation</title>
+        <?PHP
+            renderMetaTags(
+                "Coming Soon",
+                "The requested resource is not publicly available yet"
+            );
+        ?>
     </head>
 
     <body class="fix-header card-no-border">
@@ -15,14 +20,9 @@
             <?PHP HTML::importSection('navigation_sidebar'); ?>
             <div class="page-wrapper">
                 <div class="container-fluid">
-
                     <div class="row page-titles">
-                        <div class="col-md-5 col-8 align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0">Dashboard</h3>
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                                <li class="breadcrumb-item active">Dashboard</li>
-                            </ol>
+                        <div class="align-self-center">
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Coming Soon</h3>
                         </div>
                     </div>
 
@@ -30,7 +30,9 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    This is some text within a card block.
+                                    <h3 class="card-title">CoffeeHouse API Wrappers</h3>
+
+
                                 </div>
                             </div>
                         </div>

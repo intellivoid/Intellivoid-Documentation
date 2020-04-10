@@ -44,6 +44,17 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">
+                        <i class="mdi mdi-server-security"></i>
+                        <span class="hide-menu">OpenBlu</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li>
+                            <a href="<?PHP DynamicalWeb::getRoute("public_openblu_introduction", [], true); ?>" class="py-1">Introduction</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
