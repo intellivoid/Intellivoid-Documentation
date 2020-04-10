@@ -15,7 +15,9 @@
         {"path": "/openblu/introduction", "page": "public_openblu_introduction"},
         {"path": "/openblu/v1/basics", "page": "v1_openblu_basics"},
         {"path": "/openblu/v1/list_servers", "page": "v1_openblu_list_servers"},
-        {"path": "/openblu/v1/get_server", "page": "v1_openblu_get_server"}
+        {"path": "/openblu/v1/get_server", "page": "v1_openblu_get_server"},
+
+        {"path": "/translations", "page": "public_translations_introduction"}
     ],
     "libraries": {},
     "runtime_scripts": {

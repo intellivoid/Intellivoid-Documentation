@@ -75,6 +75,12 @@
                         <span class="hide-menu">Intellivoid Accounts</span>
                     </a>
                 </li>
+                <li>
+                    <a href="<?PHP DynamicalWeb::getRoute("public_translations_introduction", [], true); ?>" aria-expanded="false">
+                        <i class="mdi mdi-translate"></i>
+                        <span class="hide-menu">Translations</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

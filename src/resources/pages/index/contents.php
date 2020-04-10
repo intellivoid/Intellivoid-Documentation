@@ -101,7 +101,7 @@ use DynamicalWeb\HTML;
                                             volunteers to help translate Intellivoid's different services into other
                                             languages. Your work will forever be credited!
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Learn More</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("public_translations_introduction", [], true); ?>';">Learn More</button>
                                         </div>
 
                                         <div class="col-lg-6">

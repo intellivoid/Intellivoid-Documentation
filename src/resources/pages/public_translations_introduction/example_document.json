@@ -1,0 +1,29 @@
+{
+  "language": {
+    "name": "english",
+    "iso_639-1": "en"
+  },
+  "pages": {
+    "index": {
+      "PAGE_TITLE": "Example - Index",
+      "HEADER": "Example Document",
+      "BODY": "This is a Example Document",
+      "INFO_MESSAGE": "Information!",
+      "SUBMIT_BUTTON": "Submit",
+      "AGE": "You are %s years old!"
+    },
+    "404": {
+      "PAGE_TITLE": "Example - 404 Not Found",
+      "HEADER": "404 Not Found",
+      "BODY": "This page does not exist!"
+    }
+  },
+  "sections": {
+    "navigation_bar": {
+      "NAVBAR_HOME": "Home Page",
+      "NAVBAR_ABOUT": "About Page"
+    },
+    "footer": {
+      "COPYRIGHT": "Copyright Example 2018"
+    }
+  },

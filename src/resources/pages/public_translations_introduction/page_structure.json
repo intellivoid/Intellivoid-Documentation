@@ -1,0 +1,10 @@
+{
+  "index": {
+    "PAGE_TITLE": "Example - Index",
+    "HEADER": "Example Document",
+    "BODY": "This is a Example Document",
+    "INFO_MESSAGE": "Information!",
+    "SUBMIT_BUTTON": "Submit",
+    "AGE": "You are %s years old!"
+  }
+}
