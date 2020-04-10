@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "response_code": 200,
+  "servers": [
+    {
+      "id": "8cd76121cb412234",
+      "host_name": "vpn449395045",
+      "country": "Thailand",
+      "country_short": "TH",
+      "score": 577616,
+      "ping": 30,
+      "sessions": 61,
+      "total_sessions": 34133,
+      "last_updated": 1580340394,
+      "created": 1580340394
+    },
+    {
+      "id": "563eb9182ba28749",
+      "host_name": "vpn336227155",
+      "country": "Thailand",
+      "country_short": "TH",
+      "score": 520198,
+      "ping": 38,
+      "sessions": 13,
+      "total_sessions": 2302,
+      "last_updated": 1580340394,
+      "created": 1580340394
+    },
+    {
+      "id": "58c61a8d1f8ec36b",
+      "host_name": "vpn589223849",
+      "country": "Thailand",
+      "country_short": "TH",
+      "score": 615902,
+      "ping": 27,
+      "sessions": 50,
+      "total_sessions": 27778,
+      "last_updated": 1580070319,
+      "created": 1580070319
+    },
+    {
+      "id": "f3eba00c4efe51a9",
+      "host_name": "vpn543929979",
+      "country": "Thailand",
+      "country_short": "TH",
+      "score": 571883,
+      "ping": 25,
+      "sessions": 0,
+      "total_sessions": 3226,
+      "last_updated": 1580070319,
+      "created": 1580070319
+    }
+  ]
+}

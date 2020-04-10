@@ -132,7 +132,7 @@
                                             <a href="https://openblu.intellivoid.net" target="_blank">OpenBlu Web Application</a>
                                         </li>
                                         <li>
-                                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_basics", [], true); ?>">OpenBlu API Documentation</a>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>">OpenBlu API Documentation</a>
                                         </li>
                                     </ul>
                                 </div>

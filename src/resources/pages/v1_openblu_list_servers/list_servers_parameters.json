@@ -1,0 +1,30 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/openblu/v1/servers/list",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "filter",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "Filters the results by \"country\" or \"country_short\""
+    },
+    {
+      "PARAMETER_NAME": "by",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The value to filter by, eg; japan, thailand, etc. This is required if \"filter\" is used"
+    },
+    {
+      "PARAMETER_NAME": "order_by",
+      "DEFAULT_VALUE": "last_updated",
+      "REQUIRED": false,
+      "DESCRIPTION": "Orders the results by \"score\", \"ping\", \"sessions\", \"total_sessions\", \"last_updated\" and \"created\""
+    },
+    {
+      "PARAMETER_NAME": "sort_by",
+      "DEFAULT_VALUE": "descending",
+      "REQUIRED": false,
+      "DESCRIPTION": "Sorts the ordered results by \"descending\" or \"ascending\""
+    }
+  ]
+}
