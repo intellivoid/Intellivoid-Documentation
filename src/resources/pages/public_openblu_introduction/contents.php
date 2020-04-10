@@ -10,7 +10,7 @@
         <?PHP
             renderMetaTags(
                 "OpenBlu Introduction",
-                "r"
+                "OpenBlu is a public repository of OpenVPN servers that are publicly accessible and updated regularly."
             );
         ?>
     </head>
