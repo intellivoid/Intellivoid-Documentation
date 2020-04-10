@@ -9,8 +9,8 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Lydia Basics",
-                "Lydia is a active learning chat bot that learns from conversations and can speak in many languages"
+                "OpenBlu Basics",
+                "Introduces the basics of how the OpenBlu API works"
             );
         ?>
     </head>
@@ -23,13 +23,13 @@
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Lydia Basics</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">OpenBlu Basics</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)">CoffeeHouse</a>
+                                    <a href="javascript:void(0)">OpenBlu</a>
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)">Lydia</a>
+                                    <a href="javascript:void(0)">API</a>
                                 </li>
                                 <li class="breadcrumb-item active">Basics</li>
                             </ol>
@@ -38,78 +38,6 @@
 
                     <div class="row">
                         <div class="col-12">
-
-                            <div class="card">
-                                <div class="card-body">
-                                    <h3 class="card-title">How Lydia works</h3>
-                                    Lydia is a active learning chat bot that learns from conversations and can speak in
-                                    many languages <i>"natively"</i>. This section will briefly explain how Lydia works
-                                    and how it's intended to be used in environments.
-                                    <hr/>
-                                    <div>
-                                        <h4>Sessions</h4>
-                                        <div class="row">
-                                            <div class="col-lg-7 col-md-12">
-                                                Using the general mindset for how a conversation works, for every response in
-                                                a conversation the response must be related to the current conversation.
-                                                This is accomplished in Lydia using sessions, these sessions allows the
-                                                bot to hold a memory of the current conversation including sentimental
-                                                values that the bot predicts during the conversation.
-                                                <br/><br/>
-                                                Before you start a conversation with Lydia, you must initialize a session
-                                                and then give your input using that session. See <a href="#">Create Session</a>
-                                                for more details on how to create one.
-                                            </div>
-                                            <div class="col-lg-5 col-md-12 mt-3">
-                                                <ul class="chat-list">
-                                                    <li class="mt-0 odd">
-                                                        <div class="chat-content">
-                                                            <div class="box bg-danger text-white">Hello John!</div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="mt-1">
-                                                        <div class="chat-content">
-                                                            <div class="box bg-success text-white">Hello! How are you?</div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="mt-0 odd">
-                                                        <div class="chat-content">
-                                                            <div class="box bg-danger text-white">Great!</div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <hr/>
-                                    <div>
-                                        <h4>Languages</h4>
-                                        Though Lydia can speak in many languages; every output is the result of active
-                                        learning. This means the more you speak to it the more it learns. Nothing in
-                                        active learning is hard-coded and occasionally you will notice spelling mistakes
-                                        or responses that do not make sense. The same goes when the conversation is based
-                                        in another language.
-
-                                        <div class="row mt-4">
-
-                                            <div class="col-lg-6">
-                                                There is no way to enforce a specific language to be used throughout
-                                                the whole conversation, however. There is a way to enforce the conversation
-                                                to start in a specific language, doing this will have a higher probability
-                                                for Lydia to respond correctly in the assigned language. You can
-                                                only accomplish this upon creating a session. See <a href="#">Create Session</a>
-                                                for more details on how to accomplish this.
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="d-flex justify-content-center">
-                                                    <img class="img-fluid card-icon" style="width: 232px; height: 232px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/gen_chatbot.svg">
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="card">
                                 <div class="card-body">
@@ -125,7 +53,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">API Authentication</h3>
                                     <div class="mb-3">
-                                        CoffeeHouse's API is powered by Intellivoid API. This uses the standard "API Key"
+                                        OpenBlu's API is powered by Intellivoid API. This uses the standard "API Key"
                                         authentication method which is the same across all other Intellivoid APIs.
                                     </div>
                                     <i class="px-2">Hint: Your Access Key is your API Key</i>
@@ -175,7 +103,7 @@
                             </div>
 
                             <div class="row">
-                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_openblu_list_servers', [] ,true); ?>';">
                                     <i class="fa fa-arrow-right text-white"></i>
                                 </button>
                             </div>

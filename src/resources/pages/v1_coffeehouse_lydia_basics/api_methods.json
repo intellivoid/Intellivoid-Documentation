@@ -7,21 +7,21 @@
       "ACCESS_URI": "coffeehouse/v1/lydia/session/create",
       "REQUEST_METHODS": ["GET", "POST"],
       "DESCRIPTION": "Creates a nw chat session with Lydia",
-      "REFERENCE": "index"
+      "REFERENCE": "v1_coffeehouse_lydia_create_session"
     },
     {
       "METHOD_NAME": "get_lydia_session",
       "ACCESS_URI": "coffeehouse/v1/lydia/session/get",
       "REQUEST_METHODS": ["GET", "POST"],
       "DESCRIPTION": "Gets an existing chat session and it's details",
-      "REFERENCE": "index"
+      "REFERENCE": "v1_coffeehouse_lydia_get_session"
     },
     {
       "METHOD_NAME": "lydia_think_thought",
       "ACCESS_URI": "coffeehouse/v1/lydia/session/think",
       "REQUEST_METHODS": ["GET", "POST"],
       "DESCRIPTION": "Invokes the think method and allows Lydia to return a proper response from user input",
-      "REFERENCE": "index"
+      "REFERENCE": "v1_coffeehouse_lydia_think_thought"
     }
   ]
 }
