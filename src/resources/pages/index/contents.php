@@ -64,7 +64,7 @@ use DynamicalWeb\HTML;
                                             which users can connect to using OpenVPN. you can use the API to retrieve
                                             these servers and connect to them
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">View Documentation</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("public_openblu_introduction", [], true); ?>';">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">

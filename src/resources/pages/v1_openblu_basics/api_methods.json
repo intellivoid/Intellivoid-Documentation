@@ -7,14 +7,14 @@
       "ACCESS_URI": "openblu/v1/servers/list",
       "REQUEST_METHODS": ["GET", "POST"],
       "DESCRIPTION": "Retrieves all the available servers from OpenBlu",
-      "REFERENCE": "index"
+      "REFERENCE": "v1_openblu_list_servers"
     },
     {
       "METHOD_NAME": "get_server",
       "ACCESS_URI": "openblu/v1/servers/get",
       "REQUEST_METHODS": ["GET", "POST"],
       "DESCRIPTION": "Gets the details of an existing server by the server ID",
-      "REFERENCE": "index"
+      "REFERENCE": "v1_openblu_get_server"
     }
   ]
 }
