@@ -63,7 +63,7 @@
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'list_servers_success.json'), true); ?></code></pre>
                                     </div>
                                     <br/>
-                                    <div class="session_object_structure">
+                                    <div class="server_listing_structure">
                                         <h4>Server Listing Structure</h4>
                                         <?PHP
                                         $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . 'server_listing_structure.json';
