@@ -4,7 +4,7 @@
 <header class="topbar">
     <nav class="navbar top-navbar navbar-expand-md navbar-light">
         <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="<?PHP DynamicalWeb::getRoute("index", [], true); ?>">
                 <b>
                     <img src="/assets/images/logo.svg" alt="homepage" class="dark-logo" />
                     <img src="/assets/images/logo.svg" alt="homepage" class="light-logo" />
