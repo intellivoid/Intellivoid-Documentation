@@ -1,5 +1,7 @@
 <?php
-    use DynamicalWeb\HTML;
+
+use DynamicalWeb\DynamicalWeb;
+use DynamicalWeb\HTML;
 ?>
 <!DOCTYPE html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
@@ -32,6 +34,54 @@
                                 <div class="card-body">
                                     <h3 class="card-title">Something is missing here!</h3>
                                     Documentation not available yet
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">Looking for something else?</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute('index', [], true) ?>">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute('v1_coffeehouse_introduction', [], true) ?>">
+                                                CoffeeHouse Documentation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute('public_openblu_introduction', [], true) ?>">
+                                                OpenBlu Documentation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute('public_translations_introduction', [], true) ?>">
+                                                Translations Documentation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/Intellivoid">
+                                                Intellivoid GitHub
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://intellivoid.net/">
+                                                Intellivoid.net
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://t.me/IntellivoidDev">
+                                                Telegram Support Group
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://t.me/IntellivoidSupport">
+                                                Contact Support
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
