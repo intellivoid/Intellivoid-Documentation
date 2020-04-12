@@ -3,6 +3,7 @@
     "debugging_mode": true,
     "router": [
         {"path": "/", "page": "index"},
+        {"path": "/404", "page": "404"},
         {"path": "/unavailable", "page": "coming_soon"},
         {"path": "/intellivoid/api", "page": "intellivoid_api"},
         {"path": "/coffeehouse/v1/introduction", "page": "v1_coffeehouse_introduction"},
