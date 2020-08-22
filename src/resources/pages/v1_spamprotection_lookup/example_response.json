@@ -1,0 +1,29 @@
+{
+  "success":true,
+  "response_code":200,
+  "results":{
+    "private_telegram_id":"TEL-244c681c7ca23d46e073414a7f3933da41ac031a924cea33b406027823c57439-f568d408",
+    "entity_type":"channel",
+    "attributes":{
+      "is_blacklisted":true,
+      "blacklist_flag":"0xSPAM",
+      "blacklist_reason":"Spam / Unwanted Promotion",
+      "original_private_id":null,
+      "is_potential_spammer":false,
+      "is_operator":false,
+      "is_agent":false,
+      "is_whitelisted":false,
+      "intellivoid_accounts_verified":false,
+      "is_official":true
+    },
+    "language_prediction":{
+      "language":"en",
+      "probability":0.8460620768954751
+    },
+    "spam_prediction":{
+      "ham_prediction":0.0199941052,
+      "spam_prediction":0.000005399803
+    },
+    "last_updated":1598047387
+  }
+}

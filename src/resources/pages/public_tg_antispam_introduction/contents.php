@@ -116,10 +116,13 @@
                                     <h3 class="card-title">Quick References</h3>
                                     <ul class="pt-3">
                                         <li>
-                                            <a href="https://openblu.intellivoid.net" target="_blank">OpenBlu Web Application</a>
+                                            <a href="https://t.me/SpamProtectionSupport" target="_blank">Support Group</a>
                                         </li>
                                         <li>
-                                            <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>">OpenBlu API Documentation</a>
+                                            <a href="https://t.me/SpamProtectionLogs" target="_blank">Public Logs Channel</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_spamprotection_lookup", [], true); ?>">Lookup user API</a>
                                         </li>
                                     </ul>
                                 </div>

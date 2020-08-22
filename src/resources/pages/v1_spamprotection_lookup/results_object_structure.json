@@ -1,0 +1,35 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "private_telegram_id",
+      "TYPE": "string",
+      "DESCRIPTION": "The private Telegram ID of the entity"
+    },
+    {
+      "NAME": "entity_type",
+      "TYPE": "string",
+      "DESCRIPTION": "The entity type, can be user, bot, group, supergroup or channel"
+    },
+    {
+      "NAME": "attributes",
+      "TYPE": "attributes",
+      "DESCRIPTION": "The attributes of the entity, such as blacklist information and so on."
+    },
+    {
+      "NAME": "language_prediction",
+      "TYPE": "language_prediction",
+      "DESCRIPTION": "Information about the generalized language prediction"
+    },
+    {
+      "NAME": "spam_prediction",
+      "TYPE": "spam_prediction",
+      "DESCRIPTION": "Information about the generalized spam prediction"
+    },
+    {
+      "NAME": "last_updated",
+      "TYPE": "int",
+      "DESCRIPTION": "The Unix Timestamp of when this was last updated in the database"
+    }
+  ]
+}

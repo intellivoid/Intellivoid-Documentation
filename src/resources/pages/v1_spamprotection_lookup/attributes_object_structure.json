@@ -1,0 +1,55 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "is_blacklisted",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if this entity was blacklisted by a operator or agent"
+    },
+    {
+      "NAME": "blacklist_flag",
+      "TYPE": "string|null",
+      "DESCRIPTION": "If the entity is blacklisted, the blacklist flag will be available otherwise it will be null"
+    },
+    {
+      "NAME": "blacklist_reason",
+      "TYPE": "string|null",
+      "DESCRIPTION": "If the entity is blacklisted, a user friendly message of the blacklist flag will be available otherwise it will be null"
+    },
+    {
+      "NAME": "original_private_id",
+      "TYPE": "string|null",
+      "DESCRIPTION": "If the entity was blacklisted for 0xEVADE then the original private telegram ID (ptid) will be available, otherwise it will be null"
+    },
+    {
+      "NAME": "is_potential_spammer",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if SpamProtection believes that this user may be a potential spammer based on past activities"
+    },
+    {
+      "NAME": "is_operator",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if this user is an operator for SpamProtectionBot"
+    },
+    {
+      "NAME": "is_agent",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if this user is an agent that automatically reports spam to SpamProtectionBot (Userbot Agent)"
+    },
+    {
+      "NAME": "is_whitelisted",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if this user is whitelisted and cannot be blacklisted or seen as a potential spammer"
+    },
+    {
+      "NAME": "intellivoid_accounts_verified",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if this user has verified their Telegram Account with Intellivoid Accounts"
+    },
+    {
+      "NAME": "is_official",
+      "TYPE": "boolean",
+      "DESCRIPTION": "Indicates if this entity is deemed official by Intellivoid Technologies"
+    }
+  ]
+}

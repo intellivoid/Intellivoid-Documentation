@@ -82,13 +82,7 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">API</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>" class="py-1">Basics</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_list_servers", [], true); ?>" class="py-1">List Servers</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_get_server", [], true); ?>" class="py-1">Get Server</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_spamprotection_lookup", [], true); ?>" class="py-1">Lookup</a>
                                 </li>
                             </ul>
                         </li>

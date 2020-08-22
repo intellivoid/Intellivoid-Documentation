@@ -1,0 +1,15 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "ham_prediction",
+      "TYPE": "float|int|null",
+      "DESCRIPTION": "The probability (confidence) of this generalized ham (not spam) prediction, if no prediction is available then it will be null"
+    },
+    {
+      "NAME": "spam_prediction",
+      "TYPE": "float|int|null",
+      "DESCRIPTION": "The probability (confidence) of this generalized spam prediction, if no prediction is available then it will be null"
+    }
+  ]
+}

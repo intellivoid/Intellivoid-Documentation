@@ -1,0 +1,15 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "language",
+      "TYPE": "string|null",
+      "DESCRIPTION": "The ISO 639-1 language code predicted by SpamProtectionBot, if no prediction is available then it will be null"
+    },
+    {
+      "NAME": "probability",
+      "TYPE": "float|int|null",
+      "DESCRIPTION": "The probability (confidence) of this generalized language prediction, if no prediction is available then it will be null"
+    }
+  ]
+}

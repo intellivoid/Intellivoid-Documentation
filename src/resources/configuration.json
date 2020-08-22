@@ -19,6 +19,7 @@
         {"path": "/openblu/v1/get_server", "page": "v1_openblu_get_server"},
 
         {"path": "/spamprotection/introduction", "page": "public_tg_antispam_introduction"},
+        {"path": "/spamprotection/v1/lookup", "page": "v1_spamprotection_lookup"},
 
         {"path": "/translations", "page": "public_translations_introduction"}
     ],

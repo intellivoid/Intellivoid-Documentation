@@ -1,0 +1,12 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/spamprotection/v1/lookup",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "query",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID, Private Telegram ID or Username (With or without @)"
+    }
+  ]
+}

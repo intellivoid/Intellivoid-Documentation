@@ -1,0 +1,9 @@
+{
+  "success":false,
+  "response_code":404,
+  "error":{
+    "error_code":10,
+    "type":"CLIENT",
+    "message":"Unable to resolve the query"
+  }
+}
