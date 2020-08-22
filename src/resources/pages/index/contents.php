@@ -150,7 +150,7 @@ use DynamicalWeb\HTML;
                                     </div>
                                     <div class="row">
                                         <div class="col-4 align-self-center">
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='https://t.me/IntellivoidDev';">Join @IntellivoidDev</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='https://t.me/IntellivoidDiscussions';">Join @IntellivoidDiscussions</button>
                                         </div>
                                     </div>
                                 </div>

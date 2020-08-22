@@ -18,6 +18,8 @@
         {"path": "/openblu/v1/list_servers", "page": "v1_openblu_list_servers"},
         {"path": "/openblu/v1/get_server", "page": "v1_openblu_get_server"},
 
+        {"path": "/spamprotection/introduction", "page": "public_tg_antispam_introduction"},
+
         {"path": "/translations", "page": "public_translations_introduction"}
     ],
     "libraries": {},

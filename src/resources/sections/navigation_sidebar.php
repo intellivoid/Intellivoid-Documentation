@@ -70,6 +70,31 @@
                     </ul>
                 </li>
                 <li>
+                    <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">
+                        <i class="mdi mdi-email-secure"></i>
+                        <span class="hide-menu">SpamProtection</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li>
+                            <a href="<?PHP DynamicalWeb::getRoute("public_tg_antispam_introduction", [], true); ?>" class="py-1">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">API</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>" class="py-1">Basics</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_list_servers", [], true); ?>" class="py-1">List Servers</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_get_server", [], true); ?>" class="py-1">Get Server</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
                     <a href="<?PHP DynamicalWeb::getRoute("coming_soon", [], true); ?>" aria-expanded="false">
                         <i class="fa fa-shield"></i>
                         <span class="hide-menu">Intellivoid Accounts</span>
