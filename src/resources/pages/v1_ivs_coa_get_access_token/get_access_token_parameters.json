@@ -1,0 +1,24 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/coa/auth/get_access_token",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "application_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the Application"
+    },
+    {
+      "PARAMETER_NAME": "secret_key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Application's Secret Key"
+    },
+    {
+      "PARAMETER_NAME": "access_token",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Access Token to get information about"
+    }
+  ]
+}

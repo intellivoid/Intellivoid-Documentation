@@ -5,7 +5,6 @@
         {"path": "/", "page": "index"},
         {"path": "/404", "page": "404"},
         {"path": "/unavailable", "page": "coming_soon"},
-        {"path": "/intellivoid/api", "page": "intellivoid_api"},
         {"path": "/coffeehouse/v1/introduction", "page": "v1_coffeehouse_introduction"},
         {"path": "/coffeehouse/v1/api_wrappers", "page": "v1_coffeehouse_wrappers"},
         {"path": "/coffeehouse/v1/lydia", "page": "v1_coffeehouse_lydia_basics"},
@@ -20,6 +19,19 @@
 
         {"path": "/spamprotection/introduction", "page": "public_tg_antispam_introduction"},
         {"path": "/spamprotection/v1/lookup", "page": "v1_spamprotection_lookup"},
+
+
+        {"path": "/intellivoid/introduction", "page": "public_intellivoid_introduction"},
+
+        {"path": "/intellivoid/applications/introduction", "page": "v1_ivs_application_introduction"},
+        {"path": "/intellivoid/applications/permissions", "page": "v1_ivs_application_permissions"},
+
+        {"path": "/intellivoid/v1/coa/introduction", "page": "v1_ivs_coa_introduction"},
+        {"path": "/intellivoid/v1/coa/basics", "page": "v1_ivs_coa_basics"},
+        {"path": "/intellivoid/v1/coa/get_application", "page": "v1_ivs_coa_get_application"},
+        {"path": "/intellivoid/v1/coa/request_authentication", "page": "v1_ivs_coa_request_authentication"},
+        {"path": "/intellivoid/v1/coa/process_authentication", "page": "v1_ivs_coa_process_authentication"},
+        {"path": "/intellivoid/v1/coa/get_access_token", "page": "v1_ivs_coa_get_access_token"},
 
         {"path": "/translations", "page": "public_translations_introduction"}
     ],

@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "name": "Application Placeholder Demo",
+    "name_safe": "application_placeholder_demo",
+    "status": "ACTIVE",
+    "authentication_mode": "PLACEHOLDER",
+    "permissions": [
+      "READ_PERSONAL_INFORMATION",
+      "INVOKE_TELEGRAM_NOTIFICATIONS",
+      "READ_EMAIL_ADDRESS",
+      "READ_TELEGRAM_CLIENT",
+      "READ_TODO",
+      "MANAGE_TODO",
+      "SYNC_APPLICATION_SETTINGS",
+      "READ_USERNAME",
+      "GET_USER_DISPLAY"
+    ]
+  }
+}

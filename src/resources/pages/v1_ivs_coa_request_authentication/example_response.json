@@ -1,0 +1,21 @@
+{
+  "success":true,
+  "response_code":200,
+  "results":{
+    "request_token":"db403fc7cd8eaf6989a514bcd8aa51ecaf19c818c7e6097dbdef3e8586885047ca09a9a8",
+    "requested_permissions":[
+      "READ_PERSONAL_INFORMATION",
+      "INVOKE_TELEGRAM_NOTIFICATIONS",
+      "READ_EMAIL_ADDRESS",
+      "READ_TELEGRAM_CLIENT",
+      "READ_TODO",
+      "MANAGE_TODO",
+      "SYNC_APPLICATION_SETTINGS",
+      "READ_USERNAME",
+      "GET_USER_DISPLAY"
+    ],
+    "status":"ACTIVE",
+    "authentication_url":"https://accounts.intellivoid.net/auth/login?auth=application&application_id=APP65640a935039be5570428b6e74747811b0a290210e9e2d2f6722d8a54966ac171a4d5f1c&request_token=db403fc7cd8eaf6989a514bcd8aa51ecaf19c818c7e6097dbdef3e8586885047ca09a9a8",
+    "expires_timestamp":1607651404
+  }
+}

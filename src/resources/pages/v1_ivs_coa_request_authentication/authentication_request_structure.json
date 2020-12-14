@@ -1,0 +1,30 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "request_token",
+      "TYPE": "string",
+      "DESCRIPTION": "The request token for this particular Authentication request, this is only unique to your Application"
+    },
+    {
+      "NAME": "request_permissions",
+      "TYPE": "string[]",
+      "DESCRIPTION": "A array of permissions that the Application is requesting to the user"
+    },
+    {
+      "NAME": "status",
+      "TYPE": "string",
+      "DESCRIPTION": "The status of the Request Token, this can either be 'ACTIVE', 'BLOCKED' or 'EXPIRED', unknown states will be 'UNKNOWN'"
+    },
+    {
+      "NAME": "authentication_url",
+      "TYPE": "string",
+      "DESCRIPTION": "The URL that the user must access in order to authenticate to your Application"
+    },
+    {
+      "NAME": "expires_timestamp",
+      "TYPE": "integer",
+      "DESCRIPTION": "The Unix Timestamp for when this request token expires"
+    }
+  ]
+}

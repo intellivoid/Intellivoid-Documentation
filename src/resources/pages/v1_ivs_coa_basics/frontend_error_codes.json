@@ -1,0 +1,185 @@
+{
+  "FILE_TYPE": "ERROR_CODES",
+  "VARIABLES": [
+    {
+      "ERROR_CODE": 5,
+      "MESSAGE": "CANNOT VERIFY CLIENT HOST",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "When the user attempts to authenticate using the service providers authentication prompt this error will raise if the provider cannot verify the client’s host/device due to encryption issues or a outdated web browser"
+    },
+    {
+      "ERROR_CODE": 7,
+      "MESSAGE": "MISSING PARAMETER ‘auth’ IN AUTH PROMPT",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt requires a “auth” parameter to verify the integrity of the request. This is provided by the Service Provider automatically when requesting authentication via COA"
+    },
+    {
+      "ERROR_CODE": 8,
+      "MESSAGE": "MISSING PARAMETER ‘application_id’ IN AUTH PROMPT",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt requires a “application_id” parameter to verify the request authentication token."
+    },
+    {
+      "ERROR_CODE": 9,
+      "MESSAGE": "MISSING PARAMETER ‘request_token’ IN AUTH PROMPT",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt requires a “request_token” to verify the authentication request with the Application."
+    },
+    {
+      "ERROR_CODE": 10,
+      "MESSAGE": "INVALID APPLICATION ID IN AUTH PROMPT",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt will fail if Application ID is invalid"
+    },
+    {
+      "ERROR_CODE": 11,
+      "MESSAGE": "INTERNAL SERVER ERROR IN AUTH PROMPT (TYPE PROMPT-01)",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "There was an internal server error regarding the Web Authentication Prompt, Type PROMPT-01 defines the type of  prompt that was being shown to the user for troubleshooting purposes"
+    },
+    {
+      "ERROR_CODE": 12,
+      "MESSAGE": "INVALID REQUEST TOKEN IN AUTH PROMPT",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error is raised when the Web Authentication Prompt cannot verify the request token and or is considered invalid"
+    },
+    {
+      "ERROR_CODE": 13,
+      "MESSAGE": "INTERNAL SERVER ERROR IN AUTH PROMPT (TYPE PROMPT-02)",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "There was an internal server error regarding the Web Authentication Prompt, Type PROMPT-02 defines the type of  prompt that was being shown to the user for troubleshooting purposes"
+    },
+    {
+      "ERROR_CODE": 14,
+      "MESSAGE": "MISSING PARAMETER ‘redirect’ IN AUTH PROMPT",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt requires a “redirect” parameter for Applications requesting authentication using the redirect method"
+    },
+    {
+      "ERROR_CODE": 15,
+      "MESSAGE": "UNSUPPORTED APPLICATION TYPE",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error happens when an Application Authentication Type is not supported by the Authentication Prompt, see the documentation on how to use your Application’s authentication type"
+    },
+    {
+      "ERROR_CODE": 17,
+      "MESSAGE": "MISSING PARAMETER ‘verification_token’ IN AUTH PROMPT->ACTION",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt will fail if the parameter ‘verification_token’ is missing, this is automatically provided by the Service Provider but will fail"
+    },
+    {
+      "ERROR_CODE": 18,
+      "MESSAGE": "CANNOT VERIFY REQUEST, INVALID VERIFICATION TOKEN",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Web Authentication Prompt cannot verify the Verification Token and will not proceed due to security reasons, the user should attempt request authentication with the Application again."
+    },
+    {
+      "ERROR_CODE": 31,
+      "MESSAGE": "MISSING PARAMETER ‘field’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error raises when COASniffle fails to provide the required ‘field’ parameter."
+    },
+    {
+      "ERROR_CODE": 32,
+      "MESSAGE": "MISSING PARAMETER ‘value’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error raises when COASniffle fails to provide the required ‘value’ parameter."
+    },
+    {
+      "ERROR_CODE": 33,
+      "MESSAGE": "MISSING PARAMETER 'first_name'",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error raises when COASniffle fails to provide the required ‘first_name’ parameter."
+    },
+    {
+      "ERROR_CODE": 36,
+      "MESSAGE": "CRYPTO ERROR, APPLICATION CERTIFICATE MISHAP",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error is a error related to COASniffle’s internal Application Certificate used for Intellivoid’s builtin Applications"
+    },
+    {
+      "ERROR_CODE": 37,
+      "MESSAGE": "CRYPTO ERROR, APPLICATION REQUEST MISHAP",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error is a error related to COASniffle’s internal client responsible for communicating with Intellivoid’s internal services"
+    },
+    {
+      "ERROR_CODE": 38,
+      "MESSAGE": "ACCESS DENIED",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "Generic Access Denied error related to COASniffle’s internal server client"
+    },
+    {
+      "ERROR_CODE": 42,
+      "MESSAGE": "MISSING PARAMETER ‘plan_name’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error raises when COASniffle fails to provide the required ‘plan_name’ parameter, this is related to handling subscriptions"
+    },
+    {
+      "ERROR_CODE": 43,
+      "MESSAGE": "SUBSCRIPTION PLAN NOT FOUND",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The service provider failed to find the subscription plan that COASniffle requested."
+    },
+    {
+      "ERROR_CODE": 44,
+      "MESSAGE": "SUBSCRIPTION PROMOTION NOT FOUND",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The service provider failed to find the subscription promotion code that COASniffle requested."
+    },
+    {
+      "ERROR_CODE": 45,
+      "MESSAGE": "SUBSCRIPTION PLAN NOT AVAILABLE",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The service provider found the Subscription Plan COASniffle was requesting but is currently made unavailable by the Service Provider"
+    },
+    {
+      "ERROR_CODE": 46,
+      "MESSAGE": "SUBSCRIPTION PROMOTION NOT AVAILABLE",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The service provider found the Subscription Promotion COASniffle was requesting but is currently made unavailable by the Service Provider"
+    },
+    {
+      "ERROR_CODE": 47,
+      "MESSAGE": "SUBSCRIPTION PROMOTION EXPIRED",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The service provider reports that the subscription promotion code that COASniffle is requesting has expired and is no longer valid"
+    },
+    {
+      "ERROR_CODE": 48,
+      "MESSAGE": "SUBSCRIPTION PROMOTION NOT APPLICABLE TO PLAN",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The Subscription Plan and Subscription Promotion that COASniffle provided is not valid because the promotion is not applicable to the subscription plan"
+    },
+    {
+      "ERROR_CODE": 49,
+      "MESSAGE": "INSUFFICIENT FUNDS",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The user attempted to make a purchase without the sufficient funds available in the user’s account."
+    },
+    {
+      "ERROR_CODE": 50,
+      "MESSAGE": "MISSING PARAMETER ‘subscription_id’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error raises when COASniffle fails to provide the required ‘subscription_id’ parameter."
+    },
+    {
+      "ERROR_CODE": 52,
+      "MESSAGE": "MISSING PARAMETER ‘application’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error raises when COASniffle fails to provide the required ‘application’ parameter."
+    },
+    {
+      "ERROR_CODE": 53,
+      "MESSAGE": "DIRECT AUTHENTICATION IS ONLY APPLICABLE TO BULTIN APPLICATIONS",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error is raised when the client attempts to tell the Authentication Prompt to directly authenticate to the user, this is not allowed for security reasons and it’s only applicable to Intellivoid’s builtin applications such as Intellivoid Suite services"
+    },
+    {
+      "ERROR_CODE": 54,
+      "MESSAGE": "DIRECT AUTHENTICATION FAILED, APPLICATION NOT FOUND",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error is raised when the Authentication Prompt can’t find the Application that’s trying to request direct authentication"
+    }
+  ]
+}

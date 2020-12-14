@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 401,
+  "error": {
+    "error_code": 25,
+    "message": "ACCESS DENIED, INCORRECT ACCESS TOKEN",
+    "type": "COA"
+  }
+}

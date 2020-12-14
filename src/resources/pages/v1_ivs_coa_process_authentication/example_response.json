@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "access_token": "537fc78c61b5ca2ac89c15fb73559a8092f7791e2cdba84e402bd32f8e738e2e",
+    "granted_permissions": [
+      "READ_PERSONAL_INFORMATION",
+      "INVOKE_TELEGRAM_NOTIFICATIONS",
+      "READ_EMAIL_ADDRESS",
+      "READ_TELEGRAM_CLIENT",
+      "READ_TODO",
+      "MANAGE_TODO",
+      "SYNC_APPLICATION_SETTINGS",
+      "READ_USERNAME",
+      "GET_USER_DISPLAY"
+    ],
+    "expires_timestamp": 1608439904
+  }
+}

@@ -89,10 +89,139 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="<?PHP DynamicalWeb::getRoute("coming_soon", [], true); ?>" aria-expanded="false">
-                        <i class="fa fa-shield"></i>
-                        <span class="hide-menu">Intellivoid Accounts</span>
+                    <a class="has-arrow" href="javascript:void(0)" aria-expanded="false">
+                        <i class="fa fa-cloud"></i>
+                        <span class="hide-menu">Intellivoid</span>
                     </a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li>
+                            <a href="<?PHP DynamicalWeb::getRoute("public_intellivoid_introduction", [], true); ?>" class="py-1">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">Applications</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_permissions", [], true); ?>" class="py-1">Permissions</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">COA API</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Get Application</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Request Authentication</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Process Authentication</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_access_token", [], true); ?>" class="py-1">Get Access Token</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">Accounts</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Get User</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Get Personal Information</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Get Email Address</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">Application Settings</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Data Types</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Add Variable</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Get Variable</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Append to Variable</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Delete Variable</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Get Summary</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Dump Data</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Clear Data</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">Todo Manager</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Get Tasks</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Get Groups</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Create Task</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Create Group</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Delete Task</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Delete Group</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Edit Task</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Edit Group</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="<?PHP DynamicalWeb::getRoute("public_translations_introduction", [], true); ?>" aria-expanded="false">

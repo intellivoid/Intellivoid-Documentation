@@ -1,0 +1,21 @@
+{
+  "FILE_TYPE": "TYPES",
+  "VARIABLES": [
+    {
+      "NAME": "REDIRECT",
+      "DESCRIPTION": "This Authentication type is used to redirect users to the provided redirect URL which will include the Access Token in the GET parameter"
+    },
+    {
+      "NAME": "PLACEHOLDER",
+      "DESCRIPTION": "This Authentication Type is used to provide a placeholder to tell the user that the Application is busy processing their authentication once the user authenticates. The client is expected to check the status of the Request Token to obtain the Access Token"
+    },
+    {
+      "NAME": "RETURN_ACCESS_CODE",
+      "DESCRIPTION": "This Authentication Type is much like the placeholder type but instead the Access Token is presented to the user and the user must copy and paste the Access Token to the client that's asking for it"
+    },
+    {
+      "NAME": "UNKNOWN",
+      "DESCRIPTION": "This Authentication Type is not recognized by the service, this may be an error that should be reported."
+    }
+  ]
+}

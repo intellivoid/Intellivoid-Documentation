@@ -1,0 +1,36 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/coa/auth/request_authentication",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "application_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the Application"
+    },
+    {
+      "PARAMETER_NAME": "secret_key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Application's Secret Key"
+    },
+    {
+      "PARAMETER_NAME": "redirect",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The URL to redirect the user to after authentication, the Access Token will be provided in the GET parameter as 'access_token', this is only for Applications with the 'Redirect' authentication method."
+    },
+    {
+      "PARAMETER_NAME": "expand_ui",
+      "DEFAULT_VALUE": "false",
+      "REQUIRED": false,
+      "DESCRIPTION": "When set to True or 1, the Authentication Prompt's UI will be expanded and there will be no background animations, this is optimal for pop-up windows."
+    },
+    {
+      "PARAMETER_NAME": "require_close",
+      "DEFAULT_VALUE": "false",
+      "REQUIRED": false,
+      "DESCRIPTION": "When set to True or 1, the Window will close after the user authenticates if it can and display a message telling the user that they can close the Window after they authenticate. This is ideal if you cannot programmatically close the Window either by Software or JavaScript"
+    }
+  ]
+}

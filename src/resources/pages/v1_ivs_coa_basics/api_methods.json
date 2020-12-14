@@ -1,0 +1,34 @@
+{
+  "FILE_TYPE": "METHODS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/",
+  "METHODS": [
+    {
+      "METHOD_NAME": "get_application",
+      "ACCESS_URI": "intellivoid/v1/coa/application",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns Public Information about the Application via a Application ID",
+      "REFERENCE": "v1_openblu_list_servers"
+    },
+    {
+      "METHOD_NAME": "request_authentication",
+      "ACCESS_URI": "intellivoid/v1/coa/auth/request_authentication",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Requests authentication by obtaining a Request Token using this method",
+      "REFERENCE": "v1_openblu_list_servers"
+    },
+    {
+      "METHOD_NAME": "process_authentication",
+      "ACCESS_URI": "intellivoid/v1/coa/auth/process_authentication",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Processes the authentication request, if successful it will return an Access Token and it's information",
+      "REFERENCE": "v1_openblu_list_servers"
+    },
+    {
+      "METHOD_NAME": "get_access_token",
+      "ACCESS_URI": "intellivoid/v1/coa/auth/get_access_token",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns information about an existing Access Token",
+      "REFERENCE": "v1_openblu_list_servers"
+    }
+  ]
+}

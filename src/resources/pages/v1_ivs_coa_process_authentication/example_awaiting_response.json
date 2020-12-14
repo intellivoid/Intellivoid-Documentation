@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 41,
+    "message": "AWAITING AUTHENTICATION",
+    "type": "COA"
+  }
+}

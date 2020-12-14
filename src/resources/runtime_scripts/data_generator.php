@@ -3,6 +3,12 @@
     use DynamicalWeb\DynamicalWeb;
     use DynamicalWeb\HTML;
 
+    function f_decode(string $path)
+    {
+        $file_contents = file_get_contents($path);
+        return json_decode($file_contents, true);
+    }
+
     function generate_methods_table(array $data)
     {
         HTML::print("<div class=\"table-responsive\">", false);
@@ -164,6 +170,98 @@
             HTML::print("<td>", false);
             HTML::print("<code>", false);
             HTML::print($variable['TYPE'], true);
+            HTML::print("</code>", false);
+            HTML::print("</td>", false);
+
+            HTML::print("<td>", false);
+            HTML::print($variable['DESCRIPTION'], true);
+            HTML::print("</td>", false);
+
+            HTML::print("</tr>", false);
+        }
+        HTML::print("</tbody>", false);
+
+        HTML::print("</table>", false);
+        HTML::print("</div>", false);
+    }
+
+    function generate_types_structure(array $data)
+    {
+        HTML::print("<div class=\"table-responsive\">", false);
+        HTML::print("<table class=\"table table-hover table-bordered\">", false);
+
+        $Headers = [
+            "Name",
+            "Description"
+        ];
+
+        HTML::print("<thead><tr>", false);
+        foreach($Headers as $header)
+        {
+            HTML::print("<td>", false);
+            HTML::print($header, true);
+            HTML::print("</td>", false);
+        }
+        HTML::print("</tr></thead>", false);
+
+        HTML::print("<tbody>", false);
+        foreach($data['VARIABLES'] as $variable)
+        {
+            HTML::print("<tr>", false);
+
+            HTML::print("<td>", false);
+            HTML::print($variable['NAME'], true);
+            HTML::print("</td>", false);
+
+            HTML::print("<td>", false);
+            HTML::print($variable['DESCRIPTION'], true);
+            HTML::print("</td>", false);
+
+            HTML::print("</tr>", false);
+        }
+        HTML::print("</tbody>", false);
+
+        HTML::print("</table>", false);
+        HTML::print("</div>", false);
+    }
+
+    function generate_error_codes(array $data)
+    {
+        HTML::print("<div class=\"table-responsive\">", false);
+        HTML::print("<table class=\"table table-hover table-bordered\">", false);
+
+        $Headers = [
+            "Error Code",
+            "Message",
+            "Obsolete",
+            "Description"
+        ];
+
+        HTML::print("<thead><tr>", false);
+        foreach($Headers as $header)
+        {
+            HTML::print("<td>", false);
+            HTML::print($header, true);
+            HTML::print("</td>", false);
+        }
+        HTML::print("</tr></thead>", false);
+
+        HTML::print("<tbody>", false);
+        foreach($data['VARIABLES'] as $variable)
+        {
+            HTML::print("<tr>", false);
+
+            HTML::print("<td>", false);
+            HTML::print($variable['ERROR_CODE'], true);
+            HTML::print("</td>", false);
+
+            HTML::print("<td>", false);
+            HTML::print($variable['MESSAGE'], true);
+            HTML::print("</td>", false);
+
+            HTML::print("<td>", false);
+            HTML::print("<code>", false);
+            HTML::print((string)$variable['OBSOLETE'], true);
             HTML::print("</code>", false);
             HTML::print("</td>", false);
 

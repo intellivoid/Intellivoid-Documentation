@@ -1,0 +1,30 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "name",
+      "TYPE": "string",
+      "DESCRIPTION": "The name of the Application"
+    },
+    {
+      "NAME": "name_safe",
+      "TYPE": "string",
+      "DESCRIPTION": "The safe version of the Application's name being lowercase and all spaces replaced with '_'"
+    },
+    {
+      "NAME": "status",
+      "TYPE": "string",
+      "DESCRIPTION": "The status of the Application"
+    },
+    {
+      "NAME": "authentication_mode",
+      "TYPE": "string",
+      "DESCRIPTION": "The authentication mode that the Application uses"
+    },
+    {
+      "NAME": "permissions",
+      "TYPE": "string[] array",
+      "DESCRIPTION": "The permissions that this Application can request a user upon authentication request"
+    }
+  ]
+}

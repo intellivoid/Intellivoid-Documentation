@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "access_token",
+      "TYPE": "string",
+      "DESCRIPTION": "The Access Token allowing you to have access to the users account."
+    },
+    {
+      "NAME": "granted_permissions",
+      "TYPE": "string[]",
+      "DESCRIPTION": "A array of permissions that the User granted to the Application"
+    },
+    {
+      "NAME": "expires_timestamp",
+      "TYPE": "integer",
+      "DESCRIPTION": "The Unix Timestamp for when this access token expires"
+    }
+  ]
+}
