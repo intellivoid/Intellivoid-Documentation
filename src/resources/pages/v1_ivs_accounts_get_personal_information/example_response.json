@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "first_name": "John",
+    "last_name": "Smith",
+    "birthday": {
+      "day": 30,
+      "month": 9,
+      "year": 1973
+    }
+  }
+}

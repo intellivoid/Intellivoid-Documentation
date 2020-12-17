@@ -20,7 +20,6 @@
         {"path": "/spamprotection/introduction", "page": "public_tg_antispam_introduction"},
         {"path": "/spamprotection/v1/lookup", "page": "v1_spamprotection_lookup"},
 
-
         {"path": "/intellivoid/introduction", "page": "public_intellivoid_introduction"},
 
         {"path": "/intellivoid/applications/introduction", "page": "v1_ivs_application_introduction"},
@@ -32,6 +31,13 @@
         {"path": "/intellivoid/v1/coa/request_authentication", "page": "v1_ivs_coa_request_authentication"},
         {"path": "/intellivoid/v1/coa/process_authentication", "page": "v1_ivs_coa_process_authentication"},
         {"path": "/intellivoid/v1/coa/get_access_token", "page": "v1_ivs_coa_get_access_token"},
+
+        {"path": "/intellivoid/v1/accounts/introduction", "page": "v1_ivs_accounts_introduction"},
+        {"path": "/intellivoid/v1/accounts/basics", "page": "v1_ivs_accounts_basics"},
+        {"path": "/intellivoid/v1/accounts/get_user", "page": "v1_ivs_accounts_get_user"},
+        {"path": "/intellivoid/v1/accounts/get_personal_information", "page": "v1_ivs_accounts_get_personal_information"},
+        {"path": "/intellivoid/v1/accounts/get_email_address", "page": "v1_ivs_accounts_get_email_address"},
+        {"path": "/intellivoid/v1/accounts/push_notifications", "page": "v1_ivs_accounts_push_notifications"},
 
         {"path": "/translations", "page": "public_translations_introduction"}
     ],

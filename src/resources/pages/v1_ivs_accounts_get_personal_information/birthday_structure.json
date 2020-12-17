@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "day",
+      "TYPE": "integer/null",
+      "DESCRIPTION": "Day of birth"
+    },
+    {
+      "NAME": "month",
+      "TYPE": "integer/null",
+      "DESCRIPTION": "Month of birth"
+    },
+    {
+      "NAME": "year",
+      "TYPE": "integer/null",
+      "DESCRIPTION": "Year of birth"
+    }
+  ]
+}

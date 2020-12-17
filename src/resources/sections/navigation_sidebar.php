@@ -135,19 +135,22 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">Accounts</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_introduction", [], true); ?>" class="py-1">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_basics", [], true); ?>" class="py-1">API Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Get User</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_get_user", [], true); ?>" class="py-1">Get User</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Get Personal Information</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_get_personal_information", [], true); ?>" class="py-1">Get Personal Information</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Get Email Address</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_get_email_address", [], true); ?>" class="py-1">Get Email Address</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_push_notifications", [], true); ?>" class="py-1">Push Notifications</a>
                                 </li>
                             </ul>
                         </li>

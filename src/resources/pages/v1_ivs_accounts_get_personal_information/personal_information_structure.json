@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "first_name",
+      "TYPE": "string/null",
+      "DESCRIPTION": "The First Name of the user"
+    },
+    {
+      "NAME": "last_name",
+      "TYPE": "string/null",
+      "DESCRIPTION": "The Last Name of the user"
+    },
+    {
+      "NAME": "birthday",
+      "TYPE": "Birthday",
+      "DESCRIPTION": "The permalinks of the user avatar and their corresponding sizes, the key being the name of the size and the value being the permalink"
+    }
+  ]
+}
