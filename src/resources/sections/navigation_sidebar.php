@@ -201,9 +201,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#" class="py-1">Todo Manager</a>
-                        </li>
                     </ul>
                 </li>
                 <li>
