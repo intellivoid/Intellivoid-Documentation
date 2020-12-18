@@ -9,7 +9,7 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "CoffeeHouse Error Codes",
+                "OpenBlu Error Codes",
                 "Error codes are pre-defined errors that can be returned when something goes wrong"
         );
         ?>
@@ -23,10 +23,13 @@
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">CoffeeHouse Error Codes</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">OpenBlu Error Codes</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)">CoffeeHouse</a>
+                                    <a href="javascript:void(0)">OpenBlu</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="javascript:void(0)">API</a>
                                 </li>
                                 <li class="breadcrumb-item active">Error Codes</li>
                             </ol>
@@ -39,7 +42,7 @@
 
                             <div class="card" id="error_codes">
                                 <div class="card-body">
-                                    <h3 class="card-title">CoffeeHouse Error Codes</h3>
+                                    <h3 class="card-title">OpenBlu Error Codes</h3>
                                     <div class="mb-3">
                                         And error arises whenever <code>success</code> is false and a <code>error</code>
                                         object is returned within the results which contains a <code>type</code> property
@@ -48,7 +51,7 @@
                                     </div>
                                     <hr/>
 
-                                    <h4>CoffeeHouse Error codes</h4>
+                                    <h4>OpenBlu Error codes</h4>
                                     <?PHP generate_error_codes(f_decode(__DIR__ . DIRECTORY_SEPARATOR . 'client_error_codes.json')); ?>
 
                                 </div>

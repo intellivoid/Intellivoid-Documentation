@@ -1,0 +1,53 @@
+{
+  "FILE_TYPE": "ERROR_CODES",
+  "VARIABLES": [
+    {
+      "ERROR_CODE": 1,
+      "MESSAGE": "VPN Server not found",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The requested VPN server does not exist with OpenBlu"
+    },
+    {
+      "ERROR_CODE": 2,
+      "MESSAGE": "Server configuration quota limit reached",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The amount of server configurations you can reach with your current subscription has reached it’s limit, if you need more then upgrade your subscription plan."
+    },
+    {
+      "ERROR_CODE": 3,
+      "MESSAGE": "Missing parameter ‘id’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘id’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 4,
+      "MESSAGE": "Invalid value for the parameter ‘by’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The value entered for the parameter ‘by’ is invalid"
+    },
+    {
+      "ERROR_CODE": 5,
+      "MESSAGE": "Invalid value for the parameter ‘filter’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The value entered for the parameter ‘filter’ is invalid"
+    },
+    {
+      "ERROR_CODE": 6,
+      "MESSAGE": "Missing parameter ‘by’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘by’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 7,
+      "MESSAGE": "Invalid value for the parameter ‘sort_by’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The value entered for the parameter ‘sort_by’ is invalid"
+    },
+    {
+      "ERROR_CODE": 8,
+      "MESSAGE": "Invalid value for the parameter ‘order_by’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The value entered for the parameter ‘order_by’ is invalid"
+    }
+  ]
+}

@@ -14,6 +14,7 @@
         {"path": "/coffeehouse/v1/lydia/think_thought", "page": "v1_coffeehouse_lydia_think_thought"},
 
         {"path": "/openblu/introduction", "page": "public_openblu_introduction"},
+        {"path": "/openblu/v1/error_codes", "page": "v1_openblu_error_codes"},
         {"path": "/openblu/v1/basics", "page": "v1_openblu_basics"},
         {"path": "/openblu/v1/list_servers", "page": "v1_openblu_list_servers"},
         {"path": "/openblu/v1/get_server", "page": "v1_openblu_get_server"},
