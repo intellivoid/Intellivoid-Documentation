@@ -102,6 +102,29 @@
                                 </div>
                             </div>
 
+                            <div class="card" id="troubleshooting">
+                                <div class="card-body">
+                                    <h3 class="card-title">Troubleshooting</h3>
+                                    <div class="mb-3">
+                                        All API responses returns a <code>X-Request-ID</code> header with a unique
+                                        value set with every response you get. It is important to log this request ID
+                                        if you encounter unexpected issues and server-side errors. Intellivoid can use
+                                        this ID to get more details about the request and troubleshoot the error.
+                                    </div>
+                                    <div class="alert alert-warning">
+                                        <h3 class="text-warning">
+                                            <i class="fa fa-eye"></i> Data protection
+                                        </h3>
+                                        To protect your data, we do not store the information our server returns to
+                                        your client, the only data we keep track of is the request data you sent and
+                                        server-side details that are not visible in the request such as exception
+                                        dumps, cache information and so on. This information is automatically deleted
+                                        from our server after two weeks. This data is used to troubleshoot any
+                                        problems with our services and to address them accordingly.
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="row">
                                 <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_openblu_list_servers', [] ,true); ?>';">
                                     <i class="fa fa-arrow-right text-white"></i>
