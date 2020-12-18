@@ -1,0 +1,89 @@
+{
+  "FILE_TYPE": "ERROR_CODES",
+  "VARIABLES": [
+    {
+      "ERROR_CODE": 1,
+      "MESSAGE": "Missing parameter ‘type’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘type’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 2,
+      "MESSAGE": "Invalid variable type",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error can be a generic error, see the error message for more details"
+    },
+    {
+      "ERROR_CODE": 3,
+      "MESSAGE": "Missing parameter ‘name’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘name’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 4,
+      "MESSAGE": "Missing parameter ‘value’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘value’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 5,
+      "MESSAGE": "Variable name cannot be empty",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The parameter ‘name’ cannot be empty"
+    },
+    {
+      "ERROR_CODE": 6,
+      "MESSAGE": "Variable already exists and cannot be overwritten",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server is refusing to overwrite an existing variable because the parameter “overwrite” was enabled"
+    },
+    {
+      "ERROR_CODE": 7,
+      "MESSAGE": "The value cannot be parsed, expected JSON data",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting JSON data in the ‘value’ parameter but couldn't parse"
+    },
+    {
+      "ERROR_CODE": 8,
+      "MESSAGE": "Invalid data in value",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error is returned when there is invalid data in the ‘value’ parameter which is not applicable to the data type, the message will contain more information about the error"
+    },
+    {
+      "ERROR_CODE": 9,
+      "MESSAGE": "Maximum Application size exceeded",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The changes cannot be made because the maximum size for this Application’s storage for settings/variables has exceeded. You need to remove data to free up space"
+    },
+    {
+      "ERROR_CODE": 10,
+      "MESSAGE": "Variable not found",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The requested variable does not exist in the current context"
+    },
+    {
+      "ERROR_CODE": 11,
+      "MESSAGE": "Append not applicable to this variable type",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server refuses to append data to this variable type because it’s not supported, only list and arrays are supported"
+    },
+    {
+      "ERROR_CODE": 12,
+      "MESSAGE": "Invalid value in parameter ‘by’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The parameter ‘by’ only accepts “index” or “key” as values"
+    },
+    {
+      "ERROR_CODE": 13,
+      "MESSAGE": "Delete is not applicable to this variable type",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server is refusing to delete data from a variable because it’s only applicable to List & Array types"
+    },
+    {
+      "ERROR_CODE": 14,
+      "MESSAGE": "Cannot remove value by Index on array data type",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "You can’t delete data by index on a array data type since arrays are a key and value pair"
+    }
+  ]
+}

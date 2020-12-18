@@ -9,8 +9,8 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "COA API Basics",
-                "An introduction on how the COA API Works"
+                "Application Settings - API Basics",
+                "An introduction on how the Application Settings API Works"
             );
         ?>
     </head>
@@ -23,13 +23,13 @@
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">COA API Basics</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Application Settings Basics</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">Intellivoid</a>
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)">COA</a>
+                                    <a href="javascript:void(0)">Application Settings</a>
                                 </li>
                                 <li class="breadcrumb-item active">Basics</li>
                             </ol>
@@ -50,8 +50,8 @@
                                 <div class="card-body">
                                     <h3 class="card-title">API Authentication</h3>
                                     <div class="mb-3">
-                                        All these API methods except for <code>get_application</code> requires
-                                        authentication using your Application ID and Secret Key
+                                        All these API methods requires authentication using your Application ID, Secret Key
+                                        and Access Token
                                     </div>
                                     <hr/>
                                     <div class="mb-4">
@@ -64,17 +64,23 @@
                                     <div class="mb-3">
                                         <h4>Basic HTTP Authentication</h4>
                                         You can authenticate by providing your Application ID via the username field
-                                        and your Secret Key via the password field
+                                        and your Secret Key via the password field but you must provide the Access
+                                        Token either in the GET parameter or POST parameter using <code>access_token</code>
                                     </div>
-                                    <div>
+                                    <div class="mb-3">
                                         <h4>GET/POST Parameter</h4>
                                         You can provide your authentication details via a GET Parameter or within a POST
                                         (multipart/form-data), the parameter names that is applicable to both
-                                        methods is <code>application_id</code> for your Application ID and <code>secret_key</code>
-                                        for your secret key
+                                        methods is <code>application_id</code> for your Application ID, <code>secret_key</code>
+                                        for your secret key and <code>access_token</code> for your Access Token
                                         <br/>
                                         <label for="auth_example" class="mt-3">Example GET request</label>
                                         <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="auth_example" value="https://api.intellivoid.net/intellivoid/v1/coa/auth/request_authentication?application_id=<APPLICATION ID>&secret_key=<SECRET KEY>" readonly>
+                                    </div>
+                                    <div>
+                                        <h4>Obtaining an Access Token</h4>
+                                        You can obtain an Access Token by authenticating the user to your Application,
+                                        for more information see <a href="#">COA API Introduction</a>
                                     </div>
                                 </div>
                             </div>
@@ -103,42 +109,26 @@
 
                             <div class="card" id="error_codes">
                                 <div class="card-body">
-                                    <h3 class="card-title">COA Error Codes</h3>
+                                    <h3 class="card-title">Error Codes</h3>
                                     <div class="mb-3">
-                                        Many things can go wrong when making a request to Intellivoid's services API.
-                                        Each service has it's own set of error codes. Whenever <code>success</code> is
-                                        false a <code>error</code> object is returned within the results which contains
-                                        a <code>type</code> property followed by a <code>error_code</code> and
-                                        <code>message</code> property. the <code>type</code> property shows you what
-                                        service is reporting the error. You can learn more about this in
-                                        <a href="#">Basics</a> to be able to identify the error correctly.
+                                        Intellivoid Services API uses error codes to return errors, to learn how
+                                        error codes work see <a href="#">Error Codes</a>
                                         <br/><br/>
+
+                                        This API has it's own set of error codes but it does incorporate COAs
+                                        error codes if a error is to arise related to COA, for more information see
+                                        <a href="#">COA Error Codes</a>
+                                        <br/><br/>
+
                                         The table below will show all the possible error codes and explain what
-                                        do they mean. Additionally not all error codes will be returned on the API
-                                        and some are specific to the front-end for the user, the two sets are separated.
-                                        <br/><br/>
-                                        All errors related to COA will have the type <code>COA</code> as shown below
+                                        do they mean. All errors related to Application Settings will have the type
+                                        <code>SETTINGS</code> as shown below
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'example_error.json'), true); ?></code></pre>
                                     </div>
                                     <hr/>
 
-                                    <div id="clientside">
-                                        <h4>COA Error codes (Client-side)</h4>
-                                        These are errors that you would receive on COA's API, your client should expect
-                                        these errors.
-                                        <br/><br/>
-                                        <?PHP generate_error_codes(f_decode(__DIR__ . DIRECTORY_SEPARATOR . 'client_error_codes.json')); ?>
-                                    </div>
-                                    <hr/>
-
-                                    <div id="frontend">
-                                        <h4 id="frontend">COA Error codes (Frontend)</h4>
-                                        These are errors that a user would receive on the front-end when using the
-                                        authentication prompt. These are errors your client doesn't need to expect or handle.
-                                        <br/><br/>
-                                        <?PHP generate_error_codes(f_decode(__DIR__ . DIRECTORY_SEPARATOR . 'frontend_error_codes.json')); ?>
-                                    </div>
-
+                                    <h4>Application Settings Error codes</h4>
+                                    <?PHP generate_error_codes(f_decode(__DIR__ . DIRECTORY_SEPARATOR . 'error_codes.json')); ?>
                                 </div>
                             </div>
 

@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "id",
+      "TYPE": "string",
+      "DESCRIPTION": "The unique ID for this users account"
+    },
+    {
+      "NAME": "username",
+      "TYPE": "string",
+      "DESCRIPTION": "The username of this users account"
+    },
+    {
+      "NAME": "avatar",
+      "TYPE": "array",
+      "DESCRIPTION": "The permalinks of the user avatar and their corresponding sizes, the key being the name of the size and the value being the permalink"
+    }
+  ]
+}

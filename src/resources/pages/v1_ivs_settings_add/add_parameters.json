@@ -1,0 +1,48 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/application/settings/add",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "application_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the Application"
+    },
+    {
+      "PARAMETER_NAME": "secret_key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Application's Secret Key"
+    },
+    {
+      "PARAMETER_NAME": "access_token",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The Access Token for the authenticated user"
+    },
+    {
+      "PARAMETER_NAME": "type",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The variable type to create, must be string, integer, boolean, array or list"
+    },
+    {
+      "PARAMETER_NAME": "name",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The name of the variable"
+    },
+    {
+      "PARAMETER_NAME": "value",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The value to assign to the variable, for arrays or lists pass on JSON data."
+    },
+    {
+      "PARAMETER_NAME": "overwrite",
+      "DEFAULT_VALUE": "true",
+      "REQUIRED": false,
+      "DESCRIPTION": "Overwrite option, if set to False or 0, the server will refuse to overwrite the variable if it already exists"
+    }
+  ]
+}

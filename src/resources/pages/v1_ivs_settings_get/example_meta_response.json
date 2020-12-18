@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "type": "string",
+    "value": "bar",
+    "created_timestamp": 1608239469,
+    "last_updated_timestamp": 1608239469,
+    "size": 22
+  }
+}

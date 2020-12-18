@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "type": "list",
+    "value": [
+      "foo",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar"
+    ],
+    "created_timestamp": 1608243116,
+    "last_updated_timestamp": 1608243116,
+    "size": 55
+  }
+}

@@ -158,71 +158,39 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">Application Settings</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_introduction", [], true); ?>" class="py-1">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_basics", [], true); ?>" class="py-1">API Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Data Types</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_data_types", [], true); ?>" class="py-1">Data Types</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Add Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_add", [], true); ?>" class="py-1">Add Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Get Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_get", [], true); ?>" class="py-1">Get Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Append to Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_delete", [], true); ?>" class="py-1">Delete Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Delete Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_append", [], true); ?>" class="py-1">Append to Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Get Summary</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_summary", [], true); ?>" class="py-1">Get Summary</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Dump Data</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_dump", [], true); ?>" class="py-1">Dump Data</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Clear Data</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_clear", [], true); ?>" class="py-1">Clear Data</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="has-arrow py-1">Todo Manager</a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Get Tasks</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Get Groups</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Create Task</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Create Group</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Delete Task</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Delete Group</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Edit Task</a>
-                                </li>
-                                <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Edit Group</a>
-                                </li>
-                            </ul>
+                            <a href="#" class="py-1">Todo Manager</a>
                         </li>
                     </ul>
                 </li>

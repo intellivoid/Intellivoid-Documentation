@@ -1,0 +1,48 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/application/settings/get",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "application_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the Application"
+    },
+    {
+      "PARAMETER_NAME": "secret_key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Application's Secret Key"
+    },
+    {
+      "PARAMETER_NAME": "access_token",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The Access Token for the authenticated user"
+    },
+    {
+      "PARAMETER_NAME": "name",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The name of the variable to delete"
+    },
+    {
+      "PARAMETER_NAME": "value",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The value to append"
+    },
+    {
+      "PARAMETER_NAME": "key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The key of the value to append, only applicable to arrays"
+    },
+    {
+      "PARAMETER_NAME": "include_meta",
+      "DEFAULT_VALUE": "false",
+      "REQUIRED": false,
+      "DESCRIPTION": "The return results will return the metadata of the variable"
+    }
+  ]
+}

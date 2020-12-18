@@ -1,0 +1,36 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/application/settings/get",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "application_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the Application"
+    },
+    {
+      "PARAMETER_NAME": "secret_key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Application's Secret Key"
+    },
+    {
+      "PARAMETER_NAME": "access_token",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The Access Token for the authenticated user"
+    },
+    {
+      "PARAMETER_NAME": "name",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The name of the variable"
+    },
+    {
+      "PARAMETER_NAME": "include_meta",
+      "DEFAULT_VALUE": "false",
+      "REQUIRED": false,
+      "DESCRIPTION": "if set to True or 1 then the return results will include the meta data of the variable including it's value"
+    }
+  ]
+}

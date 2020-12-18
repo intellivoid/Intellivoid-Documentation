@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "int_test": 50,
+    "array_example": {
+      "foo": "bar",
+      "bar": false
+    },
+    "list_example": [
+      "foo",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar",
+      "bar"
+    ]
+  }
+}

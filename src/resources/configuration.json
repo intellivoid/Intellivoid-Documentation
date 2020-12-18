@@ -39,6 +39,17 @@
         {"path": "/intellivoid/v1/accounts/get_email_address", "page": "v1_ivs_accounts_get_email_address"},
         {"path": "/intellivoid/v1/accounts/push_notifications", "page": "v1_ivs_accounts_push_notifications"},
 
+        {"path": "/intellivoid/v1/settings/introduction", "page": "v1_ivs_settings_introduction"},
+        {"path": "/intellivoid/v1/settings/basics", "page": "v1_ivs_settings_basics"},
+        {"path": "/intellivoid/v1/settings/data_types", "page": "v1_ivs_settings_data_types"},
+        {"path": "/intellivoid/v1/settings/add", "page": "v1_ivs_settings_add"},
+        {"path": "/intellivoid/v1/settings/get", "page": "v1_ivs_settings_get"},
+        {"path": "/intellivoid/v1/settings/delete", "page": "v1_ivs_settings_delete"},
+        {"path": "/intellivoid/v1/settings/append", "page": "v1_ivs_settings_append"},
+        {"path": "/intellivoid/v1/settings/summary", "page": "v1_ivs_settings_summary"},
+        {"path": "/intellivoid/v1/settings/dump", "page": "v1_ivs_settings_dump"},
+        {"path": "/intellivoid/v1/settings/clear", "page": "v1_ivs_settings_clear"},
+
         {"path": "/translations", "page": "public_translations_introduction"}
     ],
     "libraries": {},

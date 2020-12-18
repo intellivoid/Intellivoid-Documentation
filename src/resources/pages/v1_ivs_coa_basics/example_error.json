@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 500,
+  "error": {
+    "error_code": -1,
+    "message": "INTERNAL SERVER ERROR",
+    "type": "COA"
+  }
+}

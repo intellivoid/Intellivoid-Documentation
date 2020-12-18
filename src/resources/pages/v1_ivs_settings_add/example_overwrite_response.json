@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 6,
+    "message": "Variable already exists and cannot be overwritten",
+    "type": "SETTINGS"
+  }
+}

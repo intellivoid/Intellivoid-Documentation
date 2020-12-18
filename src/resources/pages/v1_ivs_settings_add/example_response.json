@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "variables": {
+      "int_test": {
+        "type": "integer",
+        "created_timestamp": 1608239452,
+        "last_updated_timestamp": 1608239452,
+        "size": 19
+      },
+      "foo": {
+        "type": "string",
+        "created_timestamp": 1608239469,
+        "last_updated_timestamp": 1608239469,
+        "size": 22
+      }
+    },
+    "size": 55
+  }
+}

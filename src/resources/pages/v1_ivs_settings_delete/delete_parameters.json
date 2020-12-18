@@ -1,0 +1,48 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/application/settings/get",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "application_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the Application"
+    },
+    {
+      "PARAMETER_NAME": "secret_key",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Application's Secret Key"
+    },
+    {
+      "PARAMETER_NAME": "access_token",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The Access Token for the authenticated user"
+    },
+    {
+      "PARAMETER_NAME": "name",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The name of the variable to delete"
+    },
+    {
+      "PARAMETER_NAME": "by",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "Applicable if you are deleting a value within a list/array variable, the acceptable values for this parameter are 'index' and 'key'"
+    },
+    {
+      "PARAMETER_NAME": "value",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "Applicable if you are deleting a value within a list/array variable, if you are deleting by 'index' then enter the index number (starting from 0), if you are deleting by 'key' then enter the key value"
+    },
+    {
+      "PARAMETER_NAME": "include_meta",
+      "DEFAULT_VALUE": "false",
+      "REQUIRED": false,
+      "DESCRIPTION": "If you are deleting within a list/array, the results will return the value of the variable. If you would like to include the metadata then set this parameter to True or 1"
+    }
+  ]
+}

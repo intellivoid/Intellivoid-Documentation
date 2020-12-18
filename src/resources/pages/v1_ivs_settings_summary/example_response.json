@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "variables": {
+      "int_test": {
+        "type": "integer",
+        "created_timestamp": 1608239452,
+        "last_updated_timestamp": 1608239452,
+        "size": 19
+      },
+      "array_example": {
+        "type": "array",
+        "created_timestamp": 1608242880,
+        "last_updated_timestamp": 1608242901,
+        "size": 32
+      },
+      "list_example": {
+        "type": "list",
+        "created_timestamp": 1608243116,
+        "last_updated_timestamp": 1608243116,
+        "size": 55
+      }
+    },
+    "size": 143
+  }
+}

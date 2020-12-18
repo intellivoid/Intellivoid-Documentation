@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "type",
+      "TYPE": "string",
+      "DESCRIPTION": "The variable type"
+    },
+    {
+      "NAME": "created_timestamp",
+      "TYPE": "integer",
+      "DESCRIPTION": "The Unix Timestamp for when this variable was created"
+    },
+    {
+      "NAME": "last_updated_timestamp",
+      "TYPE": "integer",
+      "DESCRIPTION": "The Unix Timestamp for when this variable was last updated"
+    },
+    {
+      "NAME": "size",
+      "TYPE": "integer",
+      "DESCRIPTION": "The size that this variable takes up (including it's metadata) in bytes"
+    }
+  ]
+}

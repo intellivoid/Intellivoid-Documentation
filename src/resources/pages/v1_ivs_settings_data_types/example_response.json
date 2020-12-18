@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "id": "b5de6e164e3aa753b889880fecd1cefb38538aff13dc2f7432ac7d3046dda0573e27077c6338576a",
+    "username": "admin",
+    "avatar": {
+      "original": "https://accounts.intellivoid.net/user/contents/public/avatar?user_id=b5de6e164e3aa753b889880fecd1cefb38538aff13dc2f7432ac7d3046dda0573e27077c6338576a&resource=original",
+      "normal": "https://accounts.intellivoid.net/user/contents/public/avatar?user_id=b5de6e164e3aa753b889880fecd1cefb38538aff13dc2f7432ac7d3046dda0573e27077c6338576a&resource=normal",
+      "preview": "https://accounts.intellivoid.net/user/contents/public/avatar?user_id=b5de6e164e3aa753b889880fecd1cefb38538aff13dc2f7432ac7d3046dda0573e27077c6338576a&resource=preview",
+      "small": "https://accounts.intellivoid.net/user/contents/public/avatar?user_id=b5de6e164e3aa753b889880fecd1cefb38538aff13dc2f7432ac7d3046dda0573e27077c6338576a&resource=small",
+      "tiny": "https://accounts.intellivoid.net/user/contents/public/avatar?user_id=b5de6e164e3aa753b889880fecd1cefb38538aff13dc2f7432ac7d3046dda0573e27077c6338576a&resource=tiny"
+    }
+  }
+}
