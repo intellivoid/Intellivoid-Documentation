@@ -74,6 +74,17 @@
                                     authenticates then an Access Token will be returned. and with that you can access
                                     the user's account and disregard the Request Token.
 
+                                    <ul class="list-icons pt-3">
+                                        <li>
+                                            <i class="ti-angle-right"></i>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="<?PHP theme_TextColor(); ?>">Requesting Authentication</a>
+                                        </li>
+                                        <li>
+                                            <i class="ti-angle-right"></i>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="<?PHP theme_TextColor(); ?>">Process Authentication</a>
+                                        </li>
+                                    </ul>
+
                                 </div>
                             </div>
                         </div>
@@ -111,6 +122,9 @@
                                         </li>
                                         <li>
                                             <a href="https://accounts.intellivoid.net/applications" target="_blank">Manage Applications</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://accounts.intellivoid.net/applications" target="_blank">Introduction to Applications</a>
                                         </li>
                                     </ul>
                                 </div>

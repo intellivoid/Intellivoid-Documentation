@@ -83,9 +83,30 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-8">
-                                            The Intellivoid Services API doesn't use the traditional
+                                            Intellivoid Services offers a lot of features and tools, but to break it
+                                            down into easy to follow steps, follow this list.
+
+                                            <ul class="list-icons pt-3">
+                                                <li>
+                                                    <i class="ti-angle-right"></i>
+                                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_introduction", [], true); ?>" class="<?PHP theme_TextColor(); ?>">Introduction to Applications</a>
+                                                </li>
+                                                <li>
+                                                    <i class="ti-angle-right"></i>
+                                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="<?PHP theme_TextColor(); ?>">COA Introduction</a>
+                                                </li>
+                                                <li>
+                                                    <i class="ti-angle-right"></i>
+                                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_introduction", [], true); ?>" class="<?PHP theme_TextColor(); ?>">Accounts Introduction</a>
+                                                </li>
+                                                <li>
+                                                    <i class="ti-angle-right"></i>
+                                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_introduction", [], true); ?>" class="<?PHP theme_TextColor(); ?>">Application Settings Introduction</a>
+                                                </li>
+                                            </ul>
                                         </div>
                                         <div class="col-lg-12 pt-2">
+                                            <hr/>
                                             Additionally, Intellivoid Accounts will not show ads and or collect your personal
                                             information and use it to track you. our privacy policy protects users from privacy
                                             abuse and additionally provides users security due to how our software & services
@@ -126,10 +147,13 @@
                                     <h3 class="card-title">Quick References</h3>
                                     <ul class="pt-3">
                                         <li>
-                                            <a href="https://openblu.intellivoid.net" target="_blank">OpenBlu Web Application</a>
+                                            <a href="https://accounts.intellivoid.net" target="_blank">Intellivoid Accounts</a>
                                         </li>
                                         <li>
-                                            <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>">OpenBlu API Documentation</a>
+                                            <a href="https://accounts.intellivoid.net/applications" target="_blank">Manage Applications</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://accounts.intellivoid.net/applications" target="_blank">Introduction to Applications</a>
                                         </li>
                                     </ul>
                                 </div>
