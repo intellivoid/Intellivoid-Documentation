@@ -23,6 +23,7 @@
         {"path": "/spamprotection/v1/lookup", "page": "v1_spamprotection_lookup"},
 
         {"path": "/intellivoid/introduction", "page": "public_intellivoid_introduction"},
+        {"path": "/intellivoid/v1/error_codes", "page": "v1_ivs_error_codes"},
 
         {"path": "/intellivoid/applications/introduction", "page": "v1_ivs_application_introduction"},
         {"path": "/intellivoid/applications/permissions", "page": "v1_ivs_application_permissions"},

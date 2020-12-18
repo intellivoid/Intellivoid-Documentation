@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 404,
+  "error": {
+    "error_code": 2,
+    "message": "INVALID APPLICATION ID",
+    "type": "COA"
+  }
+}

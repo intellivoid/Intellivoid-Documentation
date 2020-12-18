@@ -104,6 +104,9 @@
                             <a href="<?PHP DynamicalWeb::getRoute("public_intellivoid_introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_error_codes", [], true); ?>" class="py-1">Error Codes</a>
+                        </li>
+                        <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Applications</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>

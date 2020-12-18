@@ -1,0 +1,17 @@
+{
+  "FILE_TYPE": "ERROR_CODES",
+  "VARIABLES": [
+    {
+      "ERROR_CODE": -1,
+      "MESSAGE": "Internal Server Error",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "An unexpected internal server error, this incident should be reported to support"
+    },
+    {
+      "ERROR_CODE": 0,
+      "MESSAGE": "Generic Error",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This error can be a generic error, see the error message for more details"
+    }
+  ]
+}
