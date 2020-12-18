@@ -90,7 +90,7 @@
                                     </div>
                                     Let's hear it! Reach us out at our Telegram Discussions Group
                                     <br/>
-                                    <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="window.open('https://t.me/IntellivoidDev/');">Join @IntellivoidDev</button>
+                                    <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="window.open('https://t.me/IntellivoidDiscussions/');">Join @IntellivoidDiscussions</button>
                                 </div>
                             </div>
                         </div>

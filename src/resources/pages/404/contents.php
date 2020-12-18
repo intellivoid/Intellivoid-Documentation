@@ -72,7 +72,7 @@ use DynamicalWeb\HTML;
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://t.me/IntellivoidDev">
+                                            <a href="https://t.me/IntellivoidDiscussions">
                                                 Telegram Support Group
                                             </a>
                                         </li>
