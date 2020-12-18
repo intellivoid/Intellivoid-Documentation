@@ -10,7 +10,7 @@
         <?PHP
             renderMetaTags(
                 "Introduction to Applications",
-                "An Application is what's used to identify your Application/Service to the user before they authenticate."
+                "An Application is what's used to identify your Application/Service to the user before they authenticate. Additionally this allows the user to know what permissions your Application requires from the user."
             );
         ?>
     </head>
@@ -131,6 +131,12 @@
                                         <li>
                                             <a href="https://accounts.intellivoid.net/applications" target="_blank">Manage Applications</a>
                                         </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_permissions", [], true); ?>" target="_blank">Application Permissions</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_authentication_methods", [], true); ?>" target="_blank">Application Authentication Methods</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -139,7 +145,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_application_permissions', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

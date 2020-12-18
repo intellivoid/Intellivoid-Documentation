@@ -56,6 +56,12 @@
                         </div>
                     </div>
 
+                    <div class="row">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_application_authentication_methods', [] ,true); ?>';">
+                            <i class="fa fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
                 </div>
                 <?PHP HTML::importSection('page_footer'); ?>
             </div>
