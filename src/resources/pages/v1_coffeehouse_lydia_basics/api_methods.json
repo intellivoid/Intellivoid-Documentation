@@ -1,6 +1,6 @@
 {
   "FILE_TYPE": "METHODS_TABLE",
-  "ENDPOINT": "https://api.intellivoid.info/",
+  "ENDPOINT": "https://api.intellivoid.net/",
   "METHODS": [
     {
       "METHOD_NAME": "create_lydia_session",
