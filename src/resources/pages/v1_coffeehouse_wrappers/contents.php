@@ -113,7 +113,59 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <i class="mdi mdi-verified text-info"></i>
+                                        CoffeeHouse Dart API Wrapper
+                                    </h3>
+                                    <div class="p-20">
+                                        <pre><code class="language-dart"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'dart_example.dart'), true); ?></code></pre>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <button class="btn btn-dark waves-effect waves-light" onclick="window.open('https://github.com/intellivoid/CoffeeHouse-Dart-API-Wrapper');" type="button">
+                                        <span class="btn-label">
+                                            <i class="fa fa-github"></i>
+                                        </span>GitHub
+                                    </button>
+                                    <button class="btn btn-info waves-effect waves-light" onclick="window.open('https://pub.dev/packages/coffeehouse');" type="button">
+                                        <span class="btn-label">
+                                            <i class="mdi mdi-code-brackets"></i>
+                                        </span>pub.dev
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">
+                                        <i class="mdi mdi-verified text-info"></i>
+                                        CoffeeHouse JavaScript API Wrapper
+                                    </h3>
+                                    <div class="p-20">
+                                        <pre><code class="language-js"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'js_example.js'), true); ?></code></pre>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <button class="btn btn-dark waves-effect waves-light" onclick="window.open('https://github.com/intellivoid/CoffeeHouse-JavaScript-API-Wrapper');" type="button">
+                                        <span class="btn-label">
+                                            <i class="fa fa-github"></i>
+                                        </span>GitHub
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
