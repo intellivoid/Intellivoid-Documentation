@@ -10,7 +10,7 @@
         <?PHP
             renderMetaTags(
                 "Intellivoid Services",
-                "Learn how our services work, how you can use them and implement them into your software and services"
+                "An introduction to the Intellivoid Services API and how you can incorporate this into your own software"
             );
         ?>
     </head>
@@ -153,7 +153,19 @@
                                             <a href="https://accounts.intellivoid.net/applications" target="_blank">Manage Applications</a>
                                         </li>
                                         <li>
-                                            <a href="https://accounts.intellivoid.net/applications" target="_blank">Introduction to Applications</a>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_introduction", [], true); ?>" target="_blank">Introduction to Applications</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_authentication_methods", [], true); ?>" target="_blank">Application Authentication Methods</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" target="_blank">Cross-over Authentication Introduction</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_introduction", [], true); ?>" target="_blank">Accounts Introduction</a>
+                                        </li>
+                                        <li>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_introduction", [], true); ?>" target="_blank">Appliication Settings/Variables Introduction</a>
                                         </li>
                                     </ul>
                                 </div>
