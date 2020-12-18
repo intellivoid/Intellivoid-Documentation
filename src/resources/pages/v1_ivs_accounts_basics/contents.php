@@ -23,7 +23,7 @@
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Accounts Introduction</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Accounts API - Basics</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">Intellivoid</a>
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_accounts_get_user', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

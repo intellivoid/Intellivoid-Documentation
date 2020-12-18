@@ -10,7 +10,7 @@
         <?PHP
             renderMetaTags(
                 "Accounts API - Get Email Address",
-                "This method will return personal information about the user if they are available"
+                "Returns the user's current Email Address that's set to their Intellivoid Account"
             );
         ?>
     </head>
@@ -41,7 +41,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h3 class="card-title">Get Email Address</h3>
-                                    Returns the user's current Email Address that's set to their Intellivoid Account
+                                    Returns the user's current Email Address that's set to their Intellivoid Account.
                                     this method requires the <code>READ_EMAIL_ADDRESS</code> permission.
                                     <hr/>
                                     <label for="api_endpoint" class="mt-2">Endpoint</label>
@@ -61,7 +61,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_accounts_push_notifications', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>
