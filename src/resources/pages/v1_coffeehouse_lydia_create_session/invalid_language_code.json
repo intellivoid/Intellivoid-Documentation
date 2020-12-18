@@ -2,7 +2,7 @@
   "success": false,
   "response_code": 400,
   "error": {
-    "error_code": 0,
+    "error_code": 7,
     "type": "CLIENT",
     "message": "The given language code is not a valid ISO 639-1 Language Code"
   }
