@@ -115,6 +115,9 @@
                                 <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_permissions", [], true); ?>" class="py-1">Permissions</a>
                                 </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_authentication_methods", [], true); ?>" class="py-1">Authentication Methods</a>
+                                </li>
                             </ul>
                         </li>
                         <li>

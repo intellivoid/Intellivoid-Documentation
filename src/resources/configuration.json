@@ -27,6 +27,7 @@
 
         {"path": "/intellivoid/applications/introduction", "page": "v1_ivs_application_introduction"},
         {"path": "/intellivoid/applications/permissions", "page": "v1_ivs_application_permissions"},
+        {"path": "/intellivoid/applications/authentication_methods", "page": "v1_ivs_application_authentication_methods"},
 
         {"path": "/intellivoid/v1/coa/introduction", "page": "v1_ivs_coa_introduction"},
         {"path": "/intellivoid/v1/coa/basics", "page": "v1_ivs_coa_basics"},

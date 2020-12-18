@@ -1,0 +1,49 @@
+{
+  "FILE_TYPE": "TYPES",
+  "VARIABLES": [
+    {
+      "NAME": "READ_PERSONAL_INFORMATION",
+      "DESCRIPTION": "This permission allows the Application to view the user's personal information such as their name and birthday"
+    },
+    {
+      "NAME": "INVOKE_TELEGRAM_NOTIFICATIONS",
+      "DESCRIPTION": "This allows the Application to send notifications to the user to their Telegram Account through @IntellivoidBot"
+    },
+    {
+      "NAME": "READ_EMAIL_ADDRESS",
+      "DESCRIPTION": "This enables the Application to view the user's Email Address"
+    },
+    {
+      "NAME": "READ_TELEGRAM_CLIENT",
+      "DESCRIPTION": "This permission allows the Application to request information about the user's Telegram Client such as their Private Telegram ID (PTID), Username, Name and ID"
+    },
+    {
+      "NAME": "READ_TODO",
+      "DESCRIPTION": "This allows the Application to only access and read the user's Todo Tasks and Groups (Intellivoid Suite)"
+    },
+    {
+      "NAME": "MANAGE_TODO",
+      "DESCRIPTION": "This allows the Application to read and modify the user's todo Tasks and Groups (Intellivoid Suite)"
+    },
+    {
+      "NAME": "SYNC_APPLICATION_SETTINGS",
+      "DESCRIPTION": "This allows the Application to sync it's variables and settings for users so that the Application doesn't need to store the user preferences for example in it's own database or file. The Application can store up to 16 MB of data in total"
+    },
+    {
+      "NAME": "READ_USERNAME",
+      "DESCRIPTION": "This allows the Application to view the users Username for Intellivoid Accounts, this is granted by default."
+    },
+    {
+      "NAME": "GET_USER_DISPLAY",
+      "DESCRIPTION": "This allows the Application to get the user's public permalinks for their avatar (user display picture), this is granted by default"
+    },
+    {
+      "NAME": "INVOKE_PURCHASES",
+      "DESCRIPTION": "Allows the user to make purchases with this Application, this feature is only available to Intellivoid."
+    },
+    {
+      "NAME": "EDIT_PERSONAL_INFORMATION",
+      "DESCRIPTION": "Allows the Application to edit the user's personal information, this feature is only available to Intellivoid."
+    }
+  ]
+}
