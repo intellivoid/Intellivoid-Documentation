@@ -9,8 +9,8 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Accounts API - Get Email Address",
-                "This method will return personal information about the user if they are available"
+                "Accounts API - Push Notifications",
+                "This feature is being worked on, it's not yet available to the public. Please check back later at a later time when we introduce this feature"
             );
         ?>
     </head>
