@@ -43,7 +43,7 @@
                                     <div class="mb-3">
                                         And error arises whenever <code>success</code> is false and a <code>error</code>
                                         object is returned within the results which contains a <code>type</code> property
-                                        followed by a <code>error_code</code> and<code>message</code> property.
+                                        followed by a <code>error_code</code> and <code>message</code> property.
                                         <br/><br/>
                                         The table below will show all the possible error codes and explain what
                                         do they mean. Additionally not all error codes will be returned on the API
