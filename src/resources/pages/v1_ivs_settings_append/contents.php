@@ -9,7 +9,7 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Application Settings API - Append to Variable",
+                "Application Settings - Append to Variable",
                 "Append/overwrite data to a existing list/array variable"
             );
         ?>
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_settings_summary', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

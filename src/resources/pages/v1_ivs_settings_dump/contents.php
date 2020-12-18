@@ -9,7 +9,7 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Application Settings API - Dump Data",
+                "Application Settings - Dump Data",
                 "Dumps all the data stored in the Application's settings"
             );
         ?>
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_settings_clear', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

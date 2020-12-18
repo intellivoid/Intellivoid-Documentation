@@ -9,7 +9,7 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Application Settings API - Add Variable",
+                "Application Settings - Add Variable",
                 "Adds or overwrites an existing variable to the Application Settings"
             );
         ?>
@@ -73,7 +73,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_settings_get', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

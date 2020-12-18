@@ -9,7 +9,7 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Application Settings API - Delete Variable",
+                "Application Settings - Delete Variable",
                 "Deletes an existing variable or data within a variable"
             );
         ?>
@@ -31,7 +31,7 @@
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">Application Settings</a>
                                 </li>
-                                <li class="breadcrumb-item active">Get Variable</li>
+                                <li class="breadcrumb-item active">Delete Variable</li>
                             </ol>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3 class="card-title">Get Variable</h3>
+                                    <h3 class="card-title">Delete Variable</h3>
                                     Deletes an existing variable or data within a variable, this action cannot be undone!
                                     <hr/>
                                     <label for="api_endpoint" class="mt-2">Endpoint</label>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_settings_append', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

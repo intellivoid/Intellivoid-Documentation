@@ -9,7 +9,7 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Application Settings API - Clear Data",
+                "Application Settings - Clear Data",
                 "Deletes all the data stored in Application Settings"
             );
         ?>

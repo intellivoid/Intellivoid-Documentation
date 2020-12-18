@@ -1,6 +1,6 @@
 {
   "FILE_TYPE": "PARAMETERS_TABLE",
-  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/application/settings/get",
+  "ENDPOINT": "https://api.intellivoid.net/intellivoid/v1/application/settings/delete",
   "PARAMETERS": [
     {
       "PARAMETER_NAME": "application_id",
