@@ -28,9 +28,6 @@
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">OpenBlu</a>
                                 </li>
-                                <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)">API</a>
-                                </li>
                                 <li class="breadcrumb-item active">Error Codes</li>
                             </ol>
                         </div>

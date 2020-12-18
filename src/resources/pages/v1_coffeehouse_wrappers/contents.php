@@ -62,7 +62,7 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <div class="card">
+                            <div class="card" id="python">
                                 <div class="card-body">
                                     <h3 class="card-title">
                                         <i class="mdi mdi-verified text-info"></i>
@@ -93,7 +93,7 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <div class="card">
+                            <div class="card" id="go">
                                 <div class="card-body">
                                     <h3 class="card-title">
                                         Lydia Client Go
@@ -118,7 +118,7 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <div class="card">
+                            <div class="card" id="dart">
                                 <div class="card-body">
                                     <h3 class="card-title">
                                         <i class="mdi mdi-verified text-info"></i>
@@ -147,7 +147,7 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <div class="card">
+                            <div class="card" id="javascript">
                                 <div class="card-body">
                                     <h3 class="card-title">
                                         <i class="mdi mdi-verified text-info"></i>
