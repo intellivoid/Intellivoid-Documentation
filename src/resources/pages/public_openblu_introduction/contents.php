@@ -110,6 +110,7 @@
                                     </div>
                                     You can obtain a free API key from OpenBlu and retrieve the servers that are available
                                     on OpenBlu, you can use the API to narrow down your results and filter them.
+                                    <br/>
                                     <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="window.open('https://openblu.intellivoid.net/');">Visit OpenBlu</button>
                                 </div>
                             </div>
