@@ -12,6 +12,11 @@
       "DESCRIPTION": "The safe version of the Application's name being lowercase and all spaces replaced with '_'"
     },
     {
+      "NAME": "logo",
+      "TYPE": "array",
+      "DESCRIPTION": "The permalinks of the application logo and their corresponding sizes, the key being the name of the size and the value being the permalink"
+    },
+    {
       "NAME": "status",
       "TYPE": "string",
       "DESCRIPTION": "The status of the Application"

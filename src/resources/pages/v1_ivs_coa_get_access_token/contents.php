@@ -47,7 +47,7 @@
                                         </h3>
                                         This is not the method used to generate an Access Token, this method is only
                                         for getting information about an existing Access Token you already have access
-                                        to. To obtain an Access Token see <a href="#">Process Authentication</a>
+                                        to. To obtain an Access Token see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>">Process Authentication</a>
                                     </div>
                                     This method returns information about an existing Access Token you already have
                                     access to.

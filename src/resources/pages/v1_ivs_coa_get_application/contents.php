@@ -79,7 +79,7 @@
                                         locate information about this Application with the given ID.
                                         <br/><br/>
                                         For more information about all the possible error codes and their meanings
-                                        view the errors section in <a href="#">COA API Basics</a>
+                                        view the errors section in <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction") ?>">COA API Basics</a>
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'application_not_found_response.json'), true); ?></code></pre>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_coa_request_authentication', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

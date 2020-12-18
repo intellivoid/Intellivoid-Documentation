@@ -54,7 +54,7 @@
                                         <h4>Example Success Response</h4>
                                         This will return a summary of the current variables that are stored in the
                                         Settings of your Application, for more information about this response see
-                                        <a href="#">Application Settings - Get Summary</a>
+                                        <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_summary", [], true); ?>">Application Settings - Get Summary</a>
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'example_response.json'), true); ?></code></pre>
                                     </div>
                                     <hr/>

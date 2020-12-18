@@ -10,7 +10,7 @@
         <?PHP
             renderMetaTags(
                 "COA Introduction",
-                "Cross-Over Authentication allows you to securely authenticate users via Intellivoid Accounts"
+                "Cross-Over Authentication (COA) is a method of authentication used in Intellivoid Accounts that works much like oAuth."
             );
         ?>
     </head>
@@ -50,8 +50,8 @@
                                     To use COA you need an Application to authenticate with, COA doesn't use a
                                     API Key/Access Key to authenticate to it's API, instead it uses a Application ID
                                     and Secret Key combination, for more information about what a Application is see
-                                    <a href="#">Introduction to Applications</a>, if you want to know how you can
-                                    authenticate see <a href="#">COA API Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_introduction", [], true); ?>">Introduction to Applications</a>, if you want to know how you can
+                                    authenticate see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>">COA API Basics</a>
                                     <hr/>
 
                                     <h4>Access Token</h4>
@@ -124,7 +124,7 @@
                                             <a href="https://accounts.intellivoid.net/applications" target="_blank">Manage Applications</a>
                                         </li>
                                         <li>
-                                            <a href="https://accounts.intellivoid.net/applications" target="_blank">Introduction to Applications</a>
+                                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_introduction", [], true); ?>" target="_blank">Introduction to Applications</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -133,7 +133,7 @@
 
                     </div>
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_coa_basics', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

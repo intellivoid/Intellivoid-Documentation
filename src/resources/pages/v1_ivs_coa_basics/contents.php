@@ -111,7 +111,8 @@
                                         a <code>type</code> property followed by a <code>error_code</code> and
                                         <code>message</code> property. the <code>type</code> property shows you what
                                         service is reporting the error. You can learn more about this in
-                                        <a href="#">Basics</a> to be able to identify the error correctly.
+                                        <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_error_codes", [], true); ?>">Intellivoid - Error Codes</a>
+                                        to be able to identify the error correctly.
                                         <br/><br/>
                                         The table below will show all the possible error codes and explain what
                                         do they mean. Additionally not all error codes will be returned on the API
@@ -146,7 +147,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_coa_get_application', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

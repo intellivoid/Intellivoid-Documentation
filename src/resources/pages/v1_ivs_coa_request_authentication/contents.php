@@ -47,7 +47,7 @@
                                     requesting and deny them if before authenticating.
                                     <br/><br/>
                                     Using the Request Token provided, you can check the status of the Authentication
-                                    Request and see if the user has authenticated or not. see <a href="#">Process Authentication</a>
+                                    Request and see if the user has authenticated or not. see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true);  ?>">Process Authentication</a>
                                     to learn how to do that. After the user authenticates you will be provided a
                                     Access Token, you won't need the Request Token anymore after obtaining an Access Token.
                                     <hr/>
@@ -81,7 +81,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_coa_process_authentication', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

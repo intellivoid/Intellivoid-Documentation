@@ -42,7 +42,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">Process Authentication</h3>
                                     This method allows you to process the authentication request to the user, you will
-                                    require a Request Token to perform this request, see <a href="#">Request Authentication</a>
+                                    require a Request Token to perform this request, see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>">Request Authentication</a>
                                     for more information on how to obtain a Request Token.
                                     <hr/>
                                     <label for="api_endpoint" class="mt-2">Endpoint</label>
@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="row">
-                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>';">
+                        <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute('v1_ivs_coa_get_access_token', [] ,true); ?>';">
                             <i class="fa fa-arrow-right text-white"></i>
                         </button>
                     </div>

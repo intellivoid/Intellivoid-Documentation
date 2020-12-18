@@ -57,7 +57,7 @@
                                         to do is provide the <code>name</code> parameter which points to the variable
                                         you would like to delete.
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR  . 'example_response.json'), true); ?></code></pre>
-                                        For more information about what the summary means see <a href="#">Application Settings - Get Summary</a>
+                                        For more information about what the summary means see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_summary", [], true); ?>">Application Settings - Get Summary</a>
                                     </div>
                                     <hr/>
 

@@ -91,7 +91,7 @@
 
                                     <h4>Authenticating to an Application</h4>
                                     Users can authenticate to your Application using COA (Cross-over Authentication), to
-                                    learn how it works and how to use it see <a href="#">COA API Introduction</a>
+                                    learn how it works and how to use it see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>">COA API Introduction</a>
 
                                 </div>
                             </div>

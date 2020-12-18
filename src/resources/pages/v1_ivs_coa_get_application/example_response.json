@@ -4,6 +4,13 @@
   "results": {
     "name": "Application Placeholder Demo",
     "name_safe": "application_placeholder_demo",
+    "logo": {
+      "original": "https://accounts.intellivoid.net/user/contents/public/application?app_id=APP65640a935039be5570428b6e74747811b0a290210e9e2d2f6722d8a54966ac171a4d5f1c&resource=original",
+      "normal": "https://accounts.intellivoid.net/user/contents/public/application?app_id=APP65640a935039be5570428b6e74747811b0a290210e9e2d2f6722d8a54966ac171a4d5f1c&resource=normal",
+      "preview": "https://accounts.intellivoid.net/user/contents/public/application?app_id=APP65640a935039be5570428b6e74747811b0a290210e9e2d2f6722d8a54966ac171a4d5f1c&resource=preview",
+      "small": "https://accounts.intellivoid.net/user/contents/public/application?app_id=APP65640a935039be5570428b6e74747811b0a290210e9e2d2f6722d8a54966ac171a4d5f1c&resource=small",
+      "tiny": "https://accounts.intellivoid.net/user/contents/public/application?app_id=APP65640a935039be5570428b6e74747811b0a290210e9e2d2f6722d8a54966ac171a4d5f1c&resource=tiny"
+    },
     "status": "ACTIVE",
     "authentication_mode": "PLACEHOLDER",
     "permissions": [

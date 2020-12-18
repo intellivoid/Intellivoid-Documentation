@@ -57,7 +57,7 @@
                                                 values that the bot predicts during the conversation.
                                                 <br/><br/>
                                                 Before you start a conversation with Lydia, you must initialize a session
-                                                and then give your input using that session. See <a href="#">Create Session</a>
+                                                and then give your input using that session. See <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_create_session", [], true); ?>">Create Session</a>
                                                 for more details on how to create one.
                                             </div>
                                             <div class="col-lg-5 col-md-12 mt-3">
@@ -97,7 +97,7 @@
                                                 the whole conversation, however. There is a way to enforce the conversation
                                                 to start in a specific language, doing this will have a higher probability
                                                 for Lydia to respond correctly in the assigned language. You can
-                                                only accomplish this upon creating a session. See <a href="#">Create Session</a>
+                                                only accomplish this upon creating a session. See <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_create_session", [], true); ?>">Create Session</a>
                                                 for more details on how to accomplish this.
                                             </div>
                                             <div class="col-lg-6">

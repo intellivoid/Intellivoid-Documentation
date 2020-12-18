@@ -80,7 +80,7 @@
                                     <div>
                                         <h4>Obtaining an Access Token</h4>
                                         You can obtain an Access Token by authenticating the user to your Application,
-                                        for more information see <a href="#">COA API Introduction</a>
+                                        for more information see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction") ?>">COA API Introduction</a>
                                     </div>
                                 </div>
                             </div>
@@ -112,12 +112,12 @@
                                     <h3 class="card-title">Error Codes</h3>
                                     <div class="mb-3">
                                         Intellivoid Services API uses error codes to return errors, to learn how
-                                        error codes work see <a href="#">Error Codes</a>
+                                        error codes work see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_error_codes", [], true); ?>">Intellivoid - Error Codes</a>
                                         <br/><br/>
 
                                         This API has it's own set of error codes but it does incorporate COAs
                                         error codes if a error is to arise related to COA, for more information see
-                                        <a href="#">COA Error Codes</a>
+                                        <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>#error_codes">COA Error Codes</a>
                                         <br/><br/>
 
                                         The table below will show all the possible error codes and explain what

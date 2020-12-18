@@ -47,7 +47,7 @@
                                     <hr/>
                                     <h3>Authentication</h3>
                                     You need to authenticate users to your Application before you start obtaining their
-                                    information, to learn how to do that see <a href="#">COA Introduction</a>
+                                    information, to learn how to do that see <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>">COA Introduction</a>
                                 </div>
                             </div>
                         </div>
