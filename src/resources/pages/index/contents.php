@@ -77,13 +77,12 @@ use DynamicalWeb\HTML;
                                     <hr/>
                                     <div class="row mt-3">
                                         <div class="col-lg-6">
-                                            <h4 class="mt-2">Intellivoid Accounts</h4>
-                                            Intellivoid Accounts is a second generation authentication service allowing
-                                            users to login to various services & websites using one account, users have
-                                            the freedom to choose what permissions to allow without any obligation
-                                            whatsoever.
+                                            <h4 class="mt-2">Intellivoid Services</h4>
+                                            Take control of various Intellivoid services and features that comes with
+                                            your Intellivoid Application such as implementing your own authentication
+                                            system or saving user preferences without needing to setup your own database
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3">Documentation Coming Soon</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("public_intellivoid_introduction", [], true); ?>';">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">

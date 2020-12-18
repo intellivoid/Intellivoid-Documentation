@@ -1,0 +1,53 @@
+{
+  "FILE_TYPE": "ERROR_CODES",
+  "VARIABLES": [
+    {
+      "ERROR_CODE": 1,
+      "MESSAGE": "Missing parameter 'session_id'",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘session_id’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 2,
+      "MESSAGE": "Missing parameter ‘input’",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The server was expecting the parameter ‘input’ which was not provided by the client"
+    },
+    {
+      "ERROR_CODE": 3,
+      "MESSAGE": "Parameter 'input' contains an invalid value",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The parameter ‘input’ contains an invalid value, the value cannot be empty."
+    },
+    {
+      "ERROR_CODE": 4,
+      "MESSAGE": "The session was not found",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The requested session could not be found on the server"
+    },
+    {
+      "ERROR_CODE": 5,
+      "MESSAGE": "The session is no longer available",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The requested session has expired or an error has raised which enabled the session to no longer be available"
+    },
+    {
+      "ERROR_CODE": 6,
+      "MESSAGE": "Lydia sessions quota limit reached",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "You reached the quota limit of the amount of sessions you are allowed to create, if you need more sessions then upgrade your subscription plan"
+    },
+    {
+      "ERROR_CODE": 7,
+      "MESSAGE": "The given language code is not a valid ISO 639-1 Language Code",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The given language code is not a valid ISO 639-1 Language code that the server is willing to accept."
+    },
+    {
+      "ERROR_CODE": 8,
+      "MESSAGE": "Session cannot be created, service unavailable",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The session cannot be created because CoffeeHouse is temporarily unavailable. If this issues continues then report it to support  "
+    }
+  ]
+}

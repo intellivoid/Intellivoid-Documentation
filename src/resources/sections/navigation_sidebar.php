@@ -26,6 +26,9 @@
                             <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_wrappers", [], true); ?>" class="py-1">API Wrappers</a>
                         </li>
                         <li>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_error_codes", [], true); ?>" class="py-1">Error Codes</a>
+                        </li>
+                        <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Lydia</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>

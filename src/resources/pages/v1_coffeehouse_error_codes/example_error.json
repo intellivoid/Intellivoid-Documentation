@@ -1,0 +1,9 @@
+{
+  "success":false,
+  "response_code":401,
+  "error":{
+    "error_code":0,
+    "type":"CLIENT",
+    "message":"Unauthorized Access, Authentication is required"
+  }
+}
