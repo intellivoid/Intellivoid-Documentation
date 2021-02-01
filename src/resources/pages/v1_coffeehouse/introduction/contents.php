@@ -38,11 +38,138 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h3 class="card-title">Introduction to CoffeeHouse</h3>
-                                    CoffeeHouse allows you to implement Machine Learning and Artificial Intelligence
-                                    features into your software using the HTTP API, at the moment CoffeeHouse only
-                                    provides the feature to interact with Lydia, in the future Intellivoid will
-                                    add more to CoffeeHouse and the documentation for those new features will be added
-                                    to Intellivoid Docs
+                                    CoffeeHouse allows you to implement complicated Machine Learning methods into
+                                    your software without having to deal with the hassle of setting it up on your own
+                                    and spending extra for the resources that you require to run those features.
+                                    Currently, CoffeeHouse provides these current features, we are constantly working
+                                    and researching to add more as CoffeeHouse becomes more powerful.
+
+                                    <div class="table-responsive pt-3">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Description</td>
+                                                    <td>Usage</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Lydia AI</td>
+                                                    <td>
+                                                        An advanced multi-language chat bot novelty that can have human-like
+                                                        conversations with users and remember conversations, it out-smarts
+                                                        bots like Mitsuku (Kuki) when it comes to the turing test.
+                                                    </td>
+                                                    <td>
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/basics", [], true); ?>">
+                                                            Documentation
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Image NSFW Classification</td>
+                                                    <td>
+                                                        Allows the ability to safely verify if an image contains
+                                                        pornographic content which is usually unsafe for work and or
+                                                        public environments, this allows you to safely filter safe
+                                                        and unsafe images
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Named Entity Recognition</td>
+                                                    <td>
+                                                        Extract important named entities from a given text input such as
+                                                        a persons name, country, organization, location and even parse
+                                                        entities like date and time from a human language to a format
+                                                        that a computer can understand easily
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Part-Of-Speech Tagging</td>
+                                                    <td>
+                                                        Understand the structure of a sentence by extracting grammatical
+                                                        tags from the input
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sentiment Analysis</td>
+                                                    <td>
+                                                        Predict the sentimental values from a given input to determine
+                                                        if the given input is positive, neutral or negative. This is
+                                                        great for determining if user feedback is positive or not.
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Emotion Prediction</td>
+                                                    <td>
+                                                        Much like Sentimental Analysis, emotion prediction allows you
+                                                        to predict the emotional feelings of the given input
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Chatroom Spam Prediction</td>
+                                                    <td>
+                                                        Determine if a message from a chatroom like environment contains
+                                                        unwanted spam/promotion, works well with a lot of languages by
+                                                        default without needing to specify the language source.
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sentence Splits</td>
+                                                    <td>
+                                                        Using easy CoffeeHouse's builtin tokenization & stop words, you
+                                                        can accurately split sentences from the given input to make
+                                                        text more easier to work with
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Language Detection</td>
+                                                    <td>
+                                                        Using multiple language detection methods, CoffeeHouse can
+                                                        accurately predict the language from the given text input and
+                                                        return a ISO-639-1 standard language code
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Prediction Generalization</td>
+                                                    <td>
+                                                        You can create a generalization of the last x predictions from
+                                                        any one of the services listed above to create an accurate
+                                                        generalized prediction of the overall score
+                                                    </td>
+                                                    <td>
+                                                        Documentation
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
                             </div>
 
