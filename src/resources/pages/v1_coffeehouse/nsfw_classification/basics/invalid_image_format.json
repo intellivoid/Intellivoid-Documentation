@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 12,
+    "type": "CLIENT",
+    "message": "The file type isn't supported for this method"
+  }
+}

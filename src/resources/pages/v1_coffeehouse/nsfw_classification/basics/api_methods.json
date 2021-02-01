@@ -1,0 +1,13 @@
+{
+  "FILE_TYPE": "METHODS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/",
+  "METHODS": [
+    {
+      "METHOD_NAME": "nsfw_classification",
+      "ACCESS_URI": "coffeehouse/v1/image/nsfw_classification",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Classifies the given image input",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    }
+  ]
+}

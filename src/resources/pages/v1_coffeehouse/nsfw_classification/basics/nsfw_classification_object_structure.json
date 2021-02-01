@@ -1,0 +1,30 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "content_hash",
+      "TYPE": "string",
+      "DESCRIPTION": "a SHA256 hash representation of the image"
+    },
+    {
+      "NAME": "content_type",
+      "TYPE": "string",
+      "DESCRIPTION": "The content type detected by the API, either PNG or JPG"
+    },
+    {
+      "NAME": "safe_prediction",
+      "TYPE": "float",
+      "DESCRIPTION": "The safe prediction of the image content"
+    },
+    {
+      "NAME": "unsafe_prediction",
+      "TYPE": "float",
+      "DESCRIPTION": "The unsafe prediction of the image content"
+    },
+    {
+      "NAME": "is_nsfw",
+      "TYPE": "bool",
+      "DESCRIPTION": "Indicates if the image is NSFW (Unsafe) by comparing if unsafe_prediction is a higher value than safe_prediction"
+    }
+  ]
+}

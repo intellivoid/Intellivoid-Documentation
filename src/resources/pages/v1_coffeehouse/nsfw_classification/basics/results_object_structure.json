@@ -1,0 +1,15 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "nsfw_classification",
+      "TYPE": "NsfwClassification",
+      "DESCRIPTION": "The results of the NSFW classification process"
+    },
+    {
+      "NAME": "generalization",
+      "TYPE": "Generalization|null",
+      "DESCRIPTION": "The generalization results if Generalization is enabled, otherwise it will be returned as null"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/coffeehouse/v1/image/nsfw_classification",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "image",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "Bas64 Encoded contents of the image / form-data file post"
+    }
+  ]
+}

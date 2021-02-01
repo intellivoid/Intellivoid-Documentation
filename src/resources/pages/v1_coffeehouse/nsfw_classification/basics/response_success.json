@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "nsfw_classification": {
+      "content_hash": "4816a1048c3c1669fdded70efb713981634eff8e42c57caeaf4b145cb09441e8",
+      "content_type": "png",
+      "safe_prediction": 99.425405,
+      "unsafe_prediction": 0.57458887,
+      "is_nsfw": false
+    },
+    "generalization": null
+  }
+}
