@@ -46,7 +46,7 @@ use DynamicalWeb\HTML;
                                             engine written from the ground up, implement ML & AI Tools into your Application
                                             without needing to do all the processing yourself
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse_introduction", [], true); ?>';">View Documentation</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse/introduction", [], true); ?>';">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">
@@ -64,7 +64,7 @@ use DynamicalWeb\HTML;
                                             which users can connect to using OpenVPN. you can use the API to retrieve
                                             these servers and connect to them
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("public_openblu_introduction", [], true); ?>';">View Documentation</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_openblu/introduction", [], true); ?>';">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">
@@ -82,7 +82,7 @@ use DynamicalWeb\HTML;
                                             your Intellivoid Application such as implementing your own authentication
                                             system or saving user preferences without needing to setup your own database
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("public_intellivoid_introduction", [], true); ?>';">View Documentation</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_intellivoid/introduction", [], true); ?>';">View Documentation</button>
                                         </div>
 
                                         <div class="col-lg-6">
@@ -100,7 +100,7 @@ use DynamicalWeb\HTML;
                                             volunteers to help translate Intellivoid's different services into other
                                             languages. Your work will forever be credited!
                                             <br/>
-                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("public_translations_introduction", [], true); ?>';">Learn More</button>
+                                            <button class="btn <?PHP theme_ButtonInfo(); ?> waves-effect waves-light mt-3" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_intellivoid/translations/introduction", [], true); ?>';">Learn More</button>
                                         </div>
 
                                         <div class="col-lg-6">

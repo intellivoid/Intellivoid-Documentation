@@ -1,0 +1,27 @@
+{
+  "FILE_TYPE": "METHODS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/",
+  "METHODS": [
+    {
+      "METHOD_NAME": "get_user",
+      "ACCESS_URI": "intellivoid/v1/accounts/get_user",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns the basic information about the authenticated user such as their ID, Username and Avatar permalinks",
+      "REFERENCE": "v1_intellivoid/accounts/get_user"
+    },
+    {
+      "METHOD_NAME": "get_email",
+      "ACCESS_URI": "intellivoid/v1/accounts/get_email",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns the user's Email Address",
+      "REFERENCE": "v1_intellivoid/accounts/get_email_address"
+    },
+    {
+      "METHOD_NAME": "get_personal_information",
+      "ACCESS_URI": "intellivoid/v1/accounts/get_personal_information",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns the user's Personal Information such as their name and birthday",
+      "REFERENCE": "v1_intellivoid/accounts/get_personal_information"
+    }
+  ]
+}

@@ -20,28 +20,28 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_introduction", [], true); ?>" class="py-1">Introduction</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_wrappers", [], true); ?>" class="py-1">API Wrappers</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/wrappers", [], true); ?>" class="py-1">API Wrappers</a>
                         </li>
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_error_codes", [], true); ?>" class="py-1">Error Codes</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/error_codes", [], true); ?>" class="py-1">Error Codes</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Lydia</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_basics", [], true); ?>" class="py-1">Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/basics", [], true); ?>" class="py-1">Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute('v1_coffeehouse_lydia_create_session', [] ,true); ?>" class="py-1">Create Session</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute('v1_coffeehouse/lydia/create_session', [] ,true); ?>" class="py-1">Create Session</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_get_session", [], true); ?>" class="py-1">Get Session</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/get_session", [], true); ?>" class="py-1">Get Session</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse_lydia_think_thought", [], true); ?>" class="py-1">Think Thought</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/think_thought", [], true); ?>" class="py-1">Think Thought</a>
                                 </li>
                             </ul>
                         </li>
@@ -54,22 +54,22 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("public_openblu_introduction", [], true); ?>" class="py-1">Introduction</a>
-                        </li>
-                        <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_error_codes", [], true); ?>" class="py-1">Error Codes</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_openblu/introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">API</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_basics", [], true); ?>" class="py-1">Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu/api/basics", [], true); ?>" class="py-1">Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_list_servers", [], true); ?>" class="py-1">List Servers</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu/api/error_codes", [], true); ?>" class="py-1">Error Codes</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu_get_server", [], true); ?>" class="py-1">Get Server</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu/api/list_servers", [], true); ?>" class="py-1">List Servers</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_openblu/api/get_server", [], true); ?>" class="py-1">Get Server</a>
                                 </li>
                             </ul>
                         </li>
@@ -82,13 +82,13 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("public_tg_antispam_introduction", [], true); ?>" class="py-1">Introduction</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_tg_antispam/introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">API</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_spamprotection_lookup", [], true); ?>" class="py-1">Lookup</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_tg_antispam/api/lookup", [], true); ?>" class="py-1">Lookup</a>
                                 </li>
                             </ul>
                         </li>
@@ -101,22 +101,22 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("public_intellivoid_introduction", [], true); ?>" class="py-1">Introduction</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/introduction", [], true); ?>" class="py-1">Introduction</a>
                         </li>
                         <li>
-                            <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_error_codes", [], true); ?>" class="py-1">Error Codes</a>
+                            <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/error_codes", [], true); ?>" class="py-1">Error Codes</a>
                         </li>
                         <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Applications</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/application/introduction", [], true); ?>" class="py-1">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_permissions", [], true); ?>" class="py-1">Permissions</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/application/permissions", [], true); ?>" class="py-1">Permissions</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_application_authentication_methods", [], true); ?>" class="py-1">Authentication Methods</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/application/authentication_methods", [], true); ?>" class="py-1">Authentication Methods</a>
                                 </li>
                             </ul>
                         </li>
@@ -124,22 +124,22 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">COA API</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/coa/introduction", [], true); ?>" class="py-1">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_basics", [], true); ?>" class="py-1">API Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/coa/basics", [], true); ?>" class="py-1">API Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_application", [], true); ?>" class="py-1">Get Application</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/coa/get_application", [], true); ?>" class="py-1">Get Application</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_request_authentication", [], true); ?>" class="py-1">Request Authentication</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/coa/request_authentication", [], true); ?>" class="py-1">Request Authentication</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_process_authentication", [], true); ?>" class="py-1">Process Authentication</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/coa/process_authentication", [], true); ?>" class="py-1">Process Authentication</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_coa_get_access_token", [], true); ?>" class="py-1">Get Access Token</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/coa/get_access_token", [], true); ?>" class="py-1">Get Access Token</a>
                                 </li>
                             </ul>
                         </li>
@@ -147,22 +147,22 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">Accounts</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/accounts/introduction", [], true); ?>" class="py-1">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_basics", [], true); ?>" class="py-1">API Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/accounts/basics", [], true); ?>" class="py-1">API Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_get_user", [], true); ?>" class="py-1">Get User</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/accounts/get_user", [], true); ?>" class="py-1">Get User</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_get_personal_information", [], true); ?>" class="py-1">Get Personal Information</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/accounts/get_personal_information", [], true); ?>" class="py-1">Get Personal Information</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_get_email_address", [], true); ?>" class="py-1">Get Email Address</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/accounts/get_email_address", [], true); ?>" class="py-1">Get Email Address</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_accounts_push_notifications", [], true); ?>" class="py-1">Push Notifications</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/accounts/push_notifications", [], true); ?>" class="py-1">Push Notifications</a>
                                 </li>
                             </ul>
                         </li>
@@ -170,41 +170,41 @@
                             <a href="javascript:void(0)" class="has-arrow py-1">Application Settings</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_introduction", [], true); ?>" class="py-1">Introduction</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/introduction", [], true); ?>" class="py-1">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_basics", [], true); ?>" class="py-1">API Basics</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/basics", [], true); ?>" class="py-1">API Basics</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_data_types", [], true); ?>" class="py-1">Data Types</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/data_types", [], true); ?>" class="py-1">Data Types</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_add", [], true); ?>" class="py-1">Add Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/add", [], true); ?>" class="py-1">Add Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_get", [], true); ?>" class="py-1">Get Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/get", [], true); ?>" class="py-1">Get Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_delete", [], true); ?>" class="py-1">Delete Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/delete", [], true); ?>" class="py-1">Delete Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_append", [], true); ?>" class="py-1">Append to Variable</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/append", [], true); ?>" class="py-1">Append to Variable</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_summary", [], true); ?>" class="py-1">Get Summary</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/summary", [], true); ?>" class="py-1">Get Summary</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_dump", [], true); ?>" class="py-1">Dump Data</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/dump", [], true); ?>" class="py-1">Dump Data</a>
                                 </li>
                                 <li>
-                                    <a href="<?PHP DynamicalWeb::getRoute("v1_ivs_settings_clear", [], true); ?>" class="py-1">Clear Data</a>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/settings/clear", [], true); ?>" class="py-1">Clear Data</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="<?PHP DynamicalWeb::getRoute("public_translations_introduction", [], true); ?>" aria-expanded="false">
+                    <a href="<?PHP DynamicalWeb::getRoute("v1_intellivoid/translations/introduction", [], true); ?>" aria-expanded="false">
                         <i class="mdi mdi-translate"></i>
                         <span class="hide-menu">Translations</span>
                     </a>

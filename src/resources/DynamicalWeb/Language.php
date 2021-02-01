@@ -38,7 +38,7 @@
 
             if(isset($_COOKIE['language']) == false)
             {
-                setcookie('language', APP_PRIMARY_LANGUAGE, time() + (86400 * 64), "/");
+                setcookie('language', APP_PRIMARY_LANGUAGE);
                 define('APP_SELECTED_LANGUAGE', APP_PRIMARY_LANGUAGE, false);
                 define('APP_SELECTED_LANGUAGE_FILE', $LanguageDirectory . DIRECTORY_SEPARATOR . APP_PRIMARY_LANGUAGE . '.json', false);
             }
@@ -76,7 +76,7 @@
                 return;
             }
 
-            setCookie('language', $FormattedCode, time() + (86400 * 64), "/");
+            setCookie('language', $FormattedCode);
         }
 
         /**
@@ -85,7 +85,7 @@
         public static function defineLanguageVariables()
         {
             $SelectedLanguage = json_decode(file_get_contents(APP_SELECTED_LANGUAGE_FILE), true);
-            define('APP_LANGUAGE_ISO_639', $SelectedLanguage['language']['iso_639-1'], false);
+            define('APP_LANGUAGE_ISO_639', $SelectedLanguage['language']['iso_639-1']);
         }
 
         /**

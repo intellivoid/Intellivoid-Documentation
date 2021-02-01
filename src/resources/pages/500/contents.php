@@ -48,17 +48,17 @@ use DynamicalWeb\HTML;
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="<?PHP DynamicalWeb::getRoute('v1_coffeehouse_introduction', [], true) ?>">
+                                            <a href="<?PHP DynamicalWeb::getRoute('v1_coffeehouse/introduction', [], true) ?>">
                                                 CoffeeHouse Documentation
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="<?PHP DynamicalWeb::getRoute('public_openblu_introduction', [], true) ?>">
+                                            <a href="<?PHP DynamicalWeb::getRoute('v1_openblu/introduction', [], true) ?>">
                                                 OpenBlu Documentation
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="<?PHP DynamicalWeb::getRoute('public_translations_introduction', [], true) ?>">
+                                            <a href="<?PHP DynamicalWeb::getRoute('v1_intellivoid/translations/introduction', [], true) ?>">
                                                 Translations Documentation
                                             </a>
                                         </li>

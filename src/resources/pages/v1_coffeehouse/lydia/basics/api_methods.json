@@ -1,0 +1,27 @@
+{
+  "FILE_TYPE": "METHODS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/",
+  "METHODS": [
+    {
+      "METHOD_NAME": "create_lydia_session",
+      "ACCESS_URI": "coffeehouse/v1/lydia/session/create",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Creates a nw chat session with Lydia",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "get_lydia_session",
+      "ACCESS_URI": "coffeehouse/v1/lydia/session/get",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Gets an existing chat session and it's details",
+      "REFERENCE": "v1_coffeehouse/lydia/get_session"
+    },
+    {
+      "METHOD_NAME": "lydia_think_thought",
+      "ACCESS_URI": "coffeehouse/v1/lydia/session/think",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Invokes the think method and allows Lydia to return a proper response from user input",
+      "REFERENCE": "v1_coffeehouse/lydia/think_thought"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "FILE_TYPE": "METHODS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/",
+  "METHODS": [
+    {
+      "METHOD_NAME": "get_summary",
+      "ACCESS_URI": "intellivoid/v1/application/settings/get_summary",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns a summary of all the variables, their types and space used.",
+      "REFERENCE": "v1_intellivoid/settings/summary"
+    },
+    {
+      "METHOD_NAME": "dump",
+      "ACCESS_URI": "intellivoid/v1/application/settings/dump",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Dumps all the data stored between the Application and the User",
+      "REFERENCE": "v1_intellivoid/settings/dump"
+    },
+    {
+      "METHOD_NAME": "clear",
+      "ACCESS_URI": "intellivoid/v1/application/settings/clear",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Deletes all the data stored between the Application and the User",
+      "REFERENCE": "v1_intellivoid/settings/clear"
+    },
+    {
+      "METHOD_NAME": "add",
+      "ACCESS_URI": "intellivoid/v1/application/settings/add",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Adds/overwrites a variable",
+      "REFERENCE": "v1_intellivoid/settings/add"
+    },
+    {
+      "METHOD_NAME": "delete",
+      "ACCESS_URI": "intellivoid/v1/application/settings/delete",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Deletes a specific variable",
+      "REFERENCE": "v1_intellivoid/settings/delete"
+    },
+    {
+      "METHOD_NAME": "get",
+      "ACCESS_URI": "intellivoid/v1/application/settings/get",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Returns the value of the requested variable by name",
+      "REFERENCE": "v1_intellivoid/settings/get"
+    },
+    {
+      "METHOD_NAME": "append",
+      "ACCESS_URI": "intellivoid/v1/application/settings/append",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Appends data to a Array/List variable",
+      "REFERENCE": "v1_intellivoid/settings/append"
+    }
+  ]
+}
