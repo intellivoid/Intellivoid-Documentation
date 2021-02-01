@@ -1,0 +1,12 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/coffeehouse/v1/lydia/session/attributes",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "session_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The Session ID given when creating a session with the Create Session method"
+    }
+  ]
+}

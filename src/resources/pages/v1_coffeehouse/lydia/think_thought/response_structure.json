@@ -5,6 +5,16 @@
       "NAME": "output",
       "TYPE": "string",
       "DESCRIPTION": "The output of Lydia"
+    },
+    {
+      "NAME": "session",
+      "TYPE": "Session",
+      "DESCRIPTION": "Information about the session that's currently being used"
+    },
+    {
+      "NAME": "attributes",
+      "TYPE": "SessionAttributes",
+      "DESCRIPTION": "Attributes about the session that includes information about the current prediction state of Lydia"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "ai_emotion": "NEUTRAL",
+    "ai_emotion_probability": 68.7434,
+    "current_language": "en",
+    "current_language_probability": 70.36489999999999
+  }
+}

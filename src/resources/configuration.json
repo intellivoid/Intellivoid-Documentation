@@ -22,6 +22,7 @@
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia", "page": "v1_coffeehouse/lydia/basics", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/create_session", "page": "v1_coffeehouse/lydia/create_session", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/get_session", "page": "v1_coffeehouse/lydia/get_session", "params": []},
+        {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/get_session_attributes", "page": "v1_coffeehouse/lydia/get_session_attributes", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/think_thought", "page": "v1_coffeehouse/lydia/think_thought", "params": []},
 
         {"method": ["GET", "POST"], "path": "/openblu/introduction", "page": "v1_openblu/introduction", "params": []},

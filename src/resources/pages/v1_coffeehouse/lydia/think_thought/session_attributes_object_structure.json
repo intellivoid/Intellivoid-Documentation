@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "ai_emotion",
+      "TYPE": "string",
+      "DESCRIPTION": "The current emotion of the AI, can be 'NEUTRAL', 'HAPPINESS', 'AFFECTION', 'SADNESS' and 'ANGER'"
+    },
+    {
+      "NAME": "ai_emotion_probability",
+      "TYPE": "float",
+      "DESCRIPTION": "The probability calculation of the current emotion"
+    },
+    {
+      "NAME": "current_language",
+      "TYPE": "string",
+      "DESCRIPTION": "The current language that the AI predicts the conversation is based in"
+    },
+    {
+      "NAME": "current_language_probability",
+      "TYPE": "float",
+      "DESCRIPTION": "The probability calculation of the language detection"
+    }
+  ]
+}

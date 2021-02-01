@@ -10,8 +10,8 @@ use DynamicalWeb\HTML;
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Get Session",
-                "This method simply allows you to get the session information given if you provide the correct session id"
+                "Get Session Attributes",
+                "Retrieve the attributes of a session using this method"
             );
         ?>
     </head>
@@ -24,7 +24,7 @@ use DynamicalWeb\HTML;
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Get Session</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Get Session Attributes</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">CoffeeHouse</a>
@@ -32,7 +32,7 @@ use DynamicalWeb\HTML;
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">Lydia</a>
                                 </li>
-                                <li class="breadcrumb-item active">Get Session</li>
+                                <li class="breadcrumb-item active">Get Session Attributes</li>
                             </ol>
                         </div>
                     </div>
@@ -41,10 +41,10 @@ use DynamicalWeb\HTML;
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3 class="card-title">Getting an existing session</h3>
-                                    This method simply allows you to get the session information given if you provide the correct session id
+                                    <h3 class="card-title">Getting session attributes</h3>
+                                    Retrieve the attributes of a session using this method
                                     <?PHP
-                                        $get_session_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . "get_session_parameters.json";
+                                        $get_session_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . "get_session_attributes_parameters.json";
                                         $get_session_parameters = json_decode(file_get_contents($get_session_parameters_path), true);
                                     ?>
                                     <hr/>
@@ -57,14 +57,15 @@ use DynamicalWeb\HTML;
                                     <hr/>
                                     <div id="success_response">
                                         <h4>Example Success Response</h4>
-                                        This response is given when a session was successfully found
-                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . "get_session_success.json"), true); ?></code></pre>
+                                        This response is given when a session was successfully found and the attributes
+                                        are available to view
+                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . "get_session_attributes_success.json"), true); ?></code></pre>
                                     </div>
                                     <br/>
                                     <div class="session_object_structure">
                                         <h4>Session Object Structure</h4>
                                         <?PHP
-                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . "session_object_structure.json";
+                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . "session_attributes_object_structure.json";
                                         generate_object_structure(json_decode(file_get_contents($api_methods_path), true));
                                         ?>
                                     </div>
@@ -78,7 +79,7 @@ use DynamicalWeb\HTML;
                             </div>
 
                             <div class="row">
-                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/get_session_attributes", [], true); ?>';">
+                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/think_thought", [], true); ?>';">
                                     <i class="fa fa-arrow-right text-white"></i>
                                 </button>
                             </div>

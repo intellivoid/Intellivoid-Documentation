@@ -41,7 +41,8 @@
                                 <div class="card-body">
                                     <h3 class="card-title">Think Thought</h3>
                                     This method invokes "Think Thought" using a session ID, this will return Lydia's
-                                    response to a given input and session ID.
+                                    response to a given input and session ID followed by the session object and
+                                    session attributes object.
                                     <?PHP
                                         $think_thought_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . "think_thought_parameters.json";
                                         $think_thought_parameters = json_decode(file_get_contents($think_thought_parameters_path), true);
@@ -66,6 +67,20 @@
                                         <?PHP
                                             $response_structure_path = __DIR__ . DIRECTORY_SEPARATOR . "response_structure.json";
                                             generate_object_structure(json_decode(file_get_contents($response_structure_path), true));
+                                        ?>
+                                    </div>
+                                    <div id="session_object_structure">
+                                        <h4>Session Object Structure</h4>
+                                        <?PHP
+                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . "session_object_structure.json";
+                                        generate_object_structure(json_decode(file_get_contents($api_methods_path), true));
+                                        ?>
+                                    </div>
+                                    <div id="session_attributes_object_structure">
+                                        <h4>SessionAttributes Object Structure</h4>
+                                        <?PHP
+                                        $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . "session_attributes_object_structure.json";
+                                        generate_object_structure(json_decode(file_get_contents($api_methods_path), true));
                                         ?>
                                     </div>
                                     <hr/>

@@ -114,6 +114,15 @@
                             <div class="card" id="methods">
                                 <div class="card-body">
                                     <h3>API Methods</h3>
+
+                                    <div class="alert alert-danger">
+                                        <h3 class="text-danger">
+                                            <i class="fa fa-exclamation-circle"></i> API Response Change
+                                        </h3>
+                                        Most of these API methods has been updated with minor changes, for example in
+                                        JSON responses, instead of returning <code>payload</code> as the results, it
+                                        will return <code>results</code>
+                                    </div>
                                     <?PHP
                                         $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . "api_methods.json";
                                         generate_methods_table(json_decode(file_get_contents($api_methods_path), true));

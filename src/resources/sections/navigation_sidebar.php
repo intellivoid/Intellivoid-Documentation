@@ -41,6 +41,9 @@
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/get_session", [], true); ?>" class="py-1">Get Session</a>
                                 </li>
                                 <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/get_session_attributes", [], true); ?>" class="py-1">Get Session Attributes</a>
+                                </li>
+                                <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/think_thought", [], true); ?>" class="py-1">Think Thought</a>
                                 </li>
                             </ul>

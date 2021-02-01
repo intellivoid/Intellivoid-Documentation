@@ -1,7 +1,19 @@
 {
   "success": true,
   "response_code": 200,
-  "payload": {
-    "output": "Hey how are you?"
+  "results": {
+    "output": "I don't know.",
+    "session": {
+      "session_id": "1b71026489018d5a25889fb15e4660ab2583ff8ca3c3d3f424be72ff2f24f7ce",
+      "language": "en",
+      "available": true,
+      "expires": 1612220389
+    },
+    "attributes": {
+      "ai_emotion": "NEUTRAL",
+      "ai_emotion_probability": 68.74342,
+      "current_language": "en",
+      "current_language_probability": 70.3648620130638
+    }
   }
 }

@@ -85,7 +85,7 @@ use DynamicalWeb\HTML;
                                         <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . "create_session_success.json"), true); ?></code></pre>
                                     </div>
                                     <br/>
-                                    <div class="session_object_structure">
+                                    <div id="session_object_structure">
                                         <h4>Session Object Structure</h4>
                                         <?PHP
                                             $api_methods_path = __DIR__ . DIRECTORY_SEPARATOR . "session_object_structure.json";

@@ -17,6 +17,13 @@
       "REFERENCE": "v1_coffeehouse/lydia/get_session"
     },
     {
+      "METHOD_NAME": "get_lydia_session_attributes",
+      "ACCESS_URI": "coffeehouse/v1/lydia/session/attributes",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Gets the attributes of ane xisting session",
+      "REFERENCE": "v1_coffeehouse/lydia/get_session_attributes"
+    },
+    {
       "METHOD_NAME": "lydia_think_thought",
       "ACCESS_URI": "coffeehouse/v1/lydia/session/think",
       "REQUEST_METHODS": ["GET", "POST"],
