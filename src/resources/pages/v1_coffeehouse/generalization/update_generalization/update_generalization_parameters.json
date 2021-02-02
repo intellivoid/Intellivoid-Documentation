@@ -1,0 +1,17 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "generalize",
+      "DEFAULT_VALUE": "0",
+      "REQUIRED": true,
+      "DESCRIPTION": "If set to 1, you are telling the API that you want to generalize the results"
+    },
+    {
+      "PARAMETER_NAME": "generalization_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The ID of the generalization table applicable to the method"
+    }
+  ]
+}

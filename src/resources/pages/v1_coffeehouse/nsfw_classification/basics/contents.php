@@ -42,10 +42,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h3 class="card-title">How NSFW Classification works</h3>
-
-
                                     <div class="row mt-4">
-
                                         <div class="col-lg-6">
                                             Based off a large dataset (owo), CoffeeHouse can classify an image to determine if
                                             it contains pornographic content or not, this can be used in your software
@@ -60,7 +57,6 @@
                                                 <img class="img-fluid card-icon" style="width: 362px; height: 242px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/example_nsfw.png">
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

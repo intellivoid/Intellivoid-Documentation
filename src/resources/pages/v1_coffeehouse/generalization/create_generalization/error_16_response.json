@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 16,
+    "type": "CLIENT",
+    "message": "You cannot exceed a generalization size of '20' (Subscription restriction)"
+  }
+}

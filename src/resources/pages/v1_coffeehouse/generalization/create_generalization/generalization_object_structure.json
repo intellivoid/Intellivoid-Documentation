@@ -1,0 +1,30 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "id",
+      "TYPE": "string",
+      "DESCRIPTION": "The Generalization ID, this is used to update this table with new predictions"
+    },
+    {
+      "NAME": "size",
+      "TYPE": "int",
+      "DESCRIPTION": "The maximum size of the generalization table"
+    },
+    {
+      "NAME": "top_label",
+      "TYPE": "string",
+      "DESCRIPTION": "The top label from the generalization table"
+    },
+    {
+      "NAME": "top_probability",
+      "TYPE": "float",
+      "DESCRIPTION": "The top probability that is related to the top label from the generalization table"
+    },
+    {
+      "NAME": "probabilities",
+      "TYPE": "Probability[]",
+      "DESCRIPTION": "Array of probabilities, each dedicated for each label."
+    }
+  ]
+}

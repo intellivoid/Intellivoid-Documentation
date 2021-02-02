@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "nsfw_classification": {
+      "content_hash": "2d5e8a3a8588cc66baad2d606d0b595827c19b26da8fe91fd4cbfbb38df28e35",
+      "content_type": "jpg",
+      "safe_prediction": 99.9262,
+      "unsafe_prediction": 0.073795,
+      "is_nsfw": false
+    },
+    "generalization": {
+      "id": "da61676a13ebf77c3825dbad62d4cccbc14e96eb6e83f9f117eb1b41a1e53fcc",
+      "size": 20,
+      "top_label": "safe",
+      "top_probability": 99.9262,
+      "probabilities": [
+        {
+          "label": "safe",
+          "calculated_probability": 99.9262,
+          "current_pointer": 1,
+          "probabilities": [
+            99.9262,
+            99.9262
+          ]
+        },
+        {
+          "label": "unsafe",
+          "calculated_probability": 0.073795,
+          "current_pointer": 1,
+          "probabilities": [
+            0.073795,
+            0.073795
+          ]
+        }
+      ]
+    }
+  }
+}

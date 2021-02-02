@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 15,
+    "type": "CLIENT",
+    "message": "The 'generalization_size' parameter cannot contain a value of 0 or negative"
+  }
+}

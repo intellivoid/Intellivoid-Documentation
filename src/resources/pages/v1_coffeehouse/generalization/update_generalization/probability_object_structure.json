@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "label",
+      "TYPE": "string",
+      "DESCRIPTION": "The label of the probability set"
+    },
+    {
+      "NAME": "calculated_probability",
+      "TYPE": "float",
+      "DESCRIPTION": "The calculation of the set of probabilities as a whole"
+    },
+    {
+      "NAME": "current_pointer",
+      "TYPE": "int",
+      "DESCRIPTION": "The current pointer of the probability set"
+    },
+    {
+      "NAME": "probabilities",
+      "TYPE": "float[]",
+      "DESCRIPTION": "Array of probabilities in the generalization table that are being used to calculate calculated_probability"
+    }
+  ]
+}

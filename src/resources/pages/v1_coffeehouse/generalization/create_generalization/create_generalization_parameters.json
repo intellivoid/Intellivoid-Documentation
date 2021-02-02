@@ -1,0 +1,17 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "generalize",
+      "DEFAULT_VALUE": "0",
+      "REQUIRED": true,
+      "DESCRIPTION": "If set to 1, you are telling the API that you want to generalize the results"
+    },
+    {
+      "PARAMETER_NAME": "generalization_size",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The size of the generalization table, cannot be 0 or less or greater than what your subscription supports. The mininum for a subscription is 5 and the maximum is 20"
+    }
+  ]
+}

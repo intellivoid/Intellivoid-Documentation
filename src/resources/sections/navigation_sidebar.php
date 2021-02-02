@@ -49,6 +49,20 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">Generalization</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/introduction", [], true); ?>" class="py-1">Introduction</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/create_generalization", [], true); ?>" class="py-1">Create Generalization</a>
+                                </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/update_generalization", [], true); ?>" class="py-1">Update Generalization</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Image Processing</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>

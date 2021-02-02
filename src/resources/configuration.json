@@ -25,6 +25,10 @@
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/get_session_attributes", "page": "v1_coffeehouse/lydia/get_session_attributes", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/think_thought", "page": "v1_coffeehouse/lydia/think_thought", "params": []},
 
+        {"method": ["GET", "POST"], "path": "/coffeehouse/v1/generalization/introduction", "page": "v1_coffeehouse/generalization/introduction", "params": []},
+        {"method": ["GET", "POST"], "path": "/coffeehouse/v1/generalization/create", "page": "v1_coffeehouse/generalization/create_generalization", "params": []},
+        {"method": ["GET", "POST"], "path": "/coffeehouse/v1/generalization/update", "page": "v1_coffeehouse/generalization/update_generalization", "params": []},
+
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nsfw/basics", "page": "v1_coffeehouse/nsfw_classification/basics", "params": []},
 
         {"method": ["GET", "POST"], "path": "/openblu/introduction", "page": "v1_openblu/introduction", "params": []},
