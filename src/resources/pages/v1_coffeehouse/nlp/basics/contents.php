@@ -9,8 +9,8 @@
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "NSFW Classification",
-                "Predicts if the given image input (PNG/JPEG) is NSFW or SFW."
+                "Natural Language Processing Basics",
+                "CoffeeHouse has one of the most advanced Natural Language Processing engine, while we research on how we can add more, we offer pretty good features and we plan to add a lot more."
             );
         ?>
     </head>
@@ -23,13 +23,13 @@
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">NSFW Classification Basics</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Natural Language Processing Basics</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">CoffeeHouse</a>
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a href="javascript:void(0)">NSFW Classification</a>
+                                    <a href="javascript:void(0)">NLP</a>
                                 </li>
                                 <li class="breadcrumb-item active">Basics</li>
                             </ol>
