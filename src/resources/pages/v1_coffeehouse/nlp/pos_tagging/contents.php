@@ -93,6 +93,175 @@ use DynamicalWeb\HTML;
                                         ?>
                                     </div>
                                     <hr/>
+                                    <h4>Part-Of-Speech Tags</h4>
+                                    <div class="table-responsive pt-3">
+                                        <table class="table table-hover table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <td>Tag Value</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>CC</td>
+                                                    <td>Coordinating conjunction</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CD</td>
+                                                    <td>Cardinal Number</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>DT</td>
+                                                    <td>Determiner</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>EX</td>
+                                                    <td>Existential there</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>FW</td>
+                                                    <td>Foreign word</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>IN</td>
+                                                    <td>Preposition of subordinating conjunction</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJ</td>
+                                                    <td>Adjective</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJR</td>
+                                                    <td>Adjective, comparative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJS</td>
+                                                    <td>Adjective, superlative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>LS</td>
+                                                    <td>List item marker</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>MD</td>
+                                                    <td>Modal</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NN</td>
+                                                    <td>Noun, singular or mass</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNS</td>
+                                                    <td>Noun, plural</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNP</td>
+                                                    <td>Proper noun, singular</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNPS</td>
+                                                    <td>Proper noun, plural</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PDT</td>
+                                                    <td>Predeterminer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>POS</td>
+                                                    <td>Possessive ending</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PRP</td>
+                                                    <td>Personal pronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PRP$</td>
+                                                    <td>Possessive noun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RB</td>
+                                                    <td>Adverb</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RBR</td>
+                                                    <td>Adverb, superlative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RBS</td>
+                                                    <td>Adverb, superlative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RP</td>
+                                                    <td>Particle</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SYM</td>
+                                                    <td>Symbol</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TO</td>
+                                                    <td>To</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>UH</td>
+                                                    <td>Interjection</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VB</td>
+                                                    <td>Verb, base form.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBD</td>
+                                                    <td>Verb, past tense</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBG</td>
+                                                    <td>Verb, gerund or present participle</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBG</td>
+                                                    <td>Verb</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBN</td>
+                                                    <td>Verb, past particple</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBP</td>
+                                                    <td>Verb, non3rd personal singular present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBZ</td>
+                                                    <td>Verb, 3rd person singular present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WDT</td>
+                                                    <td>Whdeterminer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WP</td>
+                                                    <td>Whpronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WP$</td>
+                                                    <td>Possessive whpronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WRB</td>
+                                                    <td>Whadverb</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <hr/>
+                                    <div id="invalid_language_code_response">
+                                        <h4>Invalid Language Code Response</h4>
+                                        This response is given when the parameter <code>language</code> contains
+                                        an invalid value.
+                                        <pre><code class="language-json"><?PHP HTML::print(file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . "invalid_language_code.json"), true); ?></code></pre>
+                                    </div>
+                                    <hr/>
                                     <div id="invalid_language_code_response">
                                         <h4>Invalid Language Code Response</h4>
                                         This response is given when the parameter <code>language</code> contains
