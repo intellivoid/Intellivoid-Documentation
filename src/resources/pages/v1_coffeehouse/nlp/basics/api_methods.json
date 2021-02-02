@@ -1,0 +1,55 @@
+{
+  "FILE_TYPE": "METHODS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/",
+  "METHODS": [
+    {
+      "METHOD_NAME": "pos_tagging",
+      "ACCESS_URI": "coffeehouse/v1/nlp/pos_tagging",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Extracts Part-Of-Speech tags from the given input",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "sentiment_analysis",
+      "ACCESS_URI": "coffeehouse/v1/nlp/sentiment_analysis",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Predicts the sentimental values from the given input",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "emotion_analysis",
+      "ACCESS_URI": "coffeehouse/v1/nlp/emotion_analysis",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Predicts the emotional values from the given input",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "language_detection",
+      "ACCESS_URI": "coffeehouse/v1/nlp/language_detection",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Predicts the language of the given input and returns a ISO-639-1 result",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "chatroom_spam_prediction",
+      "ACCESS_URI": "coffeehouse/v1/nlp/spam_prediction/chatroom",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Predicts if the given input from a chatroom message is spam or not",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "named_entity_recognition",
+      "ACCESS_URI": "coffeehouse/v1/nlp/named_entity_recognition",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Extracts named entities from the given input",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    },
+    {
+      "METHOD_NAME": "sentence_split",
+      "ACCESS_URI": "coffeehouse/v1/nlp/sentence_split",
+      "REQUEST_METHODS": ["GET", "POST"],
+      "DESCRIPTION": "Splits the sentences into a array from the given input",
+      "REFERENCE": "v1_coffeehouse/lydia/create_session"
+    }
+  ]
+}

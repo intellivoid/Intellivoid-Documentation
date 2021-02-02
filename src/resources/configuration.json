@@ -31,6 +31,8 @@
 
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nsfw/basics", "page": "v1_coffeehouse/nsfw_classification/basics", "params": []},
 
+        {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/basics", "page": "v1_coffeehouse/nlp/basics", "params": []},
+
         {"method": ["GET", "POST"], "path": "/openblu/introduction", "page": "v1_openblu/introduction", "params": []},
         {"method": ["GET", "POST"], "path": "/openblu/v1/error_codes", "page": "v1_openblu/api/error_codes", "params": []},
         {"method": ["GET", "POST"], "path": "/openblu/v1/basics", "page": "v1_openblu/api/basics", "params": []},

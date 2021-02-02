@@ -4,7 +4,7 @@
     {
       "NAME": "ai_emotion",
       "TYPE": "string",
-      "DESCRIPTION": "The current emotion of the AI, can be 'NEUTRAL', 'HAPPINESS', 'AFFECTION', 'SADNESS' and 'ANGER'"
+      "DESCRIPTION": "The current emotion of the AI, can be 'NEUTRAL', 'HAPPINESS', 'AFFECTION', 'SADNESS' or 'ANGER'"
     },
     {
       "NAME": "ai_emotion_probability",

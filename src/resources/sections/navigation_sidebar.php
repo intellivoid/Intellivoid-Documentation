@@ -63,6 +63,14 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="javascript:void(0)" class="has-arrow py-1">NLP</a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/basics", [], true); ?>" class="py-1">Basics</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
                             <a href="javascript:void(0)" class="has-arrow py-1">Image Processing</a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
