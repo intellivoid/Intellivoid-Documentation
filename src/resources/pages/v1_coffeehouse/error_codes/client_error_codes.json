@@ -2,6 +2,18 @@
   "FILE_TYPE": "ERROR_CODES",
   "VARIABLES": [
     {
+      "ERROR_CODE": -1,
+      "MESSAGE": "Internal Server Error",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "There was an unexpected error while processing your request, this is most likely a server issue/bug"
+    },
+    {
+      "ERROR_CODE": 0,
+      "MESSAGE": "Generic Error",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This is a generic error from the API, read the message for more details."
+    },
+    {
       "ERROR_CODE": 1,
       "MESSAGE": "Missing parameter 'session_id'",
       "OBSOLETE": "false",
@@ -33,9 +45,9 @@
     },
     {
       "ERROR_CODE": 6,
-      "MESSAGE": "Lydia sessions quota limit reached",
+      "MESSAGE": "Max quota reached",
       "OBSOLETE": "false",
-      "DESCRIPTION": "You reached the quota limit of the amount of sessions you are allowed to create, if you need more sessions then upgrade your subscription plan"
+      "DESCRIPTION": "You reached the quota limit of the method/resource, if you need more then upgrade your subscription plan"
     },
     {
       "ERROR_CODE": 7,
@@ -47,7 +59,79 @@
       "ERROR_CODE": 8,
       "MESSAGE": "Session cannot be created, service unavailable",
       "OBSOLETE": "false",
-      "DESCRIPTION": "The session cannot be created because CoffeeHouse is temporarily unavailable. If this issues continues then report it to support  "
+      "DESCRIPTION": "The session cannot be created because CoffeeHouse is temporarily unavailable. If this issues continues then report it to support."
+    },
+    {
+      "ERROR_CODE": 9,
+      "MESSAGE": "This session does not contain any attributes",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "You are attempting to get the session attributes of a session that does not contain any attributes, likely an old session."
+    },
+    {
+      "ERROR_CODE": 10,
+      "MESSAGE": "RESERVED",
+      "OBSOLETE": "true",
+      "DESCRIPTION": "This error code will not be returned, it's reserved for a future update."
+    },
+    {
+      "ERROR_CODE": 11,
+      "MESSAGE": "Invalid Base64 Data",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The base64 data you provided is not valid or malformed"
+    },
+    {
+      "ERROR_CODE": 12,
+      "MESSAGE": "Unsupported File Type",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The file you tried to upload to the API is not supported by the method"
+    },
+    {
+      "ERROR_CODE": 13,
+      "MESSAGE": "Service temporarily unavailable (CoffeeHouse-Utils)",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The service is temporarily unavailable because our internal software CoffeeHouse-Utils is not available, if this issue continues then report it to support."
+    },
+    {
+      "ERROR_CODE": 14,
+      "MESSAGE": "Missing file upload or data field 'image'",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The API acknowledges that you are attempting to upload a file but does not see any data for the file either in the body request or as a parameter"
+    },
+    {
+      "ERROR_CODE": 15,
+      "MESSAGE": "Invalid generalization size",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The value you requested for the generalization size is not applicable and invalid, it should be number but not less than 1"
+    },
+    {
+      "ERROR_CODE": 16,
+      "MESSAGE": "Exceeded max generalization size",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The value you entered for the generalization size is more than what your subscription allows"
+    },
+    {
+      "ERROR_CODE": 17,
+      "MESSAGE": "Missing generalization size parameter",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The expected parameter 'generalization_size' is missing"
+    },
+    {
+      "ERROR_CODE": 18,
+      "MESSAGE": "Generalization table not found",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The requested generalization table provided via the 'generalization_id' parameter was not found"
+    },
+    {
+      "ERROR_CODE": 19,
+      "MESSAGE": "Generalization not applicable to this method",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "This method cannot generalize the results"
+    },
+    {
+      "ERROR_CODE": 20,
+      "MESSAGE": "Missing parameter 'input'",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The expected parameter 'input' is missing"
     }
   ]
 }
