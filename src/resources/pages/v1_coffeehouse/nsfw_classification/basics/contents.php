@@ -200,6 +200,24 @@
                                 </div>
                             </div>
 
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">Generalization</h3>
+                                    This method supports the generalization of it's results, for more information on
+                                    how generalization works, see
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/introduction", [], true) ?>">Generalization - Introduction</a>,
+                                    this method will use the following labels for generalization
+                                    <ul class="pt-3">
+                                        <li>
+                                            <code>safe</code>
+                                        </li>
+                                        <li>
+                                            <code>unsafe</code>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
