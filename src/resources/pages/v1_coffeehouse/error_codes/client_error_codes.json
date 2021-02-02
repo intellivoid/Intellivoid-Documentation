@@ -51,9 +51,9 @@
     },
     {
       "ERROR_CODE": 7,
-      "MESSAGE": "The given language code is not a valid ISO 639-1 Language Code",
+      "MESSAGE": "The given language cannot be identified",
       "OBSOLETE": "false",
-      "DESCRIPTION": "The given language code is not a valid ISO 639-1 Language code that the server is willing to accept."
+      "DESCRIPTION": "The given language code is not a valid ISO 639-1 Language code/language name that the server is willing to accept."
     },
     {
       "ERROR_CODE": 8,
@@ -132,6 +132,30 @@
       "MESSAGE": "Missing parameter 'input'",
       "OBSOLETE": "false",
       "DESCRIPTION": "The expected parameter 'input' is missing"
+    },
+    {
+      "ERROR_CODE": 21,
+      "MESSAGE": "'input' exceeds the limit",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The 'input' parameter exceeds the limit that your subscription allows"
+    },
+    {
+      "ERROR_CODE": 22,
+      "MESSAGE": "Input cannot be empty",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The given input cannot be empty"
+    },
+    {
+      "ERROR_CODE": 23,
+      "MESSAGE": "The requested language source is not supported",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The requested language source has been identified but it's not supported by this method yet"
+    },
+    {
+      "ERROR_CODE": 24,
+      "MESSAGE": "The given input cannot be processed",
+      "OBSOLETE": "false",
+      "DESCRIPTION": "The cannot process the given input due to internal server errors, report this issue to support."
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text of the input, or the translation results if the input is from another language"
+    },
+    {
+      "NAME": "source_language",
+      "TYPE": "string",
+      "DESCRIPTION": "The original language source"
+    },
+    {
+      "NAME": "tags",
+      "TYPE": "PosTag[]",
+      "DESCRIPTION": "Array of Part-Of-Speech tags, this won't be returned if you use sentence_split"
+    },
+    {
+      "NAME": "sentences",
+      "TYPE": "PosTagSentence[]",
+      "DESCRIPTION": "Array of Part-Of-Speech sentence splits, this will be returned if you use sentence_split"
+    }
+  ]
+}

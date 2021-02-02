@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "sentences": [
+      {
+        "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+        "offset_begin": 0,
+        "offset_end": 156,
+        "tags": [
+          {
+            "text": "But",
+            "offset_begin": 0,
+            "offset_end": 3,
+            "tag_value": "CC"
+          },
+          {
+            "text": "I",
+            "offset_begin": 4,
+            "offset_end": 5,
+            "tag_value": "PRP"
+          },
+          ...
+          {
+            "text": "system",
+            "offset_begin": 149,
+            "offset_end": 155,
+            "tag_value": "NN"
+          },
+          {
+            "text": ".",
+            "offset_begin": 155,
+            "offset_end": 156,
+            "tag_value": "."
+          }
+        ]
+      },
+      {
+        "text": "expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+        "offset_begin": 157,
+        "offset_end": 260,
+        "tags": [
+          {
+            "text": "expound",
+            "offset_begin": 157,
+            "offset_end": 164,
+            "tag_value": "VB"
+          },
+          {
+            "text": "the",
+            "offset_begin": 165,
+            "offset_end": 168,
+            "tag_value": "DT"
+          },
+          ...
+          {
+            "text": "happiness",
+            "offset_begin": 250,
+            "offset_end": 259,
+            "tag_value": "NN"
+          },
+          {
+            "text": ".",
+            "offset_begin": 259,
+            "offset_end": 260,
+            "tag_value": "."
+          }
+        ]
+      }
+    ]
+  }
+}

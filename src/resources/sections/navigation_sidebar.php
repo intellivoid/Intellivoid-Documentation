@@ -68,6 +68,9 @@
                                 <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/basics", [], true); ?>" class="py-1">Basics</a>
                                 </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/pos_tagging", [], true); ?>" class="py-1">POS Tagging</a>
+                                </li>
                             </ul>
                         </li>
                         <li>

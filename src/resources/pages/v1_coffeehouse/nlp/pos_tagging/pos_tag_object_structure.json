@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text value that is being processed"
+    },
+    {
+      "NAME": "offset_begin",
+      "TYPE": "int",
+      "DESCRIPTION": "The character offset begin of the tag"
+    },
+    {
+      "NAME": "offset_end",
+      "TYPE": "int",
+      "DESCRIPTION": "The character offset end of the tag"
+    },
+    {
+      "NAME": "tag_value",
+      "TYPE": "string",
+      "DESCRIPTION": "The Part-Of-Speech tag"
+    }
+  ]
+}

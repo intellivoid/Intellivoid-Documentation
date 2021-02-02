@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "tags": [
+      {
+        "text": "But",
+        "offset_begin": 0,
+        "offset_end": 3,
+        "tag_value": "CC"
+      },
+      {
+        "text": "I",
+        "offset_begin": 4,
+        "offset_end": 5,
+        "tag_value": "PRP"
+      },
+      ...
+      {
+        "text": "happiness",
+        "offset_begin": 254,
+        "offset_end": 263,
+        "tag_value": "NN"
+      },
+      {
+        "text": ".",
+        "offset_begin": 263,
+        "offset_end": 264,
+        "tag_value": "."
+      }
+    ]
+  }
+}
