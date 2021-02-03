@@ -80,6 +80,27 @@
                                 </div>
                             </div>
 
+                            <div class="card" id="supported_languages">
+                                <div class="card-body">
+                                    <h3>Supported Languages</h3>
+                                    To have support for multiple languages, CoffeeHouse will use a third-party service
+                                    to translate the given input into English before processing, these are the supported
+                                    languages that CoffeeHouse currently supports, more will be added in the future.
+                                    <ul class="pt-2">
+                                        <li>English</li>
+                                        <li>Chinese</li>
+                                        <li>German</li>
+                                        <li>French</li>
+                                        <li>Polish</li>
+                                        <li>Hindi</li>
+                                        <li>Croatian</li>
+                                        <li>Spanish</li>
+                                        <li>Russian</li>
+                                        <li>Italian</li>
+                                    </ul>
+                                </div>
+                            </div>
+
                             <div class="card" id="authentication">
                                 <div class="card-body">
                                     <h3 class="card-title">API Authentication</h3>
