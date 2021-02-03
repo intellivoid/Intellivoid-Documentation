@@ -8,7 +8,7 @@
     },
     {
       "NAME": "prediction",
-      "TYPE": "int",
+      "TYPE": "float",
       "DESCRIPTION": "The prediction value of the sentimental value"
     },
     {

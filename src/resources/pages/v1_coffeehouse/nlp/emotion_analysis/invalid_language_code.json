@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 7,
+    "type": "CLIENT",
+    "message": "The given language 'not a real language' cannot be identified"
+  }
+}

@@ -10,7 +10,7 @@ use DynamicalWeb\HTML;
         <?PHP HTML::importSection('header'); ?>
         <?PHP
             renderMetaTags(
-                "Sentiment Analysis",
+                "Emotion Analysis",
                 "Sentiment Analysis allows to predict the sentimental values of the given input, this is great for determining the sentiment of user feedback, comments and or posts."
             );
         ?>
@@ -24,7 +24,7 @@ use DynamicalWeb\HTML;
                 <div class="container-fluid">
                     <div class="row page-titles">
                         <div class="align-self-center">
-                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Sentiment Analysis</h3>
+                            <h3 class="text-themecolor m-b-0 m-t-0 pt-2">Emotion Analysis</h3>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">CoffeeHouse</a>
@@ -32,7 +32,7 @@ use DynamicalWeb\HTML;
                                 <li class="breadcrumb-item">
                                     <a href="javascript:void(0)">NLP</a>
                                 </li>
-                                <li class="breadcrumb-item active">Sentiment Analysis</li>
+                                <li class="breadcrumb-item active">Emotion Analysis</li>
                             </ol>
                         </div>
                     </div>
@@ -41,38 +41,24 @@ use DynamicalWeb\HTML;
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h3 class="card-title">Sentiment Analysis</h3>
-
-                                    <div class="row mt-4">
-                                        <div class="col-lg-6">
-                                            Sentiment Analysis allows to predict the sentimental values of the given input, this
-                                            is great for determining the sentiment of user feedback, comments and or posts. This
-                                            method will allow you perform sentiment analysis by sentences and generalize the
-                                            results to get an overall prediction over a set of data to accurately predict the
-                                            overall prediction.
-                                            <br/><br/>
-                                            The input of your data is limited by your subscription and a larger input can take
-                                            longer to process
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="d-flex justify-content-center">
-                                                <img class="img-fluid card-icon" style="width: 662px; height: 302px;/** AUTO-GENERATED **/" alt="Sentiment Example" src="/assets/images/example_sentiment.png">
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    <h3 class="card-title">Emotion Analysis</h3>
+                                    Emotion Analysis is much like sentimental analysis but more to do with emotions,
+                                    this method allows you to predict the emotions of a given text.
+                                    <br/><br/>
+                                    The input of your data is limited by your subscription and a larger input can take
+                                    longer to process
                                     <br/>
                                     <hr/>
                                     <div id="parameters">
                                         <?PHP
-                                            $sentiment_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . "sentiment_parameters.json";
-                                            $sentiment_parameters = json_decode(file_get_contents($sentiment_parameters_path), true);
+                                            $emotion_parameters_path = __DIR__ . DIRECTORY_SEPARATOR . "emotion_parameters.json";
+                                            $emotion_parameters = json_decode(file_get_contents($emotion_parameters_path), true);
                                         ?>
                                         <label for="api_endpoint" class="mt-2">Endpoint</label>
-                                        <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="api_endpoint" value="<?PHP HTML::print($sentiment_parameters['ENDPOINT']); ?>" readonly>
+                                        <input class="form-control <?PHP theme_TextColor(); ?> mb-3" id="api_endpoint" value="<?PHP HTML::print($emotion_parameters['ENDPOINT']); ?>" readonly>
                                         <label>Parameters</label>
                                         <?PHP
-                                            generate_parameters_table($sentiment_parameters);
+                                            generate_parameters_table($emotion_parameters);
                                         ?>
                                     </div>
                                     <hr/>
@@ -98,17 +84,17 @@ use DynamicalWeb\HTML;
                                         ?>
                                     </div>
                                     <br/>
-                                    <div id="sentiment_object_structure">
-                                        <h4>SentimentPrediction Object Structure</h4>
+                                    <div id="emotion_object_structure">
+                                        <h4>EmotionPrediction Object Structure</h4>
                                         <?PHP
-                                        generate_object_structure(f_decode( __DIR__ . DIRECTORY_SEPARATOR . "sentiment_object_structure.json"));
+                                        generate_object_structure(f_decode( __DIR__ . DIRECTORY_SEPARATOR . "emotion_object_structure.json"));
                                         ?>
                                     </div>
                                     <br/>
-                                    <div id="sentiment_sentence_object_structure">
-                                        <h4>SentimentPredictionSentence Object Structure</h4>
+                                    <div id="emotion_sentence_object_structure">
+                                        <h4>EmotionPredictionSentence Object Structure</h4>
                                         <?PHP
-                                        generate_object_structure(f_decode( __DIR__ . DIRECTORY_SEPARATOR . "sentiment_sentence_object_structure.json"));
+                                        generate_object_structure(f_decode( __DIR__ . DIRECTORY_SEPARATOR . "emotion_sentence_object_structure.json"));
                                         ?>
                                     </div>
                                     <hr/>
@@ -124,19 +110,19 @@ use DynamicalWeb\HTML;
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>VERY_NEGATIVE</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>NEGATIVE</td>
-                                                </tr>
-                                                <tr>
                                                     <td>NEUTRAL</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>POSITIVE</td>
+                                                    <td>HAPPINESS</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>VERY_POSITIVE</td>
+                                                    <td>AFFECTION</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SADNESS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ANGER</td>
                                                 </tr>
                                             </tbody>
                                         </table>

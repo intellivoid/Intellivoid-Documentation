@@ -1,0 +1,30 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text of the input, or the translation results if the input is from another language"
+    },
+    {
+      "NAME": "source_language",
+      "TYPE": "string",
+      "DESCRIPTION": "The original language source"
+    },
+    {
+      "NAME": "emotion",
+      "TYPE": "EmotionPrediction",
+      "DESCRIPTION": "EmotionPrediction object that represents the emotion prediction values"
+    },
+    {
+      "NAME": "sentences",
+      "TYPE": "EmotionPredictionSentence[]",
+      "DESCRIPTION": "Array of sentence splits containing EmotionPrediction values, this will be returned if you use sentence_split"
+    },
+    {
+      "NAME": "generalization",
+      "TYPE": "Generalization|null",
+      "DESCRIPTION": "The generalization results if generalization is used"
+    }
+  ]
+}

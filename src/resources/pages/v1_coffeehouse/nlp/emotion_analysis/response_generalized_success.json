@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "emotion": {
+      "emotion": "HAPPINESS",
+      "prediction": 52.0167695,
+      "predictions": {
+        "NEUTRAL": 9.636032499999999,
+        "HAPPINESS": 52.0167695,
+        "AFFECTION": 22.042442,
+        "SADNESS": 8.0587809,
+        "ANGER": 3.0138
+      }
+    },
+    "generalization": {
+      "id": "1c783df3ab34514a4728f64ef772d3c05b81b45f29f35b419e68ab24f6894a6b",
+      "size": 20,
+      "top_label": "HAPPINESS",
+      "top_probability": 52.0167695,
+      "probabilities": [
+        {
+          "label": "HAPPINESS",
+          "calculated_probability": 52.0167695,
+          "current_pointer": 0,
+          "probabilities": [
+            52.0167695
+          ]
+        },
+        {
+          "label": "AFFECTION",
+          "calculated_probability": 22.042442,
+          "current_pointer": 0,
+          "probabilities": [
+            22.042442
+          ]
+        },
+        {
+          "label": "NEUTRAL",
+          "calculated_probability": 9.636032499999999,
+          "current_pointer": 0,
+          "probabilities": [
+            9.636032499999999
+          ]
+        },
+        {
+          "label": "SADNESS",
+          "calculated_probability": 8.0587809,
+          "current_pointer": 0,
+          "probabilities": [
+            8.0587809
+          ]
+        },
+        {
+          "label": "ANGER",
+          "calculated_probability": 3.0138,
+          "current_pointer": 0,
+          "probabilities": [
+            3.0138
+          ]
+        }
+      ]
+    }
+  }
+}

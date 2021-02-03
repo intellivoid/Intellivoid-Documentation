@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "emotion": {
+      "emotion": "HAPPINESS",
+      "prediction": 52.0167695,
+      "predictions": {
+        "NEUTRAL": 9.636032499999999,
+        "HAPPINESS": 52.0167695,
+        "AFFECTION": 22.042442,
+        "SADNESS": 8.0587809,
+        "ANGER": 3.0138
+      }
+    },
+    "sentences": [
+      {
+        "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+        "offset_begin": 0,
+        "offset_end": 156,
+        "emotion": {
+          "emotion": "HAPPINESS",
+          "prediction": 38.807399999999994,
+          "predictions": {
+            "NEUTRAL": 15.985990999999999,
+            "HAPPINESS": 38.807425,
+            "AFFECTION": 9.518334000000001,
+            "SADNESS": 14.155287999999999,
+            "ANGER": 3.7812524
+          }
+        }
+      },
+      {
+        "text": "expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+        "offset_begin": 157,
+        "offset_end": 260,
+        "emotion": {
+          "emotion": "HAPPINESS",
+          "prediction": 65.2261,
+          "predictions": {
+            "NEUTRAL": 3.286074,
+            "HAPPINESS": 65.226114,
+            "AFFECTION": 34.56655,
+            "SADNESS": 1.9622738000000002,
+            "ANGER": 2.2463476
+          }
+        }
+      }
+    ],
+    "generalization": null
+  }
+}
