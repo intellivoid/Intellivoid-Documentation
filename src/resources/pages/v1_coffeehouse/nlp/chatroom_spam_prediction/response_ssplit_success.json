@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "spam_prediction": {
+      "is_spam": false,
+      "prediction": 99.3571885,
+      "predictions": {
+        "ham": 99.3571885,
+        "spam": 0.6332131785
+      }
+    },
+    "sentences": [
+      {
+        "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+        "offset_begin": 0,
+        "offset_end": 156,
+        "spam_prediction": {
+          "is_spam": false,
+          "prediction": 98.73317,
+          "predictions": {
+            "ham": 98.73317,
+            "spam": 1.2477244
+          }
+        }
+      },
+      {
+        "text": "expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+        "offset_begin": 157,
+        "offset_end": 260,
+        "spam_prediction": {
+          "is_spam": false,
+          "prediction": 99.98120700000001,
+          "predictions": {
+            "ham": 99.98120700000001,
+            "spam": 0.018701956999999998
+          }
+        }
+      }
+    ],
+    "generalization": null
+  }
+}

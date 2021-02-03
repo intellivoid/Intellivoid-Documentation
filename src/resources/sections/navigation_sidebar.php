@@ -77,6 +77,9 @@
                                 <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/emotion_analysis", [], true); ?>" class="py-1">Emotion Analysis</a>
                                 </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/chatroom_spam_prediction", [], true); ?>" class="py-1">Chatroom Spam</a>
+                                </li>
                             </ul>
                         </li>
                         <li>

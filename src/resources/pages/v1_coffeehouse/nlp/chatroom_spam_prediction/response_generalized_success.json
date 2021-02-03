@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "spam_prediction": {
+      "is_spam": false,
+      "prediction": 96.3785,
+      "predictions": {
+        "ham": 96.3785,
+        "spam": 3.5341400000000003
+      }
+    },
+    "generalization": {
+      "id": "a8c1874cfa4e1d64867b9868450f18104085d13a89140a93ecb015df2bad0c8b",
+      "size": 20,
+      "top_label": "ham",
+      "top_probability": 96.3785,
+      "probabilities": [
+        {
+          "label": "ham",
+          "calculated_probability": 96.3785,
+          "current_pointer": 0,
+          "probabilities": [
+            96.3785
+          ]
+        },
+        {
+          "label": "spam",
+          "calculated_probability": 3.5341400000000003,
+          "current_pointer": 0,
+          "probabilities": [
+            3.5341400000000003
+          ]
+        }
+      ]
+    }
+  }
+}
