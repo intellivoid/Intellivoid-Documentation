@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "source_language": "en",
+    "sentiment": {
+      "sentiment": "POSITIVE",
+      "prediction": 49.942695470064,
+      "predictions": {
+        "VERY_NEGATIVE": 1.5705988835225,
+        "NEGATIVE": 6.420271901908,
+        "NEUTRAL": 12.353139466572499,
+        "POSITIVE": 49.942695470064,
+        "VERY_POSITIVE": 29.713294277933
+      }
+    },
+    "generalization": {
+      "id": "895af6da6227b73ae89a2728b6698324c3753ba6f9a4d033835608d3d1f3729b",
+      "size": 20,
+      "top_label": "POSITIVE",
+      "top_probability": 49.942695470064,
+      "probabilities": [
+        {
+          "label": "POSITIVE",
+          "calculated_probability": 49.942695470064,
+          "current_pointer": 0,
+          "probabilities": [
+            49.942695470064
+          ]
+        },
+        {
+          "label": "VERY_POSITIVE",
+          "calculated_probability": 29.713294277933,
+          "current_pointer": 0,
+          "probabilities": [
+            29.713294277933
+          ]
+        },
+        {
+          "label": "NEUTRAL",
+          "calculated_probability": 12.353139466572499,
+          "current_pointer": 0,
+          "probabilities": [
+            12.353139466572499
+          ]
+        },
+        {
+          "label": "NEGATIVE",
+          "calculated_probability": 6.420271901908,
+          "current_pointer": 0,
+          "probabilities": [
+            6.420271901908
+          ]
+        },
+        {
+          "label": "VERY_NEGATIVE",
+          "calculated_probability": 1.5705988835225,
+          "current_pointer": 0,
+          "probabilities": [
+            1.5705988835225
+          ]
+        }
+      ]
+    }
+  }
+}

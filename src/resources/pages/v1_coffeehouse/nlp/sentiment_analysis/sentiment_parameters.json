@@ -1,0 +1,42 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/coffeehouse/v1/nlp/sentiment_analysis",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "input",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The given input to process, the size of the input is limited by your subscription"
+    },
+    {
+      "PARAMETER_NAME": "language",
+      "DEFAULT_VALUE": "en",
+      "REQUIRED": false,
+      "DESCRIPTION": "The language the input is based in, if the given language is not english then CoffeeHouse will attempt to translate the input to english before processing"
+    },
+    {
+      "PARAMETER_NAME": "sentence_split",
+      "DEFAULT_VALUE": "0",
+      "REQUIRED": false,
+      "DESCRIPTION": "Splits the results into sentences"
+    },
+    {
+      "PARAMETER_NAME": "generalize",
+      "DEFAULT_VALUE": "0",
+      "REQUIRED": false,
+      "DESCRIPTION": "Generalize the results using a generalization table"
+    },
+    {
+      "PARAMETER_NAME": "generalization_size",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The size of the generalization table to create"
+    },
+    {
+      "PARAMETER_NAME": "generalization_id",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": false,
+      "DESCRIPTION": "The ID of the generalization table to use"
+    }
+  ]
+}

@@ -63,7 +63,7 @@
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="d-flex justify-content-center">
-                                                <img class="img-fluid card-icon" style="width: 362px; height: 342px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images//<?PHP theme_VectorImage(); ?>/nlp.svg">
+                                                <img class="img-fluid card-icon" style="width: 362px; height: 342px;/** AUTO-GENERATED **/" alt="Find Content" src="/assets/images/<?PHP theme_VectorImage(); ?>/nlp.svg">
                                             </div>
                                         </div>
                                     </div>
