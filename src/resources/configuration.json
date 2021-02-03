@@ -37,6 +37,7 @@
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/emotion_analysis", "page": "v1_coffeehouse/nlp/emotion_analysis", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/spam_prediction/chatroom", "page": "v1_coffeehouse/nlp/chatroom_spam_prediction", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/language_detection", "page": "v1_coffeehouse/nlp/language_detection", "params": []},
+        {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/sentence_split", "page": "v1_coffeehouse/nlp/sentence_split", "params": []},
 
         {"method": ["GET", "POST"], "path": "/openblu/introduction", "page": "v1_openblu/introduction", "params": []},
         {"method": ["GET", "POST"], "path": "/openblu/v1/error_codes", "page": "v1_openblu/api/error_codes", "params": []},

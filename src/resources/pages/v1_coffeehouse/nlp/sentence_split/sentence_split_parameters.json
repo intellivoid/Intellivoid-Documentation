@@ -1,0 +1,12 @@
+{
+  "FILE_TYPE": "PARAMETERS_TABLE",
+  "ENDPOINT": "https://api.intellivoid.net/coffeehouse/v1/nlp/sentence_split",
+  "PARAMETERS": [
+    {
+      "PARAMETER_NAME": "input",
+      "DEFAULT_VALUE": null,
+      "REQUIRED": true,
+      "DESCRIPTION": "The given input to process, the size of the input is limited by your subscription"
+    }
+  ]
+}

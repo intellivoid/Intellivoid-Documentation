@@ -1,0 +1,15 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text of the input"
+    },
+    {
+      "NAME": "sentences",
+      "TYPE": "Sentence[]",
+      "DESCRIPTION": "Array of sentence split objects"
+    }
+  ]
+}

@@ -72,6 +72,9 @@
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/pos_tagging", [], true); ?>" class="py-1">POS Tagging</a>
                                 </li>
                                 <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/sentence_split", [], true); ?>" class="py-1">Sentence Split</a>
+                                </li>
+                                <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/sentiment_analysis", [], true); ?>" class="py-1">Sentiment Analysis</a>
                                 </li>
                                 <li>
