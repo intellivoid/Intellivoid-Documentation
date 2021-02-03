@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "language_detection": {
+      "language": "en",
+      "prediction": 1.0322307389278638,
+      "predictions": {
+        "en": 1.0322307389278638,
+        "my": 0.017448664741756926,
+        "th": 0.012424069689276156,
+        "sn": 0.008830834824679662,
+        "lo": 0.005382460092292741,
+        "km": 0.004873692501326716,
+        "te": 0.004152841940107997,
+        ...
+        "wa": 4.6606214204199184e-7,
+        "rn": 4.171656577970209e-7,
+        "wo": 4.0380276295881717e-7,
+        "qu": 2.797880597721182e-7,
+        "oc": 2.5404668992172175e-7,
+        "sc": 1.5684318758703247e-7
+      }
+    },
+    "sentences": [
+      {
+        "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+        "offset_begin": 0,
+        "offset_end": 156,
+        "language_detection": {
+          "language": "en",
+          "prediction": 1.0322307389278638,
+          "predictions": {
+            "en": 1.0322307389278638,
+            "my": 0.017448664741756926,
+            "th": 0.012424069689276156,
+            "sn": 0.008830834824679662,
+            "lo": 0.005382460092292741,
+            "km": 0.004873692501326716,
+            ...
+            "wo": 4.0380276295881717e-7,
+            "qu": 2.797880597721182e-7,
+            "oc": 2.5404668992172175e-7,
+            "sc": 1.5684318758703247e-7
+          }
+        }
+      },
+      {
+        "text": "expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+        "offset_begin": 157,
+        "offset_end": 260,
+        "language_detection": {
+          "language": "en",
+          "prediction": 94.6400315850848,
+          "predictions": {
+            "en": 94.6400315850848,
+            "my": 3.6607607565003675,
+            "th": 2.608531731357951,
+            "sn": 1.8952699435678055,
+            "km": 1.2939182517338264,
+            "lo": 1.1978972756304407,
+            ...
+            "rn": 9.777783551534327e-5,
+            "qu": 6.745287005909427e-5,
+            "oc": 6.534677168446407e-5,
+            "wo": 5.901179558268886e-5,
+            "sc": 3.617622901504524e-5,
+            "wa": 1.985058409631666e-6
+          }
+        }
+      }
+    ],
+    "generalization": null
+  }
+}

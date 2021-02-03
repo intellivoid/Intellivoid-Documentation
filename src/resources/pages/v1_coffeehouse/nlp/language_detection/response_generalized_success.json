@@ -1,0 +1,80 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system. expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+    "language_detection": {
+      "language": "en",
+      "prediction": 79.12586236633693,
+      "predictions": {
+        "en": 79.12586236633693,
+        "av": 0.2295123502269184,
+        "km": 0.17199043739382588,
+        "la": 0.07712329250350208,
+        "ps": 0.06653515230513536,
+        ...
+        "bo": 1.4324942825786477e-5,
+        "oc": 1.2381976573822845e-5,
+        "sc": 1.2317664747116796e-5,
+        "gn": 1.2147578650476936e-5
+      }
+    },
+    "generalization": {
+      "id": "aeb19b65f4af8fd29f158c89648d0468292f73f6708e4cc33e4db8244409358f",
+      "size": 20,
+      "top_label": "en",
+      "top_probability": 79.12586236633693,
+      "probabilities": [
+        {
+          "label": "en",
+          "calculated_probability": 79.12586236633693,
+          "current_pointer": 0,
+          "probabilities": [
+            79.12586236633693
+          ]
+        },
+        {
+          "label": "av",
+          "calculated_probability": 0.2295123502269184,
+          "current_pointer": 0,
+          "probabilities": [
+            0.2295123502269184
+          ]
+        },
+        {
+          "label": "km",
+          "calculated_probability": 0.17199043739382588,
+          "current_pointer": 0,
+          "probabilities": [
+            0.17199043739382588
+          ]
+        },
+        ...
+        {
+          "label": "bo",
+          "calculated_probability": 1.4324942825786477e-5,
+          "current_pointer": 0,
+          "probabilities": [
+            1.4324942825786477e-5
+          ]
+        },
+        {
+          "label": "oc",
+          "calculated_probability": 1.2381976573822845e-5,
+          "current_pointer": 0,
+          "probabilities": [
+            1.2381976573822845e-5
+          ]
+        },
+        {
+          "label": "sc",
+          "calculated_probability": 1.2317664747116796e-5,
+          "current_pointer": 0,
+          "probabilities": [
+            1.2317664747116796e-5
+          ]
+        }
+      ]
+    }
+  }
+}

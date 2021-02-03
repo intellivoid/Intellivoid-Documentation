@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text of the input"
+    },
+    {
+      "NAME": "language_detection",
+      "TYPE": "LanguageDetection",
+      "DESCRIPTION": "LanguageDetection object that represents the language detection values"
+    },
+    {
+      "NAME": "sentences",
+      "TYPE": "LanguageDetectionSentence[]",
+      "DESCRIPTION": "Array of sentence splits containing LanguageDetection values, this will be returned if you use sentence_split"
+    },
+    {
+      "NAME": "generalization",
+      "TYPE": "Generalization|null",
+      "DESCRIPTION": "The generalization results if generalization is used"
+    }
+  ]
+}

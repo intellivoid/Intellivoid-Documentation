@@ -80,6 +80,9 @@
                                 <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/chatroom_spam_prediction", [], true); ?>" class="py-1">Chatroom Spam</a>
                                 </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/language_detection", [], true); ?>" class="py-1">Language Detection</a>
+                                </li>
                             </ul>
                         </li>
                         <li>

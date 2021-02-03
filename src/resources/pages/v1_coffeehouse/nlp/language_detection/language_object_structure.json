@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "language",
+      "TYPE": "string",
+      "DESCRIPTION": "The language prediction value with the highest score"
+    },
+    {
+      "NAME": "prediction",
+      "TYPE": "float",
+      "DESCRIPTION": "The prediction value of the language value"
+    },
+    {
+      "NAME": "predictions",
+      "TYPE": "array",
+      "DESCRIPTION": "String:Float combination of all the predictions, includes ISO-639-1 Language codes as keys"
+    }
+  ]
+}
