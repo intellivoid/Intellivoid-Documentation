@@ -1,0 +1,40 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text value that is being processed"
+    },
+    {
+      "NAME": "offset_begin",
+      "TYPE": "int",
+      "DESCRIPTION": "The character offset begin of the tag"
+    },
+    {
+      "NAME": "offset_end",
+      "TYPE": "int",
+      "DESCRIPTION": "The character offset end of the tag"
+    },
+    {
+      "NAME": "prediction",
+      "TYPE": "float|int",
+      "DESCRIPTION": "The prediction of the named entity"
+    },
+    {
+      "NAME": "type",
+      "TYPE": "string",
+      "DESCRIPTION": "The named entity value type"
+    },
+    {
+      "NAME": "value",
+      "TYPE": "int|string|float|null",
+      "DESCRIPTION": "The named entity value"
+    },
+    {
+      "NAME": "alt_values",
+      "TYPE": "AltValue[]|null",
+      "DESCRIPTION": "Array of alternative value for representing the value in different ways"
+    }
+  ]
+}

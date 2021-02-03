@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "response_code": 200,
+  "results": {
+    "text": "Terrence Andrew Davis (December 15, 1969 – August 11, 2018) was an American programmer who created and designed the operating system TempleOS. Its development was an extremely complex, time-consuming and unusual undertaking for one person.",
+    "source_language": "en",
+    "ner_tags": [
+      {
+        "text": "Terrence Andrew Davis",
+        "offset_begin": 0,
+        "offset_end": 21,
+        "prediction": 1,
+        "type": "PERSON",
+        "value": "Terrence Andrew Davis",
+        "alt_values": null
+      },
+      {
+        "text": "December 15, 1969",
+        "offset_begin": 23,
+        "offset_end": 40,
+        "prediction": 1,
+        "type": "DATE",
+        "value": -1450800,
+        "alt_values": [
+          {
+            "type": "DATE",
+            "date": {
+              "day": "15",
+              "month": "12",
+              "year": "1969"
+            }
+          }
+        ]
+      },
+      {
+        "text": "August 11, 2018",
+        "offset_begin": 43,
+        "offset_end": 58,
+        "prediction": 1,
+        "type": "DATE",
+        "value": 1533960000,
+        "alt_values": [
+          {
+            "type": "DATE",
+            "date": {
+              "day": "11",
+              "month": "08",
+              "year": "2018"
+            }
+          }
+        ]
+      },
+      {
+        "text": "American",
+        "offset_begin": 67,
+        "offset_end": 75,
+        "prediction": 1,
+        "type": "NATIONALITY",
+        "value": "American",
+        "alt_values": null
+      },
+      {
+        "text": "one",
+        "offset_begin": 228,
+        "offset_end": 231,
+        "prediction": 1,
+        "type": "NUMBER",
+        "value": 0,
+        "alt_values": null
+      }
+    ]
+  }
+}

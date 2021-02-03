@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "response_code": 400,
+  "error": {
+    "error_code": 23,
+    "type": "CLIENT",
+    "message": "The given language 'nr' is not supported"
+  }
+}

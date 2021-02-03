@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "type",
+      "TYPE": "string",
+      "DESCRIPTION": "The alternative value type, can be DATE, TIME, DATE_TIME and DURATION"
+    },
+    {
+      "NAME": "date",
+      "TYPE": "Date",
+      "DESCRIPTION": "The date representation object, returned if the type is DATE or DATE_TIME"
+    },
+    {
+      "NAME": "time",
+      "TYPE": "Time",
+      "DESCRIPTION": "The time representation object, returned if the type is TIME or DATE_TIME"
+    },
+    {
+      "NAME": "duration",
+      "TYPE": "Duration",
+      "DESCRIPTION": "The duration representation object, returned of the type is DURATION"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text of the input, or the translation results if the input is from another language"
+    },
+    {
+      "NAME": "source_language",
+      "TYPE": "string",
+      "DESCRIPTION": "The original language source"
+    },
+    {
+      "NAME": "ner_tags",
+      "TYPE": "NerTag[]",
+      "DESCRIPTION": "Array of Named Entity tags, this won't be returned if you use sentence_split"
+    },
+    {
+      "NAME": "sentences",
+      "TYPE": "NerTagSentence[]",
+      "DESCRIPTION": "Array of Named Entity sentence splits, this will be returned if you use sentence_split"
+    }
+  ]
+}

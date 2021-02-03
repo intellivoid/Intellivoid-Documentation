@@ -86,6 +86,9 @@
                                 <li>
                                     <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/language_detection", [], true); ?>" class="py-1">Language Detection</a>
                                 </li>
+                                <li>
+                                    <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/ner_tagging", [], true); ?>" class="py-1">NER Tagging</a>
+                                </li>
                             </ul>
                         </li>
                         <li>

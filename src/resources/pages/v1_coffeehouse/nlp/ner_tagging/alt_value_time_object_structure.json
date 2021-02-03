@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "hour",
+      "TYPE": "string|null",
+      "DESCRIPTION": "The hour (24 Hour representation)"
+    },
+    {
+      "NAME": "minute",
+      "TYPE": "string|null",
+      "DESCRIPTION": "The minutes"
+    },
+    {
+      "NAME": "seconds",
+      "TYPE": "string|null",
+      "DESCRIPTION": "The seconds"
+    }
+  ]
+}

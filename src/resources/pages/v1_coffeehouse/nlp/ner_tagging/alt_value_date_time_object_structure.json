@@ -1,0 +1,15 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "date",
+      "TYPE": "Date",
+      "DESCRIPTION": "The date representation of the value"
+    },
+    {
+      "NAME": "time",
+      "TYPE": "Time",
+      "DESCRIPTION": "The time representation of the value"
+    }
+  ]
+}

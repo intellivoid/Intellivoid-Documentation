@@ -1,0 +1,25 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "text",
+      "TYPE": "string",
+      "DESCRIPTION": "The text of the sentence"
+    },
+    {
+      "NAME": "offset_begin",
+      "TYPE": "int",
+      "DESCRIPTION": "The character offset begin of the sentence"
+    },
+    {
+      "NAME": "offset_end",
+      "TYPE": "int",
+      "DESCRIPTION": "The character offset end of the sentence"
+    },
+    {
+      "NAME": "ner_tags",
+      "TYPE": "NerTag[]",
+      "DESCRIPTION": "Array of Named Entity tags for this sentence"
+    }
+  ]
+}

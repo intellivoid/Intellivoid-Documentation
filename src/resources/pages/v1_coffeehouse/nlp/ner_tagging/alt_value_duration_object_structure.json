@@ -1,0 +1,20 @@
+{
+  "FILE_TYPE": "OBJECT_STRUCTURE",
+  "VARIABLES": [
+    {
+      "NAME": "duration_type",
+      "TYPE": "string|null",
+      "DESCRIPTION": "The duration representation type, can be DATE, TIME, SEVERAL_DAYS, SEVERAL_MONTHS, SEVERAL_YEARS, SEVERAL_WEEKS, SEVERAL_SECONDS, SEVERAL_HOURS, SEVERAL_MINUTES, SEVERAL_MILLISECONDS or UNKNOWN"
+    },
+    {
+      "NAME": "value_unit",
+      "TYPE": "string|null",
+      "DESCRIPTION": "The unit of the value, if the duration_type is DATE then it can be YEAR, MONTH, DAY, WEEK or UNKNOWN. if the duration_type is TIME then the possible values are HOUR, MINUTE, SECOND, MILLISECONDS and or UNKNOWN"
+    },
+    {
+      "NAME": "value",
+      "TYPE": "int|string|null",
+      "DESCRIPTION": "The value of the duration"
+    }
+  ]
+}
