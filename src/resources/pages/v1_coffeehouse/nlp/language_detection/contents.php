@@ -568,7 +568,7 @@
                             </div>
 
                             <div class="row">
-                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse/lydia/get_session", [], true); ?>';">
+                                <button class="right-side-toggle waves-effect waves-light <?PHP theme_ButtonInfo(); ?> btn btn-circle btn-sm pull-right" onclick="location.href='<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/ner_tagging", [], true); ?>';">
                                     <i class="fa fa-arrow-right text-white"></i>
                                 </button>
                             </div>
