@@ -3,10 +3,10 @@
   "ENDPOINT": "https://api.intellivoid.net/coffeehouse/v1/lydia/session/create",
   "PARAMETERS": [
     {
-      "PARAMETER_NAME": "target_language",
+      "PARAMETER_NAME": "language",
       "DEFAULT_VALUE": "en",
       "REQUIRED": false,
-      "DESCRIPTION": "The default language that the AI will try to base the conversation in"
+      "DESCRIPTION": "The default language that the AI will try to base the conversation in, can be ISO-639-1 or a language name (Eg; English, Español)"
     }
   ]
 }
