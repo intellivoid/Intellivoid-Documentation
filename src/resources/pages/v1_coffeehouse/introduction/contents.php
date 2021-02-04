@@ -148,7 +148,7 @@
                                                 <tr>
                                                     <td>Sentence Split</td>
                                                     <td>
-                                                        Using easy CoffeeHouse's builtin tokenization & stop words, you
+                                                        Using CoffeeHouse's builtin tokenization & stop words, you
                                                         can accurately split sentences from the given input to make
                                                         text more easier to work with
                                                     </td>
