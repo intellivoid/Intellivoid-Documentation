@@ -100,7 +100,7 @@ use DynamicalWeb\HTML;
                                     <hr/>
                                     <h4>Generalization Labels</h4>
                                     This method supports generalization and will use the following labels for generalization,
-                                    for more information on how generalization works see <a href="#">Generalization - Basics</a>
+                                    for more information on how generalization works see <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/introduction", [], true); ?>">Generalization - Introduction</a>
                                     <div class="table-responsive pt-3">
                                         <table class="table table-hover table-bordered">
                                             <thead>

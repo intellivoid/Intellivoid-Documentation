@@ -563,7 +563,7 @@
                                     <hr/>
                                     <h4>Generalization Labels</h4>
                                     This method supports generalization and will use the supported languages as labels
-                                    for generalization, for more information on how generalization works see <a href="#">Generalization - Basics</a>
+                                    for generalization, for more information on how generalization works see <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/introduction", [], true); ?>">Generalization - Introduction</a>
                                 </div>
                             </div>
 

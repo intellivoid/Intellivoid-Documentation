@@ -43,7 +43,7 @@
                                     <h3 class="card-title">Updating an existing Generalization Table</h3>
                                     Once you created a generalization table, you should have the ID for the created
                                     generalization table, you can just provide the generalization ID and the rest
-                                    should be taken care of. This example is using <a href="#">NSFW Classification</a>
+                                    should be taken care of. This example is using <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nsfw_classification/basics", [], true); ?>">NSFW Classification</a>
                                     as a way to demonstrate how generalization works, but any method that supports
                                     generalization should work the same way with the exception that the labels are
                                     different.

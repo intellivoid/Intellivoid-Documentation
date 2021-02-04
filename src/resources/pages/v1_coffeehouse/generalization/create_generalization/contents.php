@@ -43,7 +43,7 @@
                                     <h3 class="card-title">How to create a generalization</h3>
                                     There are no direct API methods to send a request to in order to create a generalization
                                     table, this feature is only available if the method supports it. For this example
-                                    we will be use <a href="#">NSFW Classification</a> as it supports generalization
+                                    we will be use <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nsfw_classification/basics", [], true); ?>">NSFW Classification</a> as it supports generalization
                                     and it's easy to understand. This procedure is the same for any other method that
                                     supports generalization with the exception that the labels are different which are
                                     specified in the documentation for the method.
