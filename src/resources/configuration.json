@@ -1,8 +1,8 @@
 {
     "configuration": {
         "primary_language": "en",
-        "debugging_mode": true,
-        "enable_ppm": true,
+        "debugging_mode": false,
+        "enable_ppm": false,
         "buffer_output": true,
         "compression": {
             "compress_html": false,
@@ -24,13 +24,10 @@
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/get_session", "page": "v1_coffeehouse/lydia/get_session", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/get_session_attributes", "page": "v1_coffeehouse/lydia/get_session_attributes", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/lydia/think_thought", "page": "v1_coffeehouse/lydia/think_thought", "params": []},
-
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/generalization/introduction", "page": "v1_coffeehouse/generalization/introduction", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/generalization/create", "page": "v1_coffeehouse/generalization/create_generalization", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/generalization/update", "page": "v1_coffeehouse/generalization/update_generalization", "params": []},
-
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nsfw/basics", "page": "v1_coffeehouse/nsfw_classification/basics", "params": []},
-
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/basics", "page": "v1_coffeehouse/nlp/basics", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/pos_tagging", "page": "v1_coffeehouse/nlp/pos_tagging", "params": []},
         {"method": ["GET", "POST"], "path": "/coffeehouse/v1/nlp/sentiment_analysis", "page": "v1_coffeehouse/nlp/sentiment_analysis", "params": []},
