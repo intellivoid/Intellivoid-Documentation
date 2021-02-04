@@ -76,7 +76,9 @@
                                                         and unsafe images
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nsfw_classification/basics", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -88,7 +90,9 @@
                                                         that a computer can understand easily
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/ner_tagging", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -98,7 +102,9 @@
                                                         tags from the input
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/pos_tagging", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -109,17 +115,21 @@
                                                         great for determining if user feedback is positive or not.
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/sentiment_analysis", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Emotion Prediction</td>
+                                                    <td>Emotion Analysis</td>
                                                     <td>
-                                                        Much like Sentimental Analysis, emotion prediction allows you
+                                                        Much like Sentimental Analysis, emotion analysis allows you
                                                         to predict the emotional feelings of the given input
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/emotion_analysis", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -130,18 +140,22 @@
                                                         default without needing to specify the language source.
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/chatroom_spam_prediction", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Sentence Splits</td>
+                                                    <td>Sentence Split</td>
                                                     <td>
                                                         Using easy CoffeeHouse's builtin tokenization & stop words, you
                                                         can accurately split sentences from the given input to make
                                                         text more easier to work with
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/sentence_split", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -152,7 +166,9 @@
                                                         return a ISO-639-1 standard language code
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/nlp/language_detection", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -163,7 +179,9 @@
                                                         generalized prediction of the overall score
                                                     </td>
                                                     <td>
-                                                        Documentation
+                                                        <a href="<?PHP DynamicalWeb::getRoute("v1_coffeehouse/generalization/introduction", [], true); ?>">
+                                                            Documentation
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             </tbody>

@@ -311,7 +311,7 @@ use DynamicalWeb\HTML;
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
