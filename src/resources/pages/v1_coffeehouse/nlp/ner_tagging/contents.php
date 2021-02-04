@@ -42,9 +42,21 @@ use DynamicalWeb\HTML;
                             <div class="card">
                                 <div class="card-body">
                                     <h3 class="card-title">Named Entity Recognition</h3>
-                                    This method can be used to extract named entities from the given text such as
-                                    country, name, nationality, date, time, number, email, username, URL, etc. This can
-                                    be used to quickly identify and extract important information from a given text
+                                    <div class="row mt-4">
+                                        <div class="col-lg-6">
+                                            This method can be used to extract named entities from the given text such as
+                                            country, name, nationality, date, time, number, email, username, URL, etc. This can
+                                            be used to quickly identify and extract important information from a given text
+                                            <br/><br/>
+                                            The input of your data is limited by your subscription and a larger input can take
+                                            longer to process
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex justify-content-center">
+                                                <img class="img-fluid card-icon" style="width: 662px; height: 182px;/** AUTO-GENERATED **/" alt="Sentiment Example" src="/assets/images/example_ner.png">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <br/>
                                     <hr/>
                                     <div id="parameters">
